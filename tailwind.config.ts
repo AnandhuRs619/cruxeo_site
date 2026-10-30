@@ -44,7 +44,26 @@ const config: Config = {
         foreground: "#f8fafc",
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+        sans: [
+          "Inter",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          '"Segoe UI"',
+          "Roboto",
+          "Oxygen",
+          "Ubuntu",
+          "Cantarell",
+          "sans-serif",
+        ],
+        mono: [
+          "JetBrains Mono",
+          "ui-monospace",
+          "SFMono-Regular",
+          "Menlo",
+          "Monaco",
+          "Consolas",
+          "monospace",
+        ],
       },
       boxShadow: {
         glow: "0 0 25px rgba(37, 99, 235, 0.5)",
@@ -54,6 +73,7 @@ const config: Config = {
       animation: {
         marquee: "marquee 25s linear infinite",
         "pulse-glow": "pulseGlow 3s ease-in-out infinite",
+        "spin-slow": "spin 20s linear infinite",
       },
       keyframes: {
         marquee: {
@@ -71,4 +91,3 @@ const config: Config = {
 };
 
 export default config;
-

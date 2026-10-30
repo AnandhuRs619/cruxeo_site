@@ -1,8 +1,16 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Navbar } from "@/components/navigation/Navbar";
 import { Footer } from "@/components/navigation/Footer";
 import { companyConfig } from "@/data/siteData";
+
+export const viewport: Viewport = {
+  themeColor: "#030712",
+  colorScheme: "dark",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+};
 
 export const metadata: Metadata = {
   title: {
@@ -49,8 +57,11 @@ export const metadata: Metadata = {
     images: ["/assets/brand/og-home.jpg"],
   },
   icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
+    icon: [
+      { url: "/assets/logos/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.png", sizes: "32x32", type: "image/png" },
+    ],
+    shortcut: "/assets/logos/favicon.svg",
     apple: "/favicon.png",
   },
 };
@@ -96,7 +107,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="font-sans bg-background text-slate-100 antialiased">
+      <body className="font-sans bg-background text-slate-100 antialiased selection:bg-brand-blue selection:text-white">
         <div id="top" />
         <Navbar />
         <main className="min-h-screen">{children}</main>
