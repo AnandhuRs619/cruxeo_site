@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 40" fill="none">
+  <circle cx="20" cy="20" r="10" stroke="#94a3b8" stroke-width="2" />
+  <path d="M 14 20 L 26 20" stroke="#94a3b8" stroke-width="2" />
+  <text x="38" y="26" font-family="sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#94a3b8">EVENTIKA</text>
+</svg>
+

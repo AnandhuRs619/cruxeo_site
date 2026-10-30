@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+date: Thu, 29 Oct 2026 07:41:33 GMT
+
+HTTP/2 200 
+accept-ranges: bytes
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 0
+cache-control: public, max-age=31536000, immutable
+content-disposition: inline; filename="hero-poster.webp"
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com data:; frame-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://api.anthropic.com https://challenges.cloudflare.com https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';
+content-type: image/webp
+date: Thu, 29 Oct 2026 07:41:33 GMT
+etag: "172f380935782743d6d7b1bfc8bf9cca"
+last-modified: Thu, 29 Oct 2026 07:41:33 GMT
+permissions-policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+referrer-policy: strict-origin-when-cross-origin
+server: envoy
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-matched-path: /media/hero/hero-poster.webp
+x-vercel-cache: MISS
+x-vercel-id: sfo1::p8vz8-1793259693246-3cdc05f0c712
+x-xss-protection: 1; mode=block
+content-length: 80228
+x-envoy-upstream-service-time: 194
+

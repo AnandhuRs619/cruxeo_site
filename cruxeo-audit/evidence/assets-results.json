@@ -1,0 +1,1537 @@
+[
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/logo/logo.svg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about",
+      "https://cruxeo.abinschandran.in/contact",
+      "https://cruxeo.abinschandran.in/privacy",
+      "https://cruxeo.abinschandran.in/services",
+      "https://cruxeo.abinschandran.in/terms",
+      "https://cruxeo.abinschandran.in/works"
+    ],
+    "alts": [
+      "CRUXEO Experience"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/logos/logo.svg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 278589,
+    "sha256": "600dd97936137e742e004574705d741a541c78ebf95a48853e810e794eb8221f",
+    "format": "svg",
+    "dimensions": "1678 \u00d7 480",
+    "viewBox": "0 0 1678 480",
+    "validation": "SVG XML parsed",
+    "transparency": "Vector; inspect fills"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/hero/hero-poster.webp",
+    "pages": [
+      "https://cruxeo.abinschandran.in/"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/hero-poster.webp",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 80228,
+    "sha256": "5981d6e3613ce2e4634d2843feeaa9f1c8ca280ab77ed77d9d5c53e14efe2ed4",
+    "format": "WEBP",
+    "dimensions": "1920 \u00d7 1080",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/logo/logo-icon.webp",
+    "pages": [
+      "https://cruxeo.abinschandran.in/"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/logos/logo-icon.webp",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 101312,
+    "sha256": "699034d855e5be1d76ffc7ad87d0ef947f51ec416aa44c713b62829d00418b52",
+    "format": "WEBP",
+    "dimensions": "512 \u00d7 512",
+    "transparency": "Yes",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/images/ai-generated/dubai-cinematic-night.webp",
+    "pages": [
+      "https://cruxeo.abinschandran.in/"
+    ],
+    "alts": [
+      "Dubai Skyline with Laser Event Production at Night"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/dubai-cinematic-night.webp",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 209448,
+    "sha256": "2ff88a71b8aed2a91144f6df090295b39d357be4c4ef0d9d288ca12d223013b0",
+    "format": "WEBP",
+    "dimensions": "1376 \u00d7 768",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/images/ai-generated/team-nexplay-lead.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "CRUXEO Experience",
+      "Interactive & Event Tech"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/team-nexplay-lead.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 591075,
+    "sha256": "a75bdc90fb99aadcdd4c3f17eeba5dac247e7e910559e6f0a80a6d1f62fd848b",
+    "format": "JPEG",
+    "dimensions": "1024 \u00d7 1024",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/partner/partner-1.svg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "Partner 1"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/partner-1.svg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 5559,
+    "sha256": "aafda68bb33450693d323ee67f72eacbdee03a6d4c70fdac0b0fcb68f3dc7a34",
+    "format": "svg",
+    "dimensions": "229 \u00d7 32",
+    "viewBox": "0 0 229 32",
+    "validation": "SVG XML parsed",
+    "transparency": "Vector; inspect fills"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/partner/partner-2.svg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "Partner 2"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/partner-2.svg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 1511,
+    "sha256": "c84b30a23575f4a4c72b18193e9f3f326d90425c23039357c4df929df3493b8a",
+    "format": "svg",
+    "dimensions": "46 \u00d7 32",
+    "viewBox": "0 0 46 32",
+    "validation": "SVG XML parsed",
+    "transparency": "Vector; inspect fills"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/partner/partner-3.svg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "Partner 3"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/partner-3.svg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 5840,
+    "sha256": "41b106cf4d936fdf5611cafa8a160134cc2695531343350b16b8864c830e0b02",
+    "format": "svg",
+    "dimensions": "171 \u00d7 32",
+    "viewBox": "0 0 171 32",
+    "validation": "SVG XML parsed",
+    "transparency": "Vector; inspect fills"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/partner/partner-4.svg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "Partner 4"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/partner-4.svg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 825,
+    "sha256": "8928e806fbfb4bf747366350e8f7dcc76ce5aeb0c1637066ea3bf78a7b9efb02",
+    "format": "svg",
+    "dimensions": "47 \u00d7 32",
+    "viewBox": "0 0 47 32",
+    "validation": "SVG XML parsed",
+    "transparency": "Vector; inspect fills"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/partner/partner-5.svg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "Partner 5"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/partner-5.svg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 5335,
+    "sha256": "7507d3c051c2ab488109011af9afe5618f68481fbd328489ed93fee58739512d",
+    "format": "svg",
+    "dimensions": "167 \u00d7 32",
+    "viewBox": "0 0 167 32",
+    "validation": "SVG XML parsed",
+    "transparency": "Vector; inspect fills"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/partner/partner-6.svg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "Partner 6"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/partner-6.svg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 965,
+    "sha256": "e82c914ad47b828bdc79d1183fbe1ce3e0cc7343316065947fa1b1e88d5b02a0",
+    "format": "svg",
+    "dimensions": "56 \u00d7 32",
+    "viewBox": "0 0 56 32",
+    "validation": "SVG XML parsed",
+    "transparency": "Vector; inspect fills"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/partner/partner-7.svg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "Partner 7"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/partner-7.svg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 5551,
+    "sha256": "7c5f04f9f2348359243b48f7eedcbf790590286c01a4efcd88388ff9e6410a69",
+    "format": "svg",
+    "dimensions": "178 \u00d7 24",
+    "viewBox": "0 0 178 24",
+    "validation": "SVG XML parsed",
+    "transparency": "Vector; inspect fills"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/partner/partner-8.svg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "Partner 8"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/partner-8.svg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 5218,
+    "sha256": "49fc8edbf2fcc4df3d93205e583162620fe735f0e0d0029c32fbffcf891b7cd6",
+    "format": "svg",
+    "dimensions": "181 \u00d7 24",
+    "viewBox": "0 0 181 24",
+    "validation": "SVG XML parsed",
+    "transparency": "Vector; inspect fills"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/partner/partner-9.svg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "Partner 9"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/partner-9.svg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 6171,
+    "sha256": "9c548987fb34b90f272137929d426b23e6f665ed55b2d52f003ed1547a905fc1",
+    "format": "svg",
+    "dimensions": "166 \u00d7 30",
+    "viewBox": "0 0 166 30",
+    "validation": "SVG XML parsed",
+    "transparency": "Vector; inspect fills"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/partner/partner-10.svg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "Partner 10"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/partner-10.svg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 9296,
+    "sha256": "e9a0e15175edf11eea6cf7618767ccddfb846796ac1536f600d52ad5b90a2cf0",
+    "format": "svg",
+    "dimensions": "158 \u00d7 28",
+    "viewBox": "0 0 158 28",
+    "validation": "SVG XML parsed",
+    "transparency": "Vector; inspect fills"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/divisions/nexplay.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/services"
+    ],
+    "alts": [
+      "NEXPLAY by CRUXEO"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/nexplay.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 64277,
+    "sha256": "9fe11edb2795df600b50d5d77863471a5c35a3747fe020e52e66b48bf83db10f",
+    "format": "JPEG",
+    "dimensions": "1280 \u00d7 720",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/images/ai-generated/work-aerial-symphony.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/works"
+    ],
+    "alts": [
+      "Aerial Symphony Spectacle"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/work-aerial-symphony.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 1015688,
+    "sha256": "d7f3b67312be6f712fe1b190ab46eacd16f1146e5dc255ed5eb326a54f105ce4",
+    "format": "JPEG",
+    "dimensions": "1376 \u00d7 768",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/images/ai-generated/work-immersion-led.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/works"
+    ],
+    "alts": [
+      "Immersive Hologram Pavilion"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/work-immersion-led.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 841760,
+    "sha256": "9410bf36f3c7273453c7e126b81f34d938ebfd69c011bd8e0ddd106a65963440",
+    "format": "JPEG",
+    "dimensions": "1376 \u00d7 768",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/images/ai-generated/work-radar-arena.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/works"
+    ],
+    "alts": [
+      "Interactive Radar-Touch Arena"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/work-radar-arena.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 1016485,
+    "sha256": "f70d6cfe7510d2ae0f8ad52a9656335f9585dcba0923cced84f0b5f1b81d5a5b",
+    "format": "JPEG",
+    "dimensions": "1376 \u00d7 768",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/images/ai-generated/work-enterprise-ai.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/works"
+    ],
+    "alts": [
+      "Enterprise AI Knowledge Assistant"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/work-enterprise-ai.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 758315,
+    "sha256": "7f31c229f693818bb94f1af0a1482da77301cb89b7916da3feacce2a21e011dd",
+    "format": "JPEG",
+    "dimensions": "1376 \u00d7 768",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/images/ai-generated/team-lumenlab-lead.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "Audiovisual & Production"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/team-lumenlab-lead.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 626127,
+    "sha256": "d755e4efcab9aab9b5b57720fb2b3aeb2bf002cb444fb3bbc80cf453dfc003a4",
+    "format": "JPEG",
+    "dimensions": "1024 \u00d7 1024",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/team/team-3.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "Drones & Live Shows"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/team-3.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 103112,
+    "sha256": "8da4036162573092fcf32b415a3f5ecc2e2de68919a043e20578d49e0ef44fea",
+    "format": "JPEG",
+    "dimensions": "378 \u00d7 378",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/team/team-4.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "AI & Software"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/team-4.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 219587,
+    "sha256": "320ed8ad395a07af381d81f9256377f3073ecb0400fbc2b73c91f1e943ae8b41",
+    "format": "JPEG",
+    "dimensions": "504 \u00d7 504",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/team/team-5.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "Show Delivery"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/team-5.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 193677,
+    "sha256": "9cd98c15022b03021fdadcd4d082e70c9f8cd02dbc9006d374c5d6bcde28334e",
+    "format": "JPEG",
+    "dimensions": "504 \u00d7 504",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/images/ai-generated/contact-dubai-nightscape.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/contact"
+    ],
+    "alts": [
+      "CRUXEO Experience Dubai Operations Skyline"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/contact-dubai-nightscape.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 891276,
+    "sha256": "3c244ba39b54f87f98dd35ebdc8761dade2d7884f0b27cb0c6c526b19f076819",
+    "format": "JPEG",
+    "dimensions": "1376 \u00d7 768",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about",
+      "https://cruxeo.abinschandran.in/contact",
+      "https://cruxeo.abinschandran.in/privacy",
+      "https://cruxeo.abinschandran.in/services",
+      "https://cruxeo.abinschandran.in/terms",
+      "https://cruxeo.abinschandran.in/works"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "stylesheet",
+    "result": {
+      "status": "200",
+      "final_url": "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css",
+      "bytes": "48876",
+      "seconds": "4.384605",
+      "error": "",
+      "curl_exit": 0
+    },
+    "local": "evidence/styles-5ea54007.css",
+    "download_status": "downloaded",
+    "bytes": 48876,
+    "format": "css",
+    "validation": "CSS text preserved",
+    "http_status": "200"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/logo/favicon.svg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about",
+      "https://cruxeo.abinschandran.in/contact",
+      "https://cruxeo.abinschandran.in/privacy",
+      "https://cruxeo.abinschandran.in/services",
+      "https://cruxeo.abinschandran.in/terms",
+      "https://cruxeo.abinschandran.in/works"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "icon",
+    "http_status": "200",
+    "local": "public/assets/logos/favicon.svg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 223754,
+    "sha256": "8c23bad620f0fb96163a3c2bf2ea58b3326c3e276851861007b742c8dfa3dd23",
+    "format": "svg",
+    "dimensions": "512 \u00d7 512",
+    "viewBox": "0 0 512 512",
+    "validation": "SVG XML parsed",
+    "transparency": "Vector; inspect fills"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/favicon.ico",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about",
+      "https://cruxeo.abinschandran.in/contact",
+      "https://cruxeo.abinschandran.in/privacy",
+      "https://cruxeo.abinschandran.in/services",
+      "https://cruxeo.abinschandran.in/terms",
+      "https://cruxeo.abinschandran.in/works"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "icon",
+    "http_status": "200",
+    "local": "public/assets/icons/favicon.ico",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 856,
+    "sha256": "3343f69f07b6cae8e782b7c648b8fdf0a8173461f298c88d523eee92395c5db6",
+    "format": "ICO",
+    "dimensions": "16 \u00d7 16",
+    "transparency": "Yes",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/assets/images/logo/favicon.png",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about",
+      "https://cruxeo.abinschandran.in/contact",
+      "https://cruxeo.abinschandran.in/privacy",
+      "https://cruxeo.abinschandran.in/services",
+      "https://cruxeo.abinschandran.in/terms",
+      "https://cruxeo.abinschandran.in/works"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "icon",
+    "http_status": "200",
+    "local": "public/assets/logos/favicon.png",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 167684,
+    "sha256": "c1c3794f5cb01ac72322b673946b41c18f79039da25463446f56eccac66dc627",
+    "format": "PNG",
+    "dimensions": "512 \u00d7 512",
+    "transparency": "Yes",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/divisions/nexplay.webm",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/services"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/nexplay.webm",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 517425,
+    "sha256": "31dea5f33277b3d470037a433c0b655ad32af2a54d15c3c0d9b910a67d0da857",
+    "format": "webm",
+    "validation": "ffprobe parsed: vp9",
+    "dimensions": "1280 \u00d7 720",
+    "duration_seconds": "7.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/divisions/nexplay.mp4",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/services"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/nexplay.mp4",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 901059,
+    "sha256": "99fc4317b9a07ed525bf49b54fa6c9cd87bbb8235e1622f7f5d99c9adc62175e",
+    "format": "mp4",
+    "validation": "ffprobe parsed: h264",
+    "dimensions": "1280 \u00d7 720",
+    "duration_seconds": "7.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/boxes/work-aerial-symphony.webm",
+    "pages": [
+      "https://cruxeo.abinschandran.in/"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/work-aerial-symphony.webm",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 1182071,
+    "sha256": "da4b20cc89a9421c8f79b0c1fdc8503ab6f7ca0133df11e3d5340c7ec28101d9",
+    "format": "webm",
+    "validation": "ffprobe parsed: vp9",
+    "dimensions": "960 \u00d7 536",
+    "duration_seconds": "10.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/boxes/work-aerial-symphony.mp4",
+    "pages": [
+      "https://cruxeo.abinschandran.in/"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/work-aerial-symphony.mp4",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 1355086,
+    "sha256": "60b11867850b8e2a6d5cb2726e9843361298a256ec457e008c4312b7db6b3708",
+    "format": "mp4",
+    "validation": "ffprobe parsed: h264",
+    "dimensions": "960 \u00d7 536",
+    "duration_seconds": "10.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/boxes/work-immersion-led.webm",
+    "pages": [
+      "https://cruxeo.abinschandran.in/"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/work-immersion-led.webm",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 497633,
+    "sha256": "e665bbb66279ee6d57e001a3323e157320e6fc35e5c24dda42b77f752f299f1f",
+    "format": "webm",
+    "validation": "ffprobe parsed: vp9",
+    "dimensions": "960 \u00d7 536",
+    "duration_seconds": "10.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/boxes/work-immersion-led.mp4",
+    "pages": [
+      "https://cruxeo.abinschandran.in/"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/work-immersion-led.mp4",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 708557,
+    "sha256": "010b8d99be44e2b49bbbcea20e7e1585bf5f6545e1b922fa3dd5158dbfec68c3",
+    "format": "mp4",
+    "validation": "ffprobe parsed: h264",
+    "dimensions": "960 \u00d7 536",
+    "duration_seconds": "10.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/boxes/work-radar-arena.webm",
+    "pages": [
+      "https://cruxeo.abinschandran.in/"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/work-radar-arena.webm",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 1108625,
+    "sha256": "44f89672a3071642a81071e2b1da51f68feed0d2b18cfbe8ace66e8f7b350b6d",
+    "format": "webm",
+    "validation": "ffprobe parsed: vp9",
+    "dimensions": "960 \u00d7 536",
+    "duration_seconds": "10.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/boxes/work-radar-arena.mp4",
+    "pages": [
+      "https://cruxeo.abinschandran.in/"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/work-radar-arena.mp4",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 1239242,
+    "sha256": "0f68dfac88b691c588fe30d0d0395cae168a402c727b5e154549ff27fee15424",
+    "format": "mp4",
+    "validation": "ffprobe parsed: h264",
+    "dimensions": "960 \u00d7 536",
+    "duration_seconds": "10.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/boxes/work-enterprise-ai.webm",
+    "pages": [
+      "https://cruxeo.abinschandran.in/"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/work-enterprise-ai.webm",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 436113,
+    "sha256": "cb08058d3416a658f3010efd18534e193537b77b0048a775d0874ab4194cbffe",
+    "format": "webm",
+    "validation": "ffprobe parsed: vp9",
+    "dimensions": "960 \u00d7 536",
+    "duration_seconds": "10.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/boxes/work-enterprise-ai.mp4",
+    "pages": [
+      "https://cruxeo.abinschandran.in/"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/work-enterprise-ai.mp4",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 619554,
+    "sha256": "2f44426503c3d65f4674968c7b0b8002ce8fc9534d9264f14a1c786134540be6",
+    "format": "mp4",
+    "validation": "ffprobe parsed: h264",
+    "dimensions": "960 \u00d7 536",
+    "duration_seconds": "10.000000"
+  },
+  {
+    "url": "https://cruxeo.com/images/ai-generated/work-aerial-symphony.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/",
+      "https://cruxeo.abinschandran.in/about",
+      "https://cruxeo.abinschandran.in/contact",
+      "https://cruxeo.abinschandran.in/privacy",
+      "https://cruxeo.abinschandran.in/services",
+      "https://cruxeo.abinschandran.in/terms",
+      "https://cruxeo.abinschandran.in/works"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "social",
+    "download_status": "Not downloaded: cross-domain metadata reference; original host not in crawl scope",
+    "local": ""
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/images/ai-generated/about-creative-studio.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/about"
+    ],
+    "alts": [
+      "CRUXEO Experience Dubai Creative Technology Studio"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/about-creative-studio.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 892644,
+    "sha256": "76cb3a3458e4007606cb1f2c7d53c92a64d1987b08ec3286133ecd073c3d1cd5",
+    "format": "JPEG",
+    "dimensions": "1200 \u00d7 896",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/divisions/lumen-lab.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/services"
+    ],
+    "alts": [
+      "LUMEN LAB by CRUXEO"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/lumen-lab.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 55807,
+    "sha256": "bb593183f4ca57146290274cdc46c92b6d62091178f620ca6159008bc36b447a",
+    "format": "JPEG",
+    "dimensions": "1280 \u00d7 720",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/divisions/ignispectra.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/services"
+    ],
+    "alts": [
+      "IGNISPECTRA by CRUXEO"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/ignispectra.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 58926,
+    "sha256": "fb0b5253b71bd2865bb80fc2e2126e9890396ba40bc022dcb41c5b646b3bbcce",
+    "format": "JPEG",
+    "dimensions": "1280 \u00d7 720",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/divisions/synapse.jpg",
+    "pages": [
+      "https://cruxeo.abinschandran.in/services"
+    ],
+    "alts": [
+      "SYNAPSE by CRUXEO"
+    ],
+    "kind": "image",
+    "http_status": "200",
+    "local": "public/assets/images/synapse.jpg",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 111503,
+    "sha256": "d1def2ddb0ab58b1a470d7d334f51264b19e2e114138484489195d1eb4e18754",
+    "format": "JPEG",
+    "dimensions": "1280 \u00d7 720",
+    "transparency": "No",
+    "validation": "Pillow decoded"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/divisions/lumen-lab.webm",
+    "pages": [
+      "https://cruxeo.abinschandran.in/services"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/lumen-lab.webm",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 840597,
+    "sha256": "836ee4fdbbdade9aec2a46bcecf553da842d626c94c4a8d915f486702e576300",
+    "format": "webm",
+    "validation": "ffprobe parsed: vp9",
+    "dimensions": "1280 \u00d7 720",
+    "duration_seconds": "7.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/divisions/lumen-lab.mp4",
+    "pages": [
+      "https://cruxeo.abinschandran.in/services"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/lumen-lab.mp4",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 1278313,
+    "sha256": "5c8d5494106aa50d8e6fd93b059a6940fe1caeb2e1594a7bb93a54225b51cacb",
+    "format": "mp4",
+    "validation": "ffprobe parsed: h264",
+    "dimensions": "1280 \u00d7 720",
+    "duration_seconds": "7.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/divisions/ignispectra.webm",
+    "pages": [
+      "https://cruxeo.abinschandran.in/services"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/ignispectra.webm",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 739533,
+    "sha256": "67edd6f590b5613e4a70fa8d1faf460984d0a87e98f962a8ffbc5de16dd6fda4",
+    "format": "webm",
+    "validation": "ffprobe parsed: vp9",
+    "dimensions": "1280 \u00d7 720",
+    "duration_seconds": "7.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/divisions/ignispectra.mp4",
+    "pages": [
+      "https://cruxeo.abinschandran.in/services"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/ignispectra.mp4",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 1115618,
+    "sha256": "395eea1fafefca834935d2f64fd1f090ccdc7ae0f1d78c54c37457aa8dc5eebb",
+    "format": "mp4",
+    "validation": "ffprobe parsed: h264",
+    "dimensions": "1280 \u00d7 720",
+    "duration_seconds": "7.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/divisions/synapse.webm",
+    "pages": [
+      "https://cruxeo.abinschandran.in/services"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/synapse.webm",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 906574,
+    "sha256": "3a12a11ac7788662bd65df74805b8df30d22daf84773bbba7d5061c96ef5dff9",
+    "format": "webm",
+    "validation": "ffprobe parsed: vp9",
+    "dimensions": "1280 \u00d7 720",
+    "duration_seconds": "7.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/divisions/synapse.mp4",
+    "pages": [
+      "https://cruxeo.abinschandran.in/services"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "video",
+    "http_status": "200",
+    "local": "public/assets/videos/synapse.mp4",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 1207530,
+    "sha256": "76f23b331c2ba4f53db9bf859c38d75af05e3d6fd2e4ff1d69c232d0fa1f42c4",
+    "format": "mp4",
+    "validation": "ffprobe parsed: h264",
+    "dimensions": "1280 \u00d7 720",
+    "duration_seconds": "7.000000"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/63422f770a947d45-s.0hcch4vdjytm3.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/63422f770a947d45-s.0hcch4vdjytm3.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 16464,
+    "sha256": "2abe1ed29084b56909d14e0e3097ac292b513d4a2761241bb6267505ebf77145",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/9e6813202f725814-s.p.2d479lx_51mgt.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/9e6813202f725814-s.p.2d479lx_51mgt.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 27812,
+    "sha256": "ce6e0dd89c3ffa4de97bda85f9b08bcb775bea4df456b3dbb7e819c1c879be50",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/0c5dbc8cc99ee77f-s.0ogxg322i472y.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/0c5dbc8cc99ee77f-s.0ogxg322i472y.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 9512,
+    "sha256": "20bc54b005a2bc3c074c7554090cc7f06495355d1babbcb014d9892d683912f0",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/43b1f09180d16790-s.p.23zh95iq-x3nr.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/43b1f09180d16790-s.p.23zh95iq-x3nr.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 17712,
+    "sha256": "96468ae7727580c804f679aa5d29c75389e605fb2e41ae6a067ad86e5e9a86a9",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/59dbefd7fc1c7996-s.1zpt8rrvsu92z.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/59dbefd7fc1c7996-s.1zpt8rrvsu92z.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 1644,
+    "sha256": "2f52020a90793104e4178b0ae3ccd30eea28cac27e0fea8fcf4f246151777f74",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/1aa0075df79066e6-s.0mxk1tgo-hrwu.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/1aa0075df79066e6-s.0mxk1tgo-hrwu.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 9364,
+    "sha256": "2f467719b2167cc4778b5780a2fb42fadf5203b29d0fb5f1482bbab32b1b7999",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/a79089bce1b24273-s.1akpt5k8ff_pw.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/a79089bce1b24273-s.1akpt5k8ff_pw.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 19572,
+    "sha256": "a1376a563717f1efa2f5286ab23da2b61ae8dec827a77b97adfa01cad4ec4ee2",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/b8dfa3d21eb22018-s.p.2rlmbw0a3_pri.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/b8dfa3d21eb22018-s.p.2rlmbw0a3_pri.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 34664,
+    "sha256": "1f21c6eaa0000f3329cfcfac966b43d5bebf5aa610303e33294ac31bc6f4bb59",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/cb20b375a5739b57-s.2tuvx2ggl0uf7.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/cb20b375a5739b57-s.2tuvx2ggl0uf7.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 5700,
+    "sha256": "7f8712cbbd64135f9e74a527475a97cd8c5a49d8e0a1de7a65f8e2c30c5214d9",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/0d3323de857e1fce-s.048ctm9k7u_u3.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/0d3323de857e1fce-s.048ctm9k7u_u3.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 8688,
+    "sha256": "fd7521f3531a5ccfc655b25c4f22e9871df3ec141ad79bb27fde20d0df347b6d",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/b7a08e852a63f857-s.2t3qiyt2vl-ta.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/b7a08e852a63f857-s.2t3qiyt2vl-ta.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 5700,
+    "sha256": "e284f2a17fc9cca89cc30f496945bd9a2903010944a9469fb357924da21b6f6c",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/86fd170c8543a779-s.2_s53-223o24o.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/86fd170c8543a779-s.2_s53-223o24o.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 8724,
+    "sha256": "0e263db52797086e763679c54f84ded8cc1249879bc27dca2bd5dd446f6d9f36",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/4f6667dd39116621-s.00az9qtie3ho1.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/4f6667dd39116621-s.00az9qtie3ho1.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 7252,
+    "sha256": "b7a545bbb08256bd809f11cfe66d88da3e22d169ea4407737b1ef0ec1ed3d791",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/07935285219a259d-s.3j-a226dh71aj.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/07935285219a259d-s.3j-a226dh71aj.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 14900,
+    "sha256": "6129fc8571c3e0cb0a4c41f5160c974a843b055009dc4ad8858bd808e18a2d86",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/f58031ded4338640-s.2gwoz23eiro2t.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/f58031ded4338640-s.2gwoz23eiro2t.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 7968,
+    "sha256": "f689f638f29fff460a2d5749edb5d5c38d7bef0389f32032d871f23fc6ebb008",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/77814b00d5ca94a4-s.0i3h3th1vs4m7.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/77814b00d5ca94a4-s.0i3h3th1vs4m7.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 16540,
+    "sha256": "58a6b173d5ca1dec92166ea3c6cb1a84a4144556d10928ac14e8e6b40e4787bd",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/605ce01b664af129-s.p.0zr6hhvz-h9nw.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/605ce01b664af129-s.p.0zr6hhvz-h9nw.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 29288,
+    "sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/b0c6b664fd57c2c6-s.27spqqad3wyeo.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/b0c6b664fd57c2c6-s.27spqqad3wyeo.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 6204,
+    "sha256": "e27f657e38d52887baa3b6b2f812bef93dfdd356f0810e40edd4ee284cc7e9f6",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/6e342921ee4dcd9d-s.3f4zuumv8svu0.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/6e342921ee4dcd9d-s.3f4zuumv8svu0.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 12872,
+    "sha256": "75b3bedbebc35f347c0ae3b416aa871941555357e7b0f83767eb5987875589ed",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/2bb852295097cd96-s.34r5yzckw0h2s.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/2bb852295097cd96-s.34r5yzckw0h2s.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 5892,
+    "sha256": "d67e4a94ba498635f764ddca7d1ec4271f5642f032eb24b426764480f66f8497",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/9eb5a876700c0028-s.2jyz_zw3a8jit.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/9eb5a876700c0028-s.2jyz_zw3a8jit.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 7728,
+    "sha256": "16e1d48b6dd29eb240aec5db36184eb182933c082cd43de7f35af686d58087d2",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/2a04751c893bf294-s.30bdpjkrtcces.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/2a04751c893bf294-s.30bdpjkrtcces.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 14712,
+    "sha256": "745994b5cd950ec201b66526375f057d540847cccfc70f4f24f5f571d26d3923",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/07a39a8a4660cc7c-s.1v5bejj26fx9h.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/07a39a8a4660cc7c-s.1v5bejj26fx9h.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 23108,
+    "sha256": "5f3d6ad60f29d6cb708414ec6887163d63bf197377ef5417d2483ff31ace6c3b",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/f7095de3000afb68-s.3zvkfbs08rnj_.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/f7095de3000afb68-s.3zvkfbs08rnj_.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 8444,
+    "sha256": "a04fc7ed18a8037149ce0bfda58076709d8e0840e136ed00abbdc196b7992443",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/_next/static/immutable/media/e63b65bb308a9351-s.p.3strvg7o-g5v2.woff2",
+    "pages": [
+      "https://cruxeo.abinschandran.in/_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+    ],
+    "alts": [
+      ""
+    ],
+    "kind": "font",
+    "http_status": "200",
+    "local": "public/assets/fonts/e63b65bb308a9351-s.p.3strvg7o-g5v2.woff2",
+    "download_status": "downloaded",
+    "error": "",
+    "bytes": 15684,
+    "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702",
+    "format": "woff2",
+    "validation": "WOFF2 signature verified"
+  },
+  {
+    "url": "https://cruxeo.abinschandran.in/media/hero/hero-1080.webm",
+    "pages": [
+      "https://cruxeo.abinschandran.in/"
+    ],
+    "alts": [],
+    "kind": "video",
+    "local": "public/assets/videos/hero-1080.webm",
+    "bytes": 693230,
+    "download_status": "downloaded",
+    "http_status": "200",
+    "format": "webm",
+    "sha256": "44e062d612b6bc87aac9aed4a073acc15ab2107c773c0627312c0335d21ff800",
+    "dimensions": "1920 \u00d7 1080",
+    "validation": "ffprobe parsed: vp9",
+    "duration_seconds": "4.000000"
+  }
+]

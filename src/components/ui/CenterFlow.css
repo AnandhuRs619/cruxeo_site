@@ -1,0 +1,55 @@
+/* Center Flow Styles - React Bits Pro compliant */
+
+@keyframes centerFlowPulse {
+  0% {
+    stroke-dashoffset: 600;
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0.1;
+  }
+}
+
+@keyframes hubGlowRipple {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.3);
+    opacity: 0.25;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+@keyframes hubRotateConic {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.center-flow-hub-pulse {
+  animation: hubGlowRipple 3.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.center-flow-conic-border {
+  animation: hubRotateConic 12s linear infinite;
+}
+
+.center-flow-beam-pulse {
+  stroke-dasharray: 80 400;
+  animation: centerFlowPulse 2.8s linear infinite;
+}

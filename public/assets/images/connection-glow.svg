@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" fill="none">
+  <defs>
+    <radialGradient id="center_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9" />
+      <stop offset="25%" stop-color="#2563eb" stop-opacity="0.6" />
+      <stop offset="60%" stop-color="#1e1b4b" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orb_grad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="30%" stop-color="#38bdf8" />
+      <stop offset="70%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#09142e" />
+    </radialGradient>
+    <linearGradient id="human_arm" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#64748b" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+    <linearGradient id="robot_arm" x1="100%" y1="50%" x2="0%" y2="50%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.2" />
+      <stop offset="40%" stop-color="#475569" />
+      <stop offset="80%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+    <filter id="super_glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="600" fill="#030712" />
+
+  <!-- Ambient Glow Behind Orb -->
+  <circle cx="600" cy="300" r="260" fill="url(#center_glow)" />
+
+  <!-- Concentric Orbital Wireframe Rings -->
+  <circle cx="600" cy="300" r="140" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3 4" opacity="0.4" />
+  <circle cx="600" cy="300" r="200" stroke="#60a5fa" stroke-width="0.8" stroke-dasharray="6 6" opacity="0.3" />
+  <circle cx="600" cy="300" r="280" stroke="#818cf8" stroke-width="0.75" stroke-dasharray="2 5" opacity="0.2" />
+  <circle cx="600" cy="300" r="360" stroke="#a78bfa" stroke-width="0.5" stroke-dasharray="8 8" opacity="0.15" />
+
+  <!-- Orbiting Satellite Nodes -->
+  <circle cx="600" cy="160" r="4" fill="#ffffff" filter="drop-shadow(0 0 6px #ffffff)" />
+  <circle cx="740" cy="300" r="3.5" fill="#38bdf8" filter="drop-shadow(0 0 5px #38bdf8)" />
+  <circle cx="430" cy="410" r="3" fill="#60a5fa" filter="drop-shadow(0 0 5px #60a5fa)" />
+  <circle cx="830" cy="430" r="2.5" fill="#a78bfa" />
+
+  <!-- Central Glowing 3D Orb -->
+  <circle cx="600" cy="300" r="54" fill="url(#orb_grad)" filter="url(#super_glow)" />
+  <!-- Cruxeo Monogram In Orb -->
+  <g transform="translate(600, 300) scale(0.7)">
+    <path d="M 18 -18 C 3 -28, -20 -15, -20 0 C -20 15, 3 28, 18 18" stroke="#ffffff" stroke-width="5" stroke-linecap="round" fill="none" />
+    <circle cx="2" cy="0" r="4" fill="#38bdf8" />
+  </g>
+
+  <!-- Left: Human Arm Reaching Out -->
+  <g id="human_arm_group">
+    <!-- Forearm -->
+    <path d="M 0 340 C 150 330, 300 320, 420 310 C 450 305, 480 300, 520 295" stroke="url(#human_arm)" stroke-width="24" stroke-linecap="round" fill="none" opacity="0.85" />
+    <!-- Hand & Pointing Index Finger -->
+    <path d="M 470 302 L 535 296 C 545 295, 550 295, 558 296" stroke="#e2e8f0" stroke-width="10" stroke-linecap="round" fill="none" />
+    <!-- Spark contact point -->
+    <circle cx="560" cy="296" r="3" fill="#38bdf8" filter="drop-shadow(0 0 8px #38bdf8)" />
+  </g>
+
+  <!-- Right: Robotic Cybernetic Arm Reaching Out -->
+  <g id="robot_arm_group">
+    <!-- Robotic Joint Segments -->
+    <!-- Forearm shell -->
+    <path d="M 1200 370 C 1050 350, 920 330, 800 315" stroke="url(#robot_arm)" stroke-width="32" stroke-linecap="round" fill="none" />
+    <!-- Metallic Joint Rings -->
+    <ellipse cx="800" cy="315" rx="14" ry="20" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+    <path d="M 800 315 L 720 305" stroke="#94a3b8" stroke-width="20" stroke-linecap="round" fill="none" />
+    <circle cx="720" cy="305" r="10" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+    <!-- Robotic Finger Segments -->
+    <path d="M 720 305 L 670 300 L 646 300" stroke="#f1f5f9" stroke-width="8" stroke-linecap="round" fill="none" />
+    <!-- Finger joints -->
+    <circle cx="670" cy="300" r="4" fill="#0284c7" />
+    <circle cx="644" cy="300" r="3" fill="#38bdf8" filter="drop-shadow(0 0 8px #38bdf8)" />
+  </g>
+
+  <!-- Spark connecting beam between fingertips and orb -->
+  <line x1="560" y1="296" x2="575" y2="298" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+  <line x1="625" y1="300" x2="642" y2="300" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+</svg>
+

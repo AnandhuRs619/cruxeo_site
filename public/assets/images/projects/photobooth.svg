@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <radialGradient id="cyber_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="60%" stop-color="#050816" />
+      <stop offset="100%" stop-color="#02040a" />
+    </radialGradient>
+    <linearGradient id="arm_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#64748b" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="neon_cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#cyber_glow)" />
+
+  <!-- Grid floor -->
+  <g opacity="0.25">
+    <line x1="100" y1="500" x2="350" y2="350" stroke="#38bdf8" />
+    <line x1="250" y1="500" x2="380" y2="350" stroke="#38bdf8" />
+    <line x1="400" y1="500" x2="400" y2="350" stroke="#38bdf8" />
+    <line x1="550" y1="500" x2="420" y2="350" stroke="#38bdf8" />
+    <line x1="700" y1="500" x2="450" y2="350" stroke="#38bdf8" />
+    <line x1="150" y1="460" x2="650" y2="460" stroke="#38bdf8" />
+    <line x1="220" y1="420" x2="580" y2="420" stroke="#38bdf8" />
+    <line x1="290" y1="380" x2="510" y2="380" stroke="#38bdf8" />
+  </g>
+
+  <!-- Futuristic Booth Structure -->
+  <rect x="260" y="100" width="280" height="320" rx="20" fill="#0b0f19" stroke="url(#neon_cyan)" stroke-width="2" />
+  
+  <!-- Neural Scan Mirror / Display -->
+  <rect x="290" y="130" width="220" height="230" rx="12" fill="#030712" stroke="#1e293b" />
+  
+  <!-- AI Neural Face Mesh Overlay -->
+  <circle cx="400" cy="220" r="55" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4 2" fill="none" opacity="0.8" />
+  <ellipse cx="400" cy="225" rx="35" ry="45" stroke="#06b6d4" stroke-width="1" fill="none" opacity="0.6" />
+  <!-- Facial landmark tracking dots -->
+  <circle cx="380" cy="205" r="2.5" fill="#38bdf8" />
+  <circle cx="420" cy="205" r="2.5" fill="#38bdf8" />
+  <circle cx="400" cy="225" r="2" fill="#60a5fa" />
+  <circle cx="390" cy="245" r="2" fill="#60a5fa" />
+  <circle cx="410" cy="245" r="2" fill="#60a5fa" />
+  
+  <!-- Holographic scanner laser line -->
+  <line x1="290" y1="230" x2="510" y2="230" stroke="#38bdf8" stroke-width="2" filter="drop-shadow(0 0 6px #38bdf8)" />
+
+  <!-- Robotic Arm Mechanism at side -->
+  <circle cx="170" cy="380" r="30" fill="url(#arm_grad)" stroke="#475569" stroke-width="2" />
+  <path d="M 170 380 L 210 260 L 260 210" stroke="#475569" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="210" cy="260" r="10" fill="#0ea5e9" />
+  <!-- Camera head on arm -->
+  <rect x="250" y="195" width="30" height="26" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+  <circle cx="265" cy="208" r="7" fill="#ef4444" />
+
+  <!-- Label tag overlay -->
+  <rect x="30" y="30" width="110" height="28" rx="14" fill="#030712" fill-opacity="0.8" stroke="#06b6d4" stroke-width="1" />
+  <text x="85" y="48" font-family="sans-serif" font-size="11" font-weight="600" fill="#06b6d4" text-anchor="middle">NEXPLAY AI</text>
+</svg>
+

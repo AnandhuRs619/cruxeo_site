@@ -1,0 +1,486 @@
+{
+  "brokenImages": [],
+  "media": [
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": null,
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": null,
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": null,
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": null,
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "https://cruxeo.abinschandran.in/media/hero/hero-1080.webm",
+      "poster": null,
+      "src": "/media/hero/hero-1080.webm",
+      "tag": "VIDEO"
+    },
+    {
+      "currentSrc": "https://cruxeo.abinschandran.in/media/divisions/ignispectra.webm",
+      "poster": null,
+      "src": null,
+      "tag": "VIDEO"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": "/media/divisions/ignispectra.webm",
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": "/media/divisions/ignispectra.mp4",
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "https://cruxeo.abinschandran.in/media/divisions/nexplay.webm",
+      "poster": null,
+      "src": null,
+      "tag": "VIDEO"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": "/media/divisions/nexplay.webm",
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": "/media/divisions/nexplay.mp4",
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "https://cruxeo.abinschandran.in/media/boxes/work-aerial-symphony.webm",
+      "poster": null,
+      "src": null,
+      "tag": "VIDEO"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": "/media/boxes/work-aerial-symphony.webm",
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": "/media/boxes/work-aerial-symphony.mp4",
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "https://cruxeo.abinschandran.in/media/boxes/work-immersion-led.webm",
+      "poster": null,
+      "src": null,
+      "tag": "VIDEO"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": "/media/boxes/work-immersion-led.webm",
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": "/media/boxes/work-immersion-led.mp4",
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "https://cruxeo.abinschandran.in/media/boxes/work-radar-arena.webm",
+      "poster": null,
+      "src": null,
+      "tag": "VIDEO"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": "/media/boxes/work-radar-arena.webm",
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": "/media/boxes/work-radar-arena.mp4",
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "https://cruxeo.abinschandran.in/media/boxes/work-enterprise-ai.webm",
+      "poster": null,
+      "src": null,
+      "tag": "VIDEO"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": "/media/boxes/work-enterprise-ai.webm",
+      "tag": "SOURCE"
+    },
+    {
+      "currentSrc": "",
+      "poster": null,
+      "src": "/media/boxes/work-enterprise-ai.mp4",
+      "tag": "SOURCE"
+    }
+  ],
+  "nestedInteractive": [
+    {
+      "href": "https://cruxeo.abinschandran.in/services#nexplay",
+      "text": "Explore division scope"
+    },
+    {
+      "href": "https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I%27d%20like%20to%20talk%20about%20NEXPLAY%20by%20CRUXEO.",
+      "text": "Enquire for Scope"
+    },
+    {
+      "href": "https://cruxeo.abinschandran.in/services#lumen-lab",
+      "text": "Explore division scope"
+    },
+    {
+      "href": "https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I%27d%20like%20to%20talk%20about%20LUMEN%20LAB%20by%20CRUXEO.",
+      "text": "Enquire for Scope"
+    },
+    {
+      "href": "https://cruxeo.abinschandran.in/services#ignispectra",
+      "text": "Explore division scope"
+    },
+    {
+      "href": "https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I%27d%20like%20to%20talk%20about%20IGNISPECTRA%20by%20CRUXEO.",
+      "text": "Enquire for Scope"
+    },
+    {
+      "href": "https://cruxeo.abinschandran.in/services#synapse",
+      "text": "Explore division scope"
+    },
+    {
+      "href": "https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I%27d%20like%20to%20talk%20about%20SYNAPSE%20by%20CRUXEO.",
+      "text": "Enquire for Scope"
+    }
+  ],
+  "scrollWidth": 1355,
+  "tokens": {
+    "--black": "#000",
+    "--body": "#edecec",
+    "--border-hover": "#ffffff2e",
+    "--border-light": "#ffffff14",
+    "--brand": "#0b5cff",
+    "--brand-glow": "#0b5cff59",
+    "--brand-gradient": "linear-gradient(135deg, #0b5cff 0%, #1f6bff 55%, #0047e0 100%)",
+    "--brand-hover": "#0047e0",
+    "--brand-rgb": "11, 92, 255",
+    "--brand-text": "#5b92ff",
+    "--container-max": "1320px",
+    "--font-accent-serif": "\"Instrument Serif\", \"Instrument Serif Fallback\"",
+    "--font-body": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\"",
+    "--font-body-ar": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", \"Hanken Grotesk\", \"Hanken Grotesk Fallback\"",
+    "--font-display": "\"Funnel Display\", \"Funnel Display Fallback\"",
+    "--font-display-ar": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", \"Funnel Display\", \"Funnel Display Fallback\"",
+    "--font-geist": "\"Geist\", \"Geist Fallback\"",
+    "--font-geist-mono": "\"Geist Mono\", \"Geist Mono Fallback\"",
+    "--font-hero": "\"Urbanist\", \"Urbanist Fallback\"",
+    "--font-mono": "\"DM Mono\", \"DM Mono Fallback\"",
+    "--gradient-card": "linear-gradient(180deg, #ffffff0a 0%, #ffffff03 100%)",
+    "--gradient-card-hover": "linear-gradient(180deg, #ffffff14 0%, #ffffff05 100%)",
+    "--gradient-ignispectra": "linear-gradient(90deg, #e96a16 0%, #ffb12b 100%)",
+    "--gradient-lumen": "linear-gradient(90deg, #00c2ff 0%, #00f5d4 100%)",
+    "--gradient-nexplay": "linear-gradient(90deg, #8b5cf6 0%, #d946ef 100%)",
+    "--gradient-synapse": "linear-gradient(90deg, #009b83 0%, #38b58b 100%)",
+    "--gradient-text-1": "linear-gradient(180deg, #fff 0%, #ffffffa6 100%)",
+    "--gradient-text-2": "linear-gradient(135deg, #fff 0%, #a1a1aa 100%)",
+    "--ignispectra-accent": "#ffb12b",
+    "--ignispectra-from": "#e96a16",
+    "--ignispectra-glow": "#ffb12b40",
+    "--ignispectra-to": "#ffb12b",
+    "--lumen-accent": "#00f5d4",
+    "--lumen-from": "#00c2ff",
+    "--lumen-glow": "#00f5d440",
+    "--lumen-to": "#00f5d4",
+    "--neutral-100": "#f4f4f5",
+    "--neutral-200": "#e4e4e7",
+    "--neutral-300": "#d4d4d8",
+    "--neutral-400": "#a1a1aa",
+    "--neutral-50": "#fafafa",
+    "--neutral-500": "#71717a",
+    "--neutral-600": "#52525b",
+    "--neutral-700": "#3f3f46",
+    "--neutral-800": "#27272a",
+    "--neutral-900": "#18181b",
+    "--neutral-950": "#09090b",
+    "--nexplay-accent": "#a855f7",
+    "--nexplay-from": "#8b5cf6",
+    "--nexplay-glow": "#a855f740",
+    "--nexplay-to": "#d946ef",
+    "--primary": "#09090b",
+    "--radius-lg": "20px",
+    "--radius-md": "14px",
+    "--radius-pill": "9999px",
+    "--radius-sm": "10px",
+    "--radius-xl": "28px",
+    "--radius-xs": "6px",
+    "--secondary": "#71717a",
+    "--section-gap": "96px",
+    "--section-gap-mobile": "60px",
+    "--section-padding-desktop": "48px",
+    "--section-padding-mobile": "30px",
+    "--signal": "#5b92ff",
+    "--synapse-accent": "#38b58b",
+    "--synapse-from": "#009b83",
+    "--synapse-glow": "#38b58b40",
+    "--synapse-to": "#38b58b",
+    "--transition-base": ".28s cubic-bezier(.16, 1, .3, 1)",
+    "--transition-fast": ".15s cubic-bezier(.16, 1, .3, 1)",
+    "--transition-smooth": ".45s cubic-bezier(.16, 1, .3, 1)",
+    "--wa": "#25d366",
+    "--wa-ink": "#06210f",
+    "--white": "#fff"
+  },
+  "typography": [
+    {
+      "font": "Urbanist, \"Urbanist Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "letterSpacing": "-3.04px",
+      "lineHeight": "82.08px",
+      "size": "76px",
+      "tag": "H1",
+      "text": "Bring your next idea to life.",
+      "weight": "300"
+    },
+    {
+      "font": "Urbanist, \"Urbanist Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "letterSpacing": "normal",
+      "lineHeight": "32px",
+      "size": "20px",
+      "tag": "P",
+      "text": "Interactive experiences, visual production, spectacular shows and intelligent so",
+      "weight": "400"
+    },
+    {
+      "font": "Urbanist, \"Urbanist Fallback\", sans-serif",
+      "letterSpacing": "normal",
+      "lineHeight": "26.4px",
+      "size": "16px",
+      "tag": "A",
+      "text": "Start Your Project",
+      "weight": "600"
+    },
+    {
+      "font": "Urbanist, \"Urbanist Fallback\", sans-serif",
+      "letterSpacing": "-1.14492px",
+      "lineHeight": "61.8257px",
+      "size": "57.246px",
+      "tag": "H2",
+      "text": "Four divisions, one team",
+      "weight": "300"
+    },
+    {
+      "font": "\"Funnel Display\", \"Funnel Display Fallback\", sans-serif",
+      "letterSpacing": "-1.14492px",
+      "lineHeight": "61.8257px",
+      "size": "57.246px",
+      "tag": "H2",
+      "text": "Four Specialist Divisions,  One Coordinated Delivery",
+      "weight": "300"
+    },
+    {
+      "font": "\"Funnel Display\", \"Funnel Display Fallback\", sans-serif",
+      "letterSpacing": "-0.72px",
+      "lineHeight": "43.2px",
+      "size": "36px",
+      "tag": "H3",
+      "text": "Based in Dubai, UAE",
+      "weight": "400"
+    },
+    {
+      "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "letterSpacing": "normal",
+      "lineHeight": "23.25px",
+      "size": "15px",
+      "tag": "P",
+      "text": "Bringing technology, creativity and production together to help brands connect w",
+      "weight": "350"
+    },
+    {
+      "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", sans-serif",
+      "letterSpacing": "normal",
+      "lineHeight": "24.75px",
+      "size": "15px",
+      "tag": "A",
+      "text": "Tell us about your project",
+      "weight": "600"
+    },
+    {
+      "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "letterSpacing": "normal",
+      "lineHeight": "26.4px",
+      "size": "16px",
+      "tag": "P",
+      "text": "“CRUXEO Experience brings technology, creativity and production together to help",
+      "weight": "350"
+    },
+    {
+      "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "letterSpacing": "1.12px",
+      "lineHeight": "23.1px",
+      "size": "14px",
+      "tag": "P",
+      "text": "Creative technology and production systems trusted for live events and venues",
+      "weight": "500"
+    },
+    {
+      "font": "\"Funnel Display\", \"Funnel Display Fallback\", sans-serif",
+      "letterSpacing": "-1.14492px",
+      "lineHeight": "61.8257px",
+      "size": "57.246px",
+      "tag": "H2",
+      "text": "Specialist Divisions,  One Brief",
+      "weight": "300"
+    },
+    {
+      "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "letterSpacing": "normal",
+      "lineHeight": "27.72px",
+      "size": "16.8px",
+      "tag": "P",
+      "text": "Through NEXPLAY, LUMEN LAB, IGNISPECTRA and SYNAPSE, we shape interactive experi",
+      "weight": "350"
+    },
+    {
+      "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "letterSpacing": "normal",
+      "lineHeight": "21px",
+      "size": "14px",
+      "tag": "P",
+      "text": "Event Technology & Interactive Experiences — Play. Interact. Connect.",
+      "weight": "350"
+    },
+    {
+      "font": "\"Funnel Display\", \"Funnel Display Fallback\", sans-serif",
+      "letterSpacing": "-0.216px",
+      "lineHeight": "25.92px",
+      "size": "21.6px",
+      "tag": "H3",
+      "text": "NEXPLAY by CRUXEO",
+      "weight": "400"
+    },
+    {
+      "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "letterSpacing": "normal",
+      "lineHeight": "24px",
+      "size": "15px",
+      "tag": "P",
+      "text": "NEXPLAY builds the interactive parts of your event: photo booths, interactive ga",
+      "weight": "350"
+    },
+    {
+      "font": "\"Funnel Display\", \"Funnel Display Fallback\", sans-serif",
+      "letterSpacing": "-0.216px",
+      "lineHeight": "25.92px",
+      "size": "21.6px",
+      "tag": "H3",
+      "text": "LUMEN LAB by CRUXEO",
+      "weight": "400"
+    },
+    {
+      "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "letterSpacing": "normal",
+      "lineHeight": "24px",
+      "size": "15px",
+      "tag": "P",
+      "text": "LUMEN LAB makes the film, animation and show content, and supplies the screens, ",
+      "weight": "350"
+    },
+    {
+      "font": "\"Funnel Display\", \"Funnel Display Fallback\", sans-serif",
+      "letterSpacing": "-0.216px",
+      "lineHeight": "25.92px",
+      "size": "21.6px",
+      "tag": "H3",
+      "text": "IGNISPECTRA by CRUXEO",
+      "weight": "400"
+    },
+    {
+      "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "letterSpacing": "normal",
+      "lineHeight": "24px",
+      "size": "15px",
+      "tag": "P",
+      "text": "IGNISPECTRA designs and runs live spectacles: drone light shows, fireworks, lase",
+      "weight": "350"
+    },
+    {
+      "font": "\"Funnel Display\", \"Funnel Display Fallback\", sans-serif",
+      "letterSpacing": "-0.216px",
+      "lineHeight": "25.92px",
+      "size": "21.6px",
+      "tag": "H3",
+      "text": "SYNAPSE by CRUXEO",
+      "weight": "400"
+    },
+    {
+      "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "letterSpacing": "normal",
+      "lineHeight": "24px",
+      "size": "15px",
+      "tag": "P",
+      "text": "SYNAPSE builds the digital side of the business: AI assistants, automations, cus",
+      "weight": "350"
+    },
+    {
+      "font": "\"Funnel Display\", \"Funnel Display Fallback\", sans-serif",
+      "letterSpacing": "-1.14492px",
+      "lineHeight": "61.8257px",
+      "size": "57.246px",
+      "tag": "H2",
+      "text": "Real Projects,  Coordinated Delivery",
+      "weight": "300"
+    },
+    {
+      "font": "\"Funnel Display\", \"Funnel Display Fallback\", sans-serif",
+      "letterSpacing": "-0.464px",
+      "lineHeight": "30.16px",
+      "size": "23.2px",
+      "tag": "H3",
+      "text": "Aerial Symphony Spectacle",
+      "weight": "400"
+    },
+    {
+      "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "letterSpacing": "normal",
+      "lineHeight": "24px",
+      "size": "15px",
+      "tag": "P",
+      "text": "Coordinated aerial light show synchronised with music, architectural searchlight",
+      "weight": "350"
+    },
+    {
+      "font": "\"Funnel Display\", \"Funnel Display Fallback\", sans-serif",
+      "letterSpacing": "-0.464px",
+      "lineHeight": "30.16px",
+      "size": "23.2px",
+      "tag": "H3",
+      "text": "Immersive Hologram Pavilion",
+      "weight": "400"
+    }
+  ],
+  "url": "https://cruxeo.abinschandran.in/",
+  "viewport": {
+    "height": 936,
+    "width": 1363
+  }
+}

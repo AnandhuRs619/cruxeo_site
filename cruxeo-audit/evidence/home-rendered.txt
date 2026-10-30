@@ -1,0 +1,522 @@
+- banner:
+  - link "CRUXEO Experience Homepage":
+    - /url: /
+    - img "CRUXEO Experience"
+  - navigation "Main Navigation":
+    - list:
+      - link "Home" [active]:
+        - /url: /
+      - link "About":
+        - /url: /about
+      - link "Divisions":
+        - /url: /services
+      - link "Work":
+        - /url: /works
+      - link "Contact":
+        - /url: /contact
+- main:
+  - button:
+  - generic: CRUXEO / DUBAI / LIVE EXPERIENCE
+  - heading "Bring your next idea to life." [level=1]:
+    - generic: Bring your next idea
+    - generic: to life.
+  - paragraph:
+    - generic: Interactive experiences, visual production, spectacular shows and intelligent software, connected through one creative technology company.
+    - generic: One creative technology company for
+    - generic: s
+    - generic: p
+    - generic: e
+    - generic: c
+    - generic: t
+    - generic: a
+    - generic: c
+    - generic: u
+    - generic: l
+    - generic: a
+    - generic: r
+    - generic: s
+    - generic: h
+    - generic: o
+    - generic: w
+    - generic: s
+  - link "Start Your Project":
+    - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20talk%20about%20a%20new%20project.
+    - generic: Start Your Project
+  - link "See Our Work":
+    - /url: /works
+    - generic: See Our Work
+  - navigation "CRUXEO divisions":
+    - heading "Four divisions, one team" [level=2]
+    - link "NEXPLAY Event Tech & Interactive Experiences":
+      - /url: /services#nexplay
+      - generic: NEXPLAY
+      - generic: Event Tech & Interactive Experiences
+    - link "LUMEN LAB Audiovisual Systems & Displays":
+      - /url: /services#lumen-lab
+      - generic: LUMEN LAB
+      - generic: Audiovisual Systems & Displays
+    - link "IGNISPECTRA Drone Shows & Live Spectacles":
+      - /url: /services#ignispectra
+      - generic: IGNISPECTRA
+      - generic: Drone Shows & Live Spectacles
+    - link "SYNAPSE AI, Design & Custom Software":
+      - /url: /services#synapse
+      - generic: SYNAPSE
+      - generic: AI, Design & Custom Software
+  - text: About CRUXEO
+  - heading "Four Specialist Divisions, One Coordinated Delivery" [level=2]:
+    - text: Four Specialist Divisions,
+    - text: One Coordinated Delivery
+  - generic: Dubai, United Arab Emirates
+  - heading "Based in Dubai, UAE" [level=3]
+  - paragraph: Bringing technology, creativity and production together to help brands connect with people and bring ideas to life.
+  - link "Tell us about your project":
+    - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20talk%20about%20a%20project.
+    - text: Tell us about your project
+  - heading "Four specialist divisions. One brief. One coordinated team from first idea to show day." [level=4]
+  - generic: Coordinated Delivery
+  - generic: NEXPLAY • LUMEN LAB • IGNISPECTRA • SYNAPSE
+  - paragraph: “CRUXEO Experience brings technology, creativity and production together to help brands connect with people. Clients can engage one specialist division or bring several together around one brief, with a clear scope and coordinated delivery.”
+  - img "CRUXEO Experience"
+  - heading "CRUXEO Experience" [level=5]
+  - text: Creative Technology · Dubai
+  - paragraph: Creative technology and production systems trusted for live events and venues
+  - generic "Partner Brand Logos":
+    - img "Partner 1"
+    - img "Partner 2"
+    - img "Partner 3"
+    - img "Partner 4"
+    - img "Partner 5"
+    - img "Partner 6"
+    - img "Partner 7"
+    - img "Partner 8"
+    - img "Partner 9"
+    - img "Partner 10"
+  - text: Four Divisions
+  - heading "Specialist Divisions, One Brief" [level=2]:
+    - text: Specialist Divisions,
+    - text: One Brief
+  - paragraph: Through NEXPLAY, LUMEN LAB, IGNISPECTRA and SYNAPSE, we shape interactive experiences, create visual content and environments, produce spectacular shows, and build intelligent software.
+  - img "NEXPLAY by CRUXEO"
+  - generic: (01)
+  - generic: NEXPLAY
+  - heading "NEXPLAY by CRUXEO" [level=4]
+  - paragraph: Event Technology & Interactive Experiences — Play. Interact. Connect.
+  - generic: AI, 360, mirror and glambot booths with branded outputs
+  - generic: Interactive touch walls, floor games and kiosks
+  - 'button "(01) NEXPLAY by CRUXEO NEXPLAY builds the interactive parts of your event: photo booths, interactive games, touch and gesture activations, AR/VR and robots that give your guests something to do, share and remember. We supply, set up and run everything on site. Photo & Video Booths Gesture & Touch Activations Digital Games & Simulators Smart Event Systems Explore division scope Enquire for Scope" [expanded]':
+    - generic: (01)
+    - heading "NEXPLAY by CRUXEO" [level=3]
+    - paragraph: "NEXPLAY builds the interactive parts of your event: photo booths, interactive games, touch and gesture activations, AR/VR and robots that give your guests something to do, share and remember. We supply, set up and run everything on site."
+    - generic: Photo & Video Booths
+    - generic: Gesture & Touch Activations
+    - generic: Digital Games & Simulators
+    - generic: Smart Event Systems
+    - link "Explore division scope":
+      - /url: /services#nexplay
+      - generic: Explore division scope
+    - link "Enquire for Scope":
+      - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20talk%20about%20NEXPLAY%20by%20CRUXEO.
+      - generic: Enquire for Scope
+  - button "(02) LUMEN LAB by CRUXEO LUMEN LAB makes the film, animation and show content, and supplies the screens, holograms, projectors and sound that present it. We handle content, hardware, installation and operation, so what you see on the day matches what you approved. LED Screens & Video Walls Holographic & 3D Displays Architectural Projection Mapping CGI, VFX & Brand Films Explore division scope Enquire for Scope":
+    - generic: (02)
+    - heading "LUMEN LAB by CRUXEO" [level=3]
+    - paragraph: LUMEN LAB makes the film, animation and show content, and supplies the screens, holograms, projectors and sound that present it. We handle content, hardware, installation and operation, so what you see on the day matches what you approved.
+    - generic: LED Screens & Video Walls
+    - generic: Holographic & 3D Displays
+    - generic: Architectural Projection Mapping
+    - generic: CGI, VFX & Brand Films
+    - link "Explore division scope":
+      - /url: /services#lumen-lab
+      - generic: Explore division scope
+    - link "Enquire for Scope":
+      - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20talk%20about%20LUMEN%20LAB%20by%20CRUXEO.
+      - generic: Enquire for Scope
+  - 'button "(03) IGNISPECTRA by CRUXEO IGNISPECTRA designs and runs live spectacles: drone light shows, fireworks, lasers, water screens and special effects, combined into one timed show. We plan the creative, the site, the permits and the rehearsal, then run it on the night. Drone Light Shows Fireworks & Pyromusicals Laser & Beam Shows Water Screens & Special Effects Explore division scope Enquire for Scope"':
+    - generic: (03)
+    - heading "IGNISPECTRA by CRUXEO" [level=3]
+    - paragraph: "IGNISPECTRA designs and runs live spectacles: drone light shows, fireworks, lasers, water screens and special effects, combined into one timed show. We plan the creative, the site, the permits and the rehearsal, then run it on the night."
+    - generic: Drone Light Shows
+    - generic: Fireworks & Pyromusicals
+    - generic: Laser & Beam Shows
+    - generic: Water Screens & Special Effects
+    - link "Explore division scope":
+      - /url: /services#ignispectra
+      - generic: Explore division scope
+    - link "Enquire for Scope":
+      - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20talk%20about%20IGNISPECTRA%20by%20CRUXEO.
+      - generic: Enquire for Scope
+  - 'button "(04) SYNAPSE by CRUXEO SYNAPSE builds the digital side of the business: AI assistants, automations, custom software and websites. We start with the problem, agree a small first version, and build from there. Where AI makes decisions, a person stays in control. AI Agents & Assistants Business Automation Custom Enterprise Platforms Websites & Applications Explore division scope Enquire for Scope"':
+    - generic: (04)
+    - heading "SYNAPSE by CRUXEO" [level=3]
+    - paragraph: "SYNAPSE builds the digital side of the business: AI assistants, automations, custom software and websites. We start with the problem, agree a small first version, and build from there. Where AI makes decisions, a person stays in control."
+    - generic: AI Agents & Assistants
+    - generic: Business Automation
+    - generic: Custom Enterprise Platforms
+    - generic: Websites & Applications
+    - link "Explore division scope":
+      - /url: /services#synapse
+      - generic: Explore division scope
+    - link "Enquire for Scope":
+      - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20talk%20about%20SYNAPSE%20by%20CRUXEO.
+      - generic: Enquire for Scope
+  - text: Selected Work
+  - heading "Real Projects, Coordinated Delivery" [level=2]:
+    - text: Real Projects,
+    - text: Coordinated Delivery
+  - link "Explore All Case Studies":
+    - /url: /works
+    - text: Explore All Case Studies
+  - article:
+    - img "Aerial Symphony Spectacle"
+    - generic: IGNISPECTRA
+    - strong: 500+
+    - text: Drones in Formation
+    - heading "Aerial Symphony Spectacle" [level=3]:
+      - link "Aerial Symphony Spectacle":
+        - /url: /works#aerial-symphony
+    - paragraph: Coordinated aerial light show synchronised with music, architectural searchlights, and pyrotechnic accents for an evening opening ceremony.
+    - link "View Case Study":
+      - /url: /works#aerial-symphony
+      - generic: View Case Study
+    - link "Discuss Similar Project":
+      - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20talk%20about%20a%20project%20similar%20to%20Aerial%20Symphony%20Spectacle.
+      - generic: Discuss Similar Project
+  - article:
+    - img "Immersive Hologram Pavilion"
+    - generic: LUMEN LAB
+    - strong: 7680Hz
+    - text: Broadcast Refresh Rate
+    - heading "Immersive Hologram Pavilion" [level=3]:
+      - link "Immersive Hologram Pavilion":
+        - /url: /works#immersion-pavilion
+    - paragraph: Ultra-fine pitch curved LED wall paired with floating holographic fan arrays and 3D show content for a high-traffic visitor pavilion.
+    - link "View Case Study":
+      - /url: /works#immersion-pavilion
+      - generic: View Case Study
+    - link "Discuss Similar Project":
+      - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20talk%20about%20a%20project%20similar%20to%20Immersive%20Hologram%20Pavilion.
+      - generic: Discuss Similar Project
+  - article:
+    - img "Interactive Radar-Touch Arena"
+    - generic: NEXPLAY
+    - strong: <15ms
+    - text: Sensor Interaction Latency
+    - heading "Interactive Radar-Touch Arena" [level=3]:
+      - link "Interactive Radar-Touch Arena":
+        - /url: /works#radar-arena
+    - paragraph: Interactive floor and multi-touch video wall with custom branded games, welcoming thousands of visitors with zero queue bottleneck.
+    - link "View Case Study":
+      - /url: /works#radar-arena
+      - generic: View Case Study
+    - link "Discuss Similar Project":
+      - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20talk%20about%20a%20project%20similar%20to%20Interactive%20Radar-Touch%20Arena.
+      - generic: Discuss Similar Project
+  - article:
+    - img "Enterprise AI Knowledge Assistant"
+    - generic: SYNAPSE
+    - strong: 100%
+    - text: Approved Content Responses
+    - heading "Enterprise AI Knowledge Assistant" [level=3]:
+      - link "Enterprise AI Knowledge Assistant":
+        - /url: /works#generative-studio
+    - paragraph: Private knowledge assistant and automated qualification system answering enquiries, collecting briefs, and handing over to team leads.
+    - link "View Case Study":
+      - /url: /works#generative-studio
+      - generic: View Case Study
+    - link "Discuss Similar Project":
+      - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20talk%20about%20a%20project%20similar%20to%20Enterprise%20AI%20Knowledge%20Assistant.
+      - generic: Discuss Similar Project
+  - text: Delivery Process
+  - heading "How Projects Are Delivered" [level=2]
+  - paragraph: From brief to show day, we test every piece of hardware, content, and software before doors open. One team, clear scope, and zero surprises on site.
+  - generic: 01 / 04
+  - heading "Brief" [level=3]
+  - paragraph: You tell us the goal, date, venue, and audience. We evaluate site feasibility, space, power, and regulatory requirements.
+  - generic: What you get
+  - list:
+    - generic: Brief evaluation
+    - generic: Site & airspace feasibility
+    - generic: Initial division scoping
+    - generic: Clear next steps
+  - generic: 02 / 04
+  - heading "Concept and Scope" [level=3]
+  - paragraph: We propose the creative idea, the technology, visual previs, and a transparent, itemized quotation.
+  - generic: What you get
+  - list:
+    - generic: Creative concept proposal
+    - generic: Previs & simulation
+    - generic: Technical rider review
+    - generic: Fixed-scope quote
+  - generic: 03 / 04
+  - heading "Design and Production" [level=3]
+  - paragraph: Content, hardware, and software are custom-built, programmed, and bench-tested before shipping to the venue.
+  - generic: What you get
+  - list:
+    - generic: Content & CGI production
+    - generic: Hardware bench testing
+    - generic: Timecode synchronization
+    - generic: Rehearsal verification
+  - generic: 04 / 04
+  - heading "Delivery and Support" [level=3]
+  - paragraph: Our dedicated technical crew installs, operates, and supports the experience on site from doors open to strike.
+  - generic: What you get
+  - list:
+    - generic: On-site setup & calibration
+    - generic: Live show execution
+    - generic: Dedicated technician crew
+    - generic: Strike & wrap-up
+  - text: What This Means For You
+  - heading "One Team. Tested Technology. Clear Delivery." [level=2]
+  - generic: Bench-Tested Hardware
+  - generic: 100%
+  - progressbar
+  - generic: Dual-Redundant Backup
+  - generic: 100%
+  - progressbar
+  - generic: Safety & Permit Approvals
+  - generic: 100%
+  - progressbar
+  - generic: On-Time Show Execution
+  - generic: 100%
+  - progressbar
+  - generic: "01"
+  - heading "One team to brief" [level=3]
+  - paragraph: Clients can engage one specialist division or bring several together around one brief, with clear scope and coordinated delivery.
+  - generic: Verified in production
+  - generic: "02"
+  - heading "Clear scope and costs" [level=3]
+  - paragraph: Itemized, transparent quotes with upfront hardware, content, and crew specifications. No surprise fees or ambiguous add-ons.
+  - generic: Verified in production
+  - generic: "03"
+  - heading "Technology tested before show day" [level=3]
+  - paragraph: Displays are calibrated, flight routines simulated, and software verified in the workshop before equipment touches the venue.
+  - generic: Verified in production
+  - generic: "04"
+  - heading "A named lead for every project" [level=3]
+  - paragraph: Every project has a dedicated technical lead who coordinates all four divisions, ensuring seamless operation from setup to strike.
+  - generic: Verified in production
+  - text: Core Capabilities
+  - heading "Engineered for Zero-Failure Show Delivery" [level=2]
+  - heading "Dual-Redundant Infrastructure" [level=3]
+  - paragraph: Zero-downtime architecture with hot-standby media servers, redundant signal paths, and backup power failovers.
+  - generic: "01"
+  - heading "Regulatory & Airspace Mastery" [level=3]
+  - paragraph: Full compliance management with GCAA, DCAA, civil defence, and municipal authorities across Dubai and the UAE.
+  - generic: "02"
+  - heading "Edge-First Interactive Architecture" [level=3]
+  - paragraph: Local GPU processing and sensor arrays that deliver ultra-low latency touch, gesture, and interactive responsiveness.
+  - generic: "03"
+  - heading "Broadcast-Calibrated Displays" [level=3]
+  - paragraph: High-refresh 7680Hz LED walls, floating 3D holographic fans, and projection systems color-matched to broadcast standards.
+  - generic: "04"
+  - heading "High-Throughput Guest Flow" [level=3]
+  - paragraph: Frictionless AI photobooths, badge printing, and registration systems designed for rapid queue clearance and sharing.
+  - generic: "05"
+  - heading "Single Technical Command" [level=3]
+  - paragraph: One accountable technical director orchestrating audiovisual, drone shows, activations, and software under one unified brief.
+  - generic: "06"
+  - text: Production Ecosystem
+  - heading "Industry-Standard Hardware & Systems" [level=2]
+  - paragraph: From broadcast-grade display processors to RTK drone choreographies, real-time media servers, and edge AI workstations, we deploy industry-grade hardware tested for zero-downtime execution.
+  - generic: Brompton Tessera
+  - generic: LED Video Processing
+  - generic: NovaStar MX40 Pro
+  - generic: Display Distribution
+  - generic: RTK GPS Flight Nodes
+  - generic: Drone Choreography
+  - generic: TouchDesigner & Disguise
+  - generic: Real-Time Media Servers
+  - generic: High-Lumen Laser Projectors
+  - generic: Architectural Mapping
+  - generic: NVIDIA RTX Ada Workstations
+  - generic: Edge AI & Previs
+  - generic: SMPTE Timecode Sync
+  - generic: Show Coordination
+  - generic: OptiTrack & LiDAR
+  - generic: Spatial Tracking & Sensors
+  - link "Tell us about your project":
+    - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20talk%20about%20a%20project.
+    - text: Tell us about your project
+  - text: Team & Leadership
+  - heading "Four Specialist Divisions. One Technical Command." [level=2]
+  - img "Interactive & Event Tech"
+  - generic: NEXPLAY Lead
+  - heading "Interactive & Event Tech" [level=3]
+  - paragraph: Event technology, interactive installations, and audience participation systems.
+  - img "Audiovisual & Production"
+  - generic: LUMEN LAB Lead
+  - heading "Audiovisual & Production" [level=3]
+  - paragraph: Audiovisual systems, display engineering, film, and 3D visual production.
+  - img "Drones & Live Shows"
+  - generic: IGNISPECTRA Lead
+  - heading "Drones & Live Shows" [level=3]
+  - paragraph: Drone choreography, pyrotechnics, laser displays, and show safety operations.
+  - img "AI & Software"
+  - generic: SYNAPSE Lead
+  - heading "AI & Software" [level=3]
+  - paragraph: Applied AI, custom software architectures, and automated business platforms.
+  - img "Show Delivery"
+  - generic: Technical Director
+  - heading "Show Delivery" [level=3]
+  - paragraph: Cross-division coordination, timecode synchronization, and show day delivery.
+  - text: By The Numbers
+  - heading "Four Specialist Divisions, One Delivery Team" [level=2]:
+    - text: Four Specialist Divisions,
+    - text: One Delivery Team
+  - blockquote: “Four specialist divisions. One brief. One coordinated team from first idea to show day. Technology tested before doors open with predictable, clear scope and costs.”
+  - generic: 500+
+  - generic: Drones flown in a single show formation
+  - generic: 7680Hz
+  - generic: LED refresh rate, flicker-free on broadcast cameras
+  - generic: <15ms
+  - generic: Response time on interactive touch and motion sensors
+  - generic: "4"
+  - generic: Specialist divisions under one technical lead
+  - text: Engagement Models
+  - heading "Tailored Project Quotations" [level=2]
+  - paragraph: Clear scope, transparent costs, and zero surprise add-ons. We quote after reviewing your brief.
+  - list:
+    - generic: "01"
+    - text: Send a short brief
+    - generic: "02"
+    - text: We review date, venue and scope
+    - generic: "03"
+    - text: You get an itemised quote
+  - generic: Single Division Delivery
+  - generic: Bespoke Project Quote
+  - paragraph: "Tailored delivery for a single division: an event photobooth activation, a holographic display rental, a drone show, or custom software."
+  - link "Request a Division Quote":
+    - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20talk%20about%20a%20single-division%20project%20quote.
+    - text: Request a Division Quote
+  - generic: "What's Included:"
+  - list:
+    - generic: Dedicated technical project lead
+    - generic: Comprehensive site & technical rider review
+    - generic: Hardware, software & content provision
+    - generic: Full pre-event testing & calibration
+    - generic: On-site installation, crew & operation
+    - generic: Post-event strike & digital handover
+  - generic: Coordinated Multi-Division Delivery
+  - generic: Multi-Division Spectacle
+  - generic: Integrated Technical Command
+  - paragraph: Turnkey delivery unifying interactive activations, high-lumen displays, synchronized drone & pyrotechnic shows, and digital systems.
+  - link "Request Integrated Proposal":
+    - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20talk%20about%20an%20integrated%20multi-division%20proposal.
+    - text: Request Integrated Proposal
+  - generic: "What's Included:"
+  - list:
+    - generic: Unified brief across all 4 divisions
+    - generic: Single point of technical contact & proposal
+    - generic: Permit & authority coordination (GCAA / DCAA)
+    - generic: SMPTE timecode sync across displays & drones
+    - generic: Dual-redundant backup media & control servers
+    - generic: Dedicated show day crew & rehearsal runs
+    - generic: Full post-event technical wrap & documentation
+  - text: FAQs
+  - heading "Frequently Asked Questions" [level=2]
+  - button "What does CRUXEO do? CRUXEO is a Dubai creative technology company. Through four divisions we build interactive event experiences (NEXPLAY), produce film and display content (LUMEN LAB), run drone and fireworks shows (IGNISPECTRA), and create AI tools and software (SYNAPSE)." [expanded]:
+    - heading "What does CRUXEO do?" [level=3]
+    - paragraph: CRUXEO is a Dubai creative technology company. Through four divisions we build interactive event experiences (NEXPLAY), produce film and display content (LUMEN LAB), run drone and fireworks shows (IGNISPECTRA), and create AI tools and software (SYNAPSE).
+  - button "Do I need to work with all four divisions? No. You can work with one division or combine several. When a project crosses divisions, you get one lead contact and one coordinated proposal.":
+    - heading "Do I need to work with all four divisions?" [level=3]
+    - paragraph: No. You can work with one division or combine several. When a project crosses divisions, you get one lead contact and one coordinated proposal.
+  - button "How do I start a project? Call us or connect with us on WhatsApp (+971 54 545 4891), or email info@cruxeo.com. We reply with the next step and the right person from our team.":
+    - heading "How do I start a project?" [level=3]
+    - paragraph: Call us or connect with us on WhatsApp (+971 54 545 4891), or email info@cruxeo.com. We reply with the next step and the right person from our team.
+  - button "Where do you work? We are based in Dubai and deliver projects across the United Arab Emirates and wider region.":
+    - heading "Where do you work?" [level=3]
+    - paragraph: We are based in Dubai and deliver projects across the United Arab Emirates and wider region.
+  - button "How much does it cost? Costs depend on the project scale, duration, and hardware requirements, so we quote after receiving your brief. Share your project details to get a clear quotation.":
+    - heading "How much does it cost?" [level=3]
+    - paragraph: Costs depend on the project scale, duration, and hardware requirements, so we quote after receiving your brief. Share your project details to get a clear quotation.
+  - button "Do drone light shows and pyrotechnics require permits? Yes, shows usually require permits and venue approval. The team coordinates these and confirms feasibility for each project.":
+    - heading "Do drone light shows and pyrotechnics require permits?" [level=3]
+    - paragraph: Yes, shows usually require permits and venue approval. The team coordinates these and confirms feasibility for each project.
+  - text: Contact
+  - heading "Tell us about your project" [level=2]:
+    - text: Tell us about
+    - text: your project
+  - paragraph: A quick chat is enough to get started. If you are not sure what you need, tell us what you have in mind and we will help you choose.
+  - link "E-mail (RFPs & site riders) info@cruxeo.com":
+    - /url: mailto:info@cruxeo.com
+    - generic: E-mail (RFPs & site riders)
+    - text: info@cruxeo.com
+  - generic: Location
+  - text: Dubai, United Arab Emirates
+  - img "CRUXEO Experience Dubai Operations Skyline"
+  - heading "Talk to the team now" [level=3]
+  - paragraph: Reach our Dubai team directly. We’ll point you to the right division and the next step.
+  - link "Connect with us on WhatsApp +971 54 545 4891":
+    - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20talk%20about%20a%20project.
+    - generic: Connect with us on WhatsApp
+    - generic: +971 54 545 4891
+  - link "Call us +971 54 545 4891":
+    - /url: tel:+971545454891
+    - generic: Call us
+    - generic: +971 54 545 4891
+  - generic: Helpful to mention
+  - list:
+    - generic: Your event date and city or venue
+    - generic: Roughly how many guests or users
+    - generic: What you have in mind, or that you're not sure yet
+- contentinfo:
+  - link "Instagram":
+    - /url: https://instagram.com/cruxeoexperience
+    - generic: Instagram
+  - link "YouTube":
+    - /url: https://youtube.com/@cruxeoexperience
+    - generic: YouTube
+  - link "Connect with us on WhatsApp (+971 54 545 4891)":
+    - /url: https://wa.me/971545454891?text=Hi%20CRUXEO%2C%20I'd%20like%20to%20know%20more%20about%20your%20services.
+    - generic: WhatsApp
+  - link "Email":
+    - /url: mailto:info@cruxeo.com
+    - generic: info@cruxeo.com
+  - link "CRUXEO Experience":
+    - /url: /
+    - img "CRUXEO Experience"
+  - paragraph: Dubai creative technology company. Four specialist divisions, one coordinated team from first idea to show day.
+  - generic: Based in Dubai, United Arab Emirates
+  - heading "Divisions" [level=4]
+  - list:
+    - link "NEXPLAY (Event Tech)":
+      - /url: /services#nexplay
+    - link "LUMEN LAB (Audiovisual)":
+      - /url: /services#lumen-lab
+    - link "IGNISPECTRA (Drone & Pyro)":
+      - /url: /services#ignispectra
+    - link "SYNAPSE (AI & Software)":
+      - /url: /services#synapse
+  - heading "Company" [level=4]
+  - list:
+    - link "Home":
+      - /url: /
+    - link "About Us":
+      - /url: /about
+    - link "All Divisions":
+      - /url: /services
+    - link "Selected Works":
+      - /url: /works
+    - link "Contact":
+      - /url: /contact
+  - heading "Contact & Legal" [level=4]
+  - list:
+    - link "info@cruxeo.com":
+      - /url: mailto:info@cruxeo.com
+    - link "+971 54 545 4891":
+      - /url: tel:+971545454891
+    - link "Privacy Policy":
+      - /url: /privacy
+    - link "Terms & Conditions":
+      - /url: /terms
+  - paragraph: © 2026 CRUXEO Experience, Dubai, United Arab Emirates. All rights reserved.
+  - link "Privacy":
+    - /url: /privacy
+  - generic: •
+  - link "Terms":
+    - /url: /terms
+  - generic: •
+  - link "WhatsApp":
+    - /url: https://wa.me/971545454891
+- alert: CRUXEO Experience | Event Technology & Shows in Dubai

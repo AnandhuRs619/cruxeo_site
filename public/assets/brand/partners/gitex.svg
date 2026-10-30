@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" fill="none">
+  <path d="M 10 12 L 20 8 L 30 12 L 30 28 L 20 32 L 10 28 Z" stroke="#94a3b8" stroke-width="2" fill="none" />
+  <circle cx="20" cy="20" r="4" fill="#94a3b8" />
+  <text x="40" y="26" font-family="sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#94a3b8">GITEX GLOBAL</text>
+</svg>
+

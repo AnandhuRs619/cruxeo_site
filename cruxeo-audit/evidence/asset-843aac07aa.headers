@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+date: Thu, 29 Oct 2026 07:41:52 GMT
+
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 86540
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline; filename="partner-10.svg"
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com data:; frame-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://api.anthropic.com https://challenges.cloudflare.com https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';
+content-type: image/svg+xml
+date: Thu, 29 Oct 2026 07:41:52 GMT
+etag: "079c017ffac6a7de989958e9866e27b9"
+last-modified: Wed, 28 Oct 2026 07:39:31 GMT
+permissions-policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+referrer-policy: strict-origin-when-cross-origin
+server: envoy
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-matched-path: /assets/images/partner/partner-10.svg
+x-vercel-cache: HIT
+x-vercel-id: sfo1::mtd9s-1793259712199-e4e8b22dafdb
+x-xss-protection: 1; mode=block
+content-length: 9296
+x-envoy-upstream-service-time: 31
+

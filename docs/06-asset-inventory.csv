@@ -1,0 +1,14 @@
+Asset ID,Asset Name,File Path,Format,Resolution / Dimensions,Usage / Placement,Source / Status
+A-001,Hero Particle Video,/assets/video/particles.mp4,MP4,1920x1080 (Optimized),Hero Section Background Video,Verified Local (from workspace)
+A-002,Hero Particle Poster,/assets/video/particles-poster.jpg,JPG,1920x1080,Hero Video Fallback & Poster,Verified Local (from workspace)
+A-003,Cruxeo Primary Logo,/assets/brand/cruxeo-logo.svg,SVG,Vector (Responsive),Header Navbar & Footer,Generated Vector Brand Asset
+A-004,Cruxeo Light Monogram,/assets/brand/cruxeo-icon.svg,SVG,Vector (Square),Favicon & Mobile Pill,Generated Vector Brand Asset
+A-005,Creation Connection Motif,/assets/images/connection-glow.png,PNG,1600x900,Trust & Synergy Section,Crafted Visual Composite
+A-006,Ignispectra Drone Show Project,/assets/images/projects/drone-show.jpg,JPG,1200x800,Projects & Services Gallery,Unsplash High-Res Licensed Tech Asset
+A-007,Nexplay AI Photobooth Project,/assets/images/projects/photobooth.jpg,JPG,1200x800,Projects & Services Gallery,Unsplash High-Res Licensed Tech Asset
+A-008,Synapse Touch Kiosk Project,/assets/images/projects/interactive-kiosk.jpg,JPG,1200x800,Projects & Services Gallery,Unsplash High-Res Licensed Tech Asset
+A-009,Lumen Lab Hologram Project,/assets/images/projects/hologram.jpg,JPG,1200x800,Projects & Services Gallery,Unsplash High-Res Licensed Tech Asset
+A-010,Client Partner Logos Marquee,/assets/brand/partners/*.svg,SVG,Vector,Home Social Proof Marquee,Crafted Partner SVGs
+A-011,OpenGraph Social Card,/assets/brand/og-image.jpg,JPG,1200x630,Global SEO & Social Sharing,Generated OpenGraph Banner
+A-012,Team Avatars Collection,/assets/images/team/*.jpg,JPG,400x400,About Page Leadership & Testimonials,Curated High-Res Portraits
+

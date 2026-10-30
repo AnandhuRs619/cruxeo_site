@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+date: Thu, 29 Oct 2026 07:43:14 GMT
+
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 0
+cache-control: public,max-age=31536000,immutable
+content-disposition: inline; filename="cb20b375a5739b57-s.2tuvx2ggl0uf7.woff2"
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com data:; frame-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://api.anthropic.com https://challenges.cloudflare.com https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';
+content-type: font/woff2
+date: Thu, 29 Oct 2026 07:43:15 GMT
+etag: "_next/static/immutable/media/cb20b375a5739b57-s.2tuvx2ggl0uf7.woff2"
+last-modified: Thu, 29 Oct 2026 07:43:15 GMT
+permissions-policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+referrer-policy: strict-origin-when-cross-origin
+server: envoy
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-matched-path: /_next/static/immutable/media/cb20b375a5739b57-s.2tuvx2ggl0uf7.woff2
+x-vercel-cache: MISS
+x-vercel-id: sfo1::fbwqs-1793259795063-6386b4ad83b1
+x-xss-protection: 1; mode=block
+content-length: 5700
+x-envoy-upstream-service-time: 147
+

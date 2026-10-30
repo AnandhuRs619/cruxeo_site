@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+date: Thu, 29 Oct 2026 07:42:55 GMT
+
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 273
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline; filename="ignispectra.webm"
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com data:; frame-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://api.anthropic.com https://challenges.cloudflare.com https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';
+content-type: video/webm
+date: Thu, 29 Oct 2026 07:42:55 GMT
+etag: "b3d29864f0a0a7762d7a83722d84d924"
+last-modified: Thu, 29 Oct 2026 07:38:22 GMT
+permissions-policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+referrer-policy: strict-origin-when-cross-origin
+server: envoy
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-matched-path: /media/divisions/ignispectra.webm
+x-vercel-cache: HIT
+x-vercel-id: sfo1::tsxdq-1793259775621-13a20edf92b8
+x-xss-protection: 1; mode=block
+content-length: 739533
+x-envoy-upstream-service-time: 44
+

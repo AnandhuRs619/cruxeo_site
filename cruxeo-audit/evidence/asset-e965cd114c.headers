@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+date: Thu, 29 Oct 2026 07:42:39 GMT
+
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 0
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline; filename="work-enterprise-ai.webm"
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com data:; frame-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://api.anthropic.com https://challenges.cloudflare.com https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';
+content-type: video/webm
+date: Thu, 29 Oct 2026 07:42:40 GMT
+etag: "5fb8324aa7e7a8b678c5f29715c57f5b"
+last-modified: Thu, 29 Oct 2026 07:42:40 GMT
+permissions-policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+referrer-policy: strict-origin-when-cross-origin
+server: envoy
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-matched-path: /media/boxes/work-enterprise-ai.webm
+x-vercel-cache: MISS
+x-vercel-id: sfo1::7x7qj-1793259759847-6e6538863691
+x-xss-protection: 1; mode=block
+content-length: 436113
+x-envoy-upstream-service-time: 221
+

@@ -1,0 +1,52 @@
+.scroll-stack {
+  position: relative;
+  width: 100%;
+}
+
+.scroll-stack--contained {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.scroll-stack--window {
+  overflow: visible;
+}
+
+.scroll-stack__inner {
+  position: relative;
+  padding-inline: 0;
+}
+
+.scroll-stack__slot {
+  position: sticky;
+}
+
+.scroll-stack-card {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 28rem;
+  border-radius: 28px;
+  background: #08080c;
+  color: #fafafa;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.06),
+    0 -12px 40px -16px rgba(0, 0, 0, 0.6),
+    0 24px 48px -24px rgba(0, 0, 0, 0.7);
+  transform-origin: 50% 0;
+  will-change: transform;
+  overflow: hidden;
+}
+
+.scroll-stack-card__shade {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: #000;
+  opacity: var(--scroll-stack-dim, 0);
+  pointer-events: none;
+  z-index: 30;
+  transition: opacity 0.1s ease;
+}

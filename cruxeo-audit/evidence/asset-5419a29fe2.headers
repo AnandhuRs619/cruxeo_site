@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+date: Thu, 29 Oct 2026 07:41:42 GMT
+
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 216
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline; filename="partner-2.svg"
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com data:; frame-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://api.anthropic.com https://challenges.cloudflare.com https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';
+content-type: image/svg+xml
+date: Thu, 29 Oct 2026 07:41:42 GMT
+etag: "3bfb675e31b81eb794f205a797d2b043"
+last-modified: Thu, 29 Oct 2026 07:38:06 GMT
+permissions-policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+referrer-policy: strict-origin-when-cross-origin
+server: envoy
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-matched-path: /assets/images/partner/partner-2.svg
+x-vercel-cache: HIT
+x-vercel-id: sfo1::hg98c-1793259702639-024f1ce6b1a4
+x-xss-protection: 1; mode=block
+content-length: 1511
+x-envoy-upstream-service-time: 28
+

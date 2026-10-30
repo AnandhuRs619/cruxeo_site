@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 36" fill="none">
+  <!-- Oval with logoipsum inside -->
+  <ellipse cx="60" cy="18" rx="55" ry="14" fill="#64748b" />
+  <text x="60" y="23" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#030712" text-anchor="middle">logoipsum</text>
+</svg>
+

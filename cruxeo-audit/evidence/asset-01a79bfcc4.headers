@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+date: Thu, 29 Oct 2026 07:43:24 GMT
+
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 0
+cache-control: public,max-age=31536000,immutable
+content-disposition: inline; filename="07935285219a259d-s.3j-a226dh71aj.woff2"
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com data:; frame-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://api.anthropic.com https://challenges.cloudflare.com https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';
+content-type: font/woff2
+date: Thu, 29 Oct 2026 07:43:24 GMT
+etag: "_next/static/immutable/media/07935285219a259d-s.3j-a226dh71aj.woff2"
+last-modified: Thu, 29 Oct 2026 07:43:24 GMT
+permissions-policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+referrer-policy: strict-origin-when-cross-origin
+server: envoy
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-matched-path: /_next/static/immutable/media/07935285219a259d-s.3j-a226dh71aj.woff2
+x-vercel-cache: MISS
+x-vercel-id: sfo1::xjwm4-1793259804232-9da6cb2bccdc
+x-xss-protection: 1; mode=block
+content-length: 14900
+x-envoy-upstream-service-time: 153
+

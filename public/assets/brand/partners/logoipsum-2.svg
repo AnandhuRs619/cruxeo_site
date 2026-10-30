@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 36" fill="none">
+  <!-- Bear / fox head mark -->
+  <text x="4" y="23" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#94a3b8">logo</text>
+  <g transform="translate(42, 6)">
+    <path d="M 4 2 L 8 8 L 14 8 L 18 2 L 18 10 C 18 16 14 20 11 20 C 8 20 4 16 4 10 Z" fill="#94a3b8" />
+    <circle cx="8" cy="11" r="1.5" fill="#030712" />
+    <circle cx="14" cy="11" r="1.5" fill="#030712" />
+  </g>
+  <text x="70" y="23" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#94a3b8">ipsum</text>
+</svg>
+

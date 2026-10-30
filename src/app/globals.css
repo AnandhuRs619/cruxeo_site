@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #030712;
+  --foreground: #f8fafc;
+  --brand: #0b5cff;
+  --brand-hover: #0047e0;
+  --brand-text: #5b92ff;
+  --nexplay-accent: #a855f7;
+  --lumen-accent: #00f5d4;
+  --ignispectra-accent: #ffb12b;
+  --synapse-accent: #38b58b;
+  --gradient-nexplay: linear-gradient(90deg, #8b5cf6 0%, #d946ef 100%);
+  --gradient-lumen: linear-gradient(90deg, #00c2ff 0%, #00f5d4 100%);
+  --gradient-ignispectra: linear-gradient(90deg, #e96a16 0%, #ffb12b 100%);
+  --gradient-synapse: linear-gradient(90deg, #009b83 0%, #38b58b 100%);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  selection-background-color: #2563eb;
+  selection-color: #ffffff;
+}
+
+/* Glassmorphism Pill & Surface Utilities */
+.glass-pill {
+  background: rgba(11, 15, 25, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card {
+  background: rgba(11, 15, 25, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Custom Scrollbar for Sleek Tech Aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
+
+/* Scroll Reel Testimonials Character Rise & Exit */
+@keyframes scroll-reel-char-rise {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scroll-reel-exit {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+}
+
+.scroll-reel-char {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(12px);
+  animation: scroll-reel-char-rise 0.3s cubic-bezier(0.2, 0, 0, 1) forwards;
+  will-change: transform, opacity;
+}
+
+.scroll-reel-exit {
+  animation: scroll-reel-exit 0.24s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+

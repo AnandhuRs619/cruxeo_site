@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" fill="none" className="w-full h-auto">
+  <defs>
+    <!-- Central Orb Glows -->
+    <radialGradient id="space_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="30%" stop-color="#2563eb" stop-opacity="0.5" />
+      <stop offset="70%" stop-color="#1e1b4b" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="sphere_surface" cx="42%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="25%" stop-color="#38bdf8" />
+      <stop offset="65%" stop-color="#2563eb" />
+      <stop offset="88%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#0a1329" />
+    </radialGradient>
+
+    <!-- Human Arm Gradients -->
+    <linearGradient id="human_skin_base" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.3" />
+      <stop offset="35%" stop-color="#475569" />
+      <stop offset="70%" stop-color="#64748b" />
+      <stop offset="90%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+
+    <linearGradient id="human_highlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f1f5f9" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#64748b" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Robot Arm Gradients -->
+    <linearGradient id="robot_white_plate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#e2e8f0" />
+      <stop offset="85%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+
+    <linearGradient id="robot_dark_joint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="intense_glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="1400" height="520" fill="#030712" />
+
+  <!-- ================= 1. CONCENTRIC ORBITAL RINGS ================= -->
+  <g transform="translate(700, 260)">
+    <!-- Ring 1 (Inner) -->
+    <circle cx="0" cy="0" r="105" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="2 3" opacity="0.35" />
+    <!-- Ring 2 -->
+    <circle cx="0" cy="0" r="170" stroke="#60a5fa" stroke-width="1" stroke-dasharray="4 6" opacity="0.3" />
+    <!-- Ring 3 -->
+    <circle cx="0" cy="0" r="245" stroke="#818cf8" stroke-width="0.8" stroke-dasharray="3 7" opacity="0.22" />
+    <!-- Ring 4 (Outer) -->
+    <circle cx="0" cy="0" r="330" stroke="#a78bfa" stroke-width="0.6" stroke-dasharray="6 10" opacity="0.15" />
+
+    <!-- Satellite Orbiting Nodes (matching reference) -->
+    <circle cx="74" cy="-74" r="3" fill="#ffffff" filter="drop-shadow(0 0 5px #ffffff)" />
+    <circle cx="-160" cy="-55" r="3.5" fill="#38bdf8" filter="drop-shadow(0 0 6px #38bdf8)" />
+    <circle cx="140" cy="98" r="2.5" fill="#60a5fa" />
+    <circle cx="-230" cy="80" r="3" fill="#38bdf8" />
+    <circle cx="210" cy="-125" r="3.5" fill="#93c5fd" />
+    <circle cx="0" cy="245" r="3" fill="#ffffff" />
+    <circle cx="-320" cy="-75" r="2" fill="#818cf8" />
+    <circle cx="310" cy="110" r="2.5" fill="#a78bfa" />
+  </g>
+
+  <!-- ================= 2. CENTRAL GLOWING SPHERE & CUBE ================= -->
+  <!-- Ambient Radiance Behind Sphere -->
+  <circle cx="700" cy="260" r="190" fill="url(#space_glow)" />
+
+  <!-- Sphere Body -->
+  <circle cx="700" cy="260" r="48" fill="url(#sphere_surface)" filter="url(#intense_glow)" />
+  <circle cx="688" cy="248" r="40" fill="#38bdf8" opacity="0.35" filter="blur(6px)" />
+
+  <!-- Floating 3D Isometric Glass Cube with Monogram Inside (as in reference) -->
+  <g transform="translate(700, 260) scale(0.85)">
+    <!-- Top Face -->
+    <polygon points="0,-22 20,-10 0,2 -20,-10" fill="#93c5fd" fill-opacity="0.75" stroke="#ffffff" stroke-width="1.5" />
+    <!-- Left Face -->
+    <polygon points="-20,-10 0,2 0,26 -20,14" fill="#1d4ed8" fill-opacity="0.8" stroke="#60a5fa" stroke-width="1.2" />
+    <!-- Right Face -->
+    <polygon points="0,2 20,-10 20,14 0,26" fill="#2563eb" fill-opacity="0.85" stroke="#93c5fd" stroke-width="1.2" />
+    <!-- Monogram Glyph 'C' on Cube Face -->
+    <path d="M 6 -3 C 0 -6, -8 -2, -8 6 C -8 14, 0 18, 6 15" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" />
+    <circle cx="0" cy="6" r="2" fill="#38bdf8" />
+  </g>
+
+  <!-- ================= 3. HUMAN ARM (LEFT TO CENTER) ================= -->
+  <g id="human_arm" transform="translate(0, 0)">
+    <!-- Forearm Bulk Silhouette -->
+    <path d="M 0 310 C 120 305, 240 295, 340 285 C 410 278, 470 270, 520 266 C 540 264, 550 262, 575 264 C 590 265, 605 264, 625 264 L 642 263 C 654 262, 658 261, 664 261 C 668 261, 672 262, 675 263 L 678 263 C 679 263, 678 267, 673 268 C 665 270, 652 272, 642 274 C 632 276, 620 286, 610 292 C 595 301, 580 305, 560 306 C 530 307, 480 312, 420 318 C 320 328, 200 338, 0 348 Z" fill="url(#human_skin_base)" />
+
+    <!-- Forearm Top Muscle Highlight / Contour -->
+    <path d="M 0 310 C 130 305, 250 294, 360 282 C 430 274, 500 267, 560 265 C 600 264, 630 263, 665 262" stroke="url(#human_highlight)" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.8" />
+
+    <!-- Hand & Knuckles Anatomy Shadows -->
+    <!-- Middle, Ring, Pinky curled fingers below index -->
+    <path d="M 570 272 C 590 274, 608 278, 622 284 C 630 288, 634 294, 630 299 C 625 304, 616 304, 605 302 C 595 300, 585 294, 575 290 Z" fill="#475569" opacity="0.9" />
+    <path d="M 580 278 C 598 281, 614 286, 625 293 C 630 296, 631 300, 626 303 C 620 306, 610 305, 600 301 Z" fill="#334155" />
+    <!-- Thumb rested underneath index -->
+    <path d="M 540 280 C 560 288, 575 298, 585 308 C 588 312, 584 316, 578 316 C 568 316, 555 306, 542 296 Z" fill="#334155" opacity="0.85" />
+
+    <!-- Index Finger (Extended, reaching toward orb) -->
+    <path d="M 565 265 C 590 264, 615 263, 638 262 C 648 261, 658 261, 668 261 C 674 261, 678 262, 680 263 C 681 264, 681 266, 677 267 C 670 269, 658 271, 646 272 C 635 273, 620 273, 605 273 Z" fill="#94a3b8" />
+    <!-- Finger joint creases -->
+    <line x1="615" y1="263" x2="615" y2="271" stroke="#334155" stroke-width="1.2" opacity="0.6" />
+    <line x1="645" y1="262" x2="645" y2="270" stroke="#334155" stroke-width="1.2" opacity="0.6" />
+    <!-- Fingertip highlight -->
+    <circle cx="680" cy="263" r="2.5" fill="#f8fafc" />
+    <!-- Contact Energy Spark -->
+    <circle cx="682" cy="263" r="3" fill="#38bdf8" filter="drop-shadow(0 0 6px #38bdf8)" />
+  </g>
+
+  <!-- ================= 4. ROBOTIC CYBERNETIC ARM (RIGHT TO CENTER) ================= -->
+  <g id="robot_arm" transform="translate(0, 0)">
+    <!-- Forearm Outer Chassis Shell (Pure White / Light Silver) -->
+    <path d="M 1400 340 C 1280 326, 1160 308, 1040 292 C 990 285, 940 278, 890 274 L 880 273 C 865 271, 850 267, 835 264 L 830 264 C 815 262, 805 262, 790 262 C 770 262, 750 261, 730 261 L 722 261 C 720 261, 718 262, 716 263 C 715 264, 716 266, 720 267 L 730 269 C 740 271, 755 274, 770 278 C 785 282, 800 290, 815 296 C 830 302, 850 308, 880 314 C 940 326, 1020 342, 1120 358 C 1220 374, 1310 388, 1400 398 Z" fill="url(#robot_white_plate)" />
+
+    <!-- Forearm Inset Mechanical Recesses & Dark Vents -->
+    <path d="M 1350 348 C 1250 334, 1150 318, 1060 304 L 1065 318 C 1150 332, 1240 346, 1340 360 Z" fill="url(#robot_dark_joint)" />
+    <!-- Cyan Cybernetic Status Light on Arm -->
+    <rect x="1100" y="312" width="60" height="4" rx="2" fill="#38bdf8" filter="drop-shadow(0 0 5px #38bdf8)" />
+    <circle cx="1085" cy="314" r="3" fill="#38bdf8" />
+
+    <!-- Wrist Joint Segment (Ring & Spherical Actuator) -->
+    <ellipse cx="885" cy="278" rx="14" ry="24" fill="url(#robot_dark_joint)" stroke="#64748b" stroke-width="1.5" />
+    <circle cx="885" cy="278" r="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" />
+
+    <!-- Hand Plate (Sleek angled robotic palm) -->
+    <polygon points="875,268 835,264 810,278 830,296 870,288" fill="url(#robot_white_plate)" stroke="#94a3b8" stroke-width="1" />
+
+    <!-- Curled Lower Robotic Fingers (Thumb, Middle, Pinky) -->
+    <!-- Middle finger actuator -->
+    <path d="M 830 276 L 795 284 L 780 296 L 790 302 L 810 294 Z" fill="#64748b" stroke="#475569" stroke-width="1" />
+    <circle cx="795" cy="284" r="3.5" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8" />
+    <!-- Ring finger actuator -->
+    <path d="M 825 282 L 800 290 L 788 304 L 798 308 L 815 298 Z" fill="#475569" />
+    <circle cx="800" cy="290" r="3" fill="#0f172a" />
+    <!-- Robotic Thumb knuckle -->
+    <path d="M 850 282 L 835 298 L 825 312 L 815 310 L 828 295 Z" fill="#334155" />
+
+    <!-- Index Finger (Multi-segment articulated cybernetic finger pointing at orb) -->
+    <!-- Segment 1 (Proximal) -->
+    <polygon points="835,264 790,262 788,272 830,274" fill="url(#robot_white_plate)" stroke="#94a3b8" stroke-width="1" />
+    <circle cx="790" cy="267" r="4.5" fill="url(#robot_dark_joint)" stroke="#38bdf8" stroke-width="1" />
+    
+    <!-- Segment 2 (Intermediate) -->
+    <polygon points="786,262 750,261 748,270 784,271" fill="url(#robot_white_plate)" stroke="#94a3b8" stroke-width="1" />
+    <circle cx="750" cy="266" r="3.5" fill="url(#robot_dark_joint)" stroke="#38bdf8" stroke-width="1" />
+
+    <!-- Segment 3 (Distal Fingertip with metallic sensor tip) -->
+    <polygon points="748,261 720,261 716,264 722,268 746,269" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+    <circle cx="718" cy="263" r="2.5" fill="#38bdf8" filter="drop-shadow(0 0 6px #38bdf8)" />
+    <!-- High-tech sensor line along finger -->
+    <line x1="724" y1="264" x2="744" y2="264" stroke="#0284c7" stroke-width="1.2" />
+  </g>
+
+  <!-- ================= 5. FINGERTIP INTERACTION ENERGY ARCS ================= -->
+  <!-- Subtle electrical connection between fingertips and orb center -->
+  <line x1="682" y1="263" x2="692" y2="262" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+  <line x1="708" y1="262" x2="718" y2="263" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+  <circle cx="700" cy="260" r="1.5" fill="#ffffff" filter="drop-shadow(0 0 4px #ffffff)" />
+</svg>
+

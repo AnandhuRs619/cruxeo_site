@@ -1,0 +1,15 @@
+url,page_title,page_type,http_status,crawl_status,canonical_url,extraction_notes,final_url
+https://cruxeo.abinschandran.in/,CRUXEO Experience | Event Technology & Shows in Dubai,Homepage,200,Inspected,,Original HTML + page extraction saved; sitemap logical path present,https://cruxeo.abinschandran.in/
+https://cruxeo.abinschandran.in/robots.txt,,Discovery resource,200,Inspected,,robots / XML inspected,https://cruxeo.abinschandran.in/robots.txt
+https://cruxeo.abinschandran.in/sitemap.xml,,Discovery resource,200,Inspected,,robots / XML inspected,https://cruxeo.abinschandran.in/sitemap.xml
+https://cruxeo.abinschandran.in/about,"About CRUXEO Experience | Creative Technology, Dubai",Company / about,200,Inspected,,Original HTML + page extraction saved; sitemap logical path present,https://cruxeo.abinschandran.in/about
+https://cruxeo.abinschandran.in/services,Divisions & Capabilities | CRUXEO Experience Dubai,Service divisions,200,Inspected,,Original HTML + page extraction saved; sitemap logical path present,https://cruxeo.abinschandran.in/services
+https://cruxeo.abinschandran.in/works,CRUXEO Experience | Event Technology & Shows in Dubai,Portfolio listing,200,Inspected,,Original HTML + page extraction saved; sitemap logical path present,https://cruxeo.abinschandran.in/works
+https://cruxeo.abinschandran.in/contact,Contact CRUXEO Experience | Start a Project in Dubai,Contact,200,Inspected,,Original HTML + page extraction saved; sitemap logical path present,https://cruxeo.abinschandran.in/contact
+https://cruxeo.abinschandran.in/privacy,Privacy Policy | CRUXEO Experience Dubai,Legal / privacy,200,Inspected,https://cruxeo.com/privacy,Original HTML + page extraction saved; sitemap logical path not listed,https://cruxeo.abinschandran.in/privacy
+https://cruxeo.abinschandran.in/terms,Terms & Conditions | CRUXEO Experience Dubai,Legal / terms,200,Inspected,https://cruxeo.com/terms,Original HTML + page extraction saved; sitemap logical path not listed,https://cruxeo.abinschandran.in/terms
+https://cruxeo.com,,Sitemap declared URL on other host,Not requested,Outside supplied-host crawl,,Mapped pathname to supplied host for coverage comparison; production host not verified,
+https://cruxeo.com/about,,Sitemap declared URL on other host,Not requested,Outside supplied-host crawl,,Mapped pathname to supplied host for coverage comparison; production host not verified,
+https://cruxeo.com/services,,Sitemap declared URL on other host,Not requested,Outside supplied-host crawl,,Mapped pathname to supplied host for coverage comparison; production host not verified,
+https://cruxeo.com/works,,Sitemap declared URL on other host,Not requested,Outside supplied-host crawl,,Mapped pathname to supplied host for coverage comparison; production host not verified,
+https://cruxeo.com/contact,,Sitemap declared URL on other host,Not requested,Outside supplied-host crawl,,Mapped pathname to supplied host for coverage comparison; production host not verified,

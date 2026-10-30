@@ -1,0 +1,92 @@
+[
+  {
+    "status": "200",
+    "final_url": "https://cruxeo.abinschandran.in/",
+    "bytes": "160703",
+    "seconds": "6.299762",
+    "error": "",
+    "curl_exit": 0,
+    "url": "https://cruxeo.abinschandran.in/",
+    "file": "evidence/home.html"
+  },
+  {
+    "status": "200",
+    "final_url": "https://cruxeo.abinschandran.in/robots.txt",
+    "bytes": "64",
+    "seconds": "4.807547",
+    "error": "",
+    "curl_exit": 0,
+    "url": "https://cruxeo.abinschandran.in/robots.txt",
+    "file": "evidence/robots.txt"
+  },
+  {
+    "status": "200",
+    "final_url": "https://cruxeo.abinschandran.in/sitemap.xml",
+    "bytes": "859",
+    "seconds": "4.795834",
+    "error": "",
+    "curl_exit": 0,
+    "url": "https://cruxeo.abinschandran.in/sitemap.xml",
+    "file": "evidence/sitemap.xml"
+  },
+  {
+    "status": "200",
+    "final_url": "https://cruxeo.abinschandran.in/about",
+    "bytes": "66506",
+    "seconds": "4.432022",
+    "error": "",
+    "curl_exit": 0,
+    "url": "https://cruxeo.abinschandran.in/about",
+    "file": "evidence/about.html"
+  },
+  {
+    "status": "200",
+    "final_url": "https://cruxeo.abinschandran.in/services",
+    "bytes": "119855",
+    "seconds": "4.383880",
+    "error": "",
+    "curl_exit": 0,
+    "url": "https://cruxeo.abinschandran.in/services",
+    "file": "evidence/services.html"
+  },
+  {
+    "status": "200",
+    "final_url": "https://cruxeo.abinschandran.in/works",
+    "bytes": "46432",
+    "seconds": "4.543125",
+    "error": "",
+    "curl_exit": 0,
+    "url": "https://cruxeo.abinschandran.in/works",
+    "file": "evidence/works.html"
+  },
+  {
+    "status": "200",
+    "final_url": "https://cruxeo.abinschandran.in/contact",
+    "bytes": "49291",
+    "seconds": "5.784930",
+    "error": "",
+    "curl_exit": 0,
+    "url": "https://cruxeo.abinschandran.in/contact",
+    "file": "evidence/contact.html"
+  },
+  {
+    "status": "200",
+    "final_url": "https://cruxeo.abinschandran.in/privacy",
+    "bytes": "43144",
+    "seconds": "5.425428",
+    "error": "",
+    "curl_exit": 0,
+    "url": "https://cruxeo.abinschandran.in/privacy",
+    "file": "evidence/privacy.html"
+  },
+  {
+    "status": "200",
+    "final_url": "https://cruxeo.abinschandran.in/terms",
+    "bytes": "41506",
+    "seconds": "5.844087",
+    "error": "",
+    "curl_exit": 0,
+    "url": "https://cruxeo.abinschandran.in/terms",
+    "file": "evidence/terms.html"
+  }
+]

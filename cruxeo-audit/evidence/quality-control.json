@@ -1,0 +1,17 @@
+{
+  "pages": 7,
+  "assets_identified": 76,
+  "assets_downloaded": 75,
+  "public_assets": 74,
+  "screenshot_files": [
+    "services-desktop.jpg",
+    "contact-desktop.jpg",
+    "home-desktop.jpg",
+    "about-desktop.jpg",
+    "works-desktop.jpg"
+  ],
+  "fragment_checks": 48,
+  "missing_fragments": 0,
+  "nonexistent_route_status": "404",
+  "failures": []
+}

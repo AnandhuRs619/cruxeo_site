@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+date: Thu, 29 Oct 2026 07:43:38 GMT
+
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 309
+cache-control: public,max-age=31536000,immutable
+content-disposition: inline; filename="07a39a8a4660cc7c-s.1v5bejj26fx9h.woff2"
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com data:; frame-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://api.anthropic.com https://challenges.cloudflare.com https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';
+content-type: font/woff2
+date: Thu, 29 Oct 2026 07:43:39 GMT
+etag: "_next/static/immutable/media/07a39a8a4660cc7c-s.1v5bejj26fx9h.woff2"
+last-modified: Thu, 29 Oct 2026 07:38:29 GMT
+permissions-policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+referrer-policy: strict-origin-when-cross-origin
+server: envoy
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-matched-path: /_next/static/immutable/media/07a39a8a4660cc7c-s.1v5bejj26fx9h.woff2
+x-vercel-cache: HIT
+x-vercel-id: sfo1::kptn6-1793259818995-2c6aeef3412c
+x-xss-protection: 1; mode=block
+content-length: 23108
+x-envoy-upstream-service-time: 28
+

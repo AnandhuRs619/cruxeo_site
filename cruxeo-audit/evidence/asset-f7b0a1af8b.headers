@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+date: Thu, 29 Oct 2026 07:41:56 GMT
+
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 0
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline; filename="work-aerial-symphony.jpg"
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com data:; frame-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://api.anthropic.com https://challenges.cloudflare.com https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';
+content-type: image/jpeg
+date: Thu, 29 Oct 2026 07:41:57 GMT
+etag: "370d2f49e5e0fd23d0217f3655f36f68"
+last-modified: Thu, 29 Oct 2026 07:41:56 GMT
+permissions-policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+referrer-policy: strict-origin-when-cross-origin
+server: envoy
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-matched-path: /images/ai-generated/work-aerial-symphony.jpg
+x-vercel-cache: MISS
+x-vercel-id: sfo1::9gsbn-1793259716800-8053051ba035
+x-xss-protection: 1; mode=block
+content-length: 1015688
+x-envoy-upstream-service-time: 255
+

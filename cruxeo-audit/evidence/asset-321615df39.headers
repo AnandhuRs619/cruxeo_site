@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+date: Thu, 29 Oct 2026 07:42:34 GMT
+
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 0
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline; filename="work-immersion-led.mp4"
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com data:; frame-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://api.anthropic.com https://challenges.cloudflare.com https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';
+content-type: video/mp4
+date: Thu, 29 Oct 2026 07:42:35 GMT
+etag: "0cbc00472b5148ed8a2f1921f1b50ce0"
+last-modified: Thu, 29 Oct 2026 07:42:35 GMT
+permissions-policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+referrer-policy: strict-origin-when-cross-origin
+server: envoy
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-matched-path: /media/boxes/work-immersion-led.mp4
+x-vercel-cache: MISS
+x-vercel-id: sfo1::tsxdq-1793259754968-3c0ec4b4f57b
+x-xss-protection: 1; mode=block
+content-length: 708557
+x-envoy-upstream-service-time: 226
+

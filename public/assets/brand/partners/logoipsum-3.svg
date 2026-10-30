@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 36" fill="none">
+  <!-- Lightning in circle -->
+  <g transform="translate(4, 4)">
+    <circle cx="14" cy="14" r="13" fill="#94a3b8" />
+    <path d="M 15 5 L 9 15 L 14 15 L 13 23 L 19 13 L 14 13 Z" fill="#030712" />
+  </g>
+  <text x="38" y="23" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#94a3b8">Logoipsum</text>
+</svg>
+

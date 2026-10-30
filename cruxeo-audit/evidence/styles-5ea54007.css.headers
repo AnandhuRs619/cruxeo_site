@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+date: Thu, 29 Oct 2026 07:40:32 GMT
+
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 146
+cache-control: public,max-age=31536000,immutable
+content-disposition: inline; filename="3rmjgjb1b5mmh.css"
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com data:; frame-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://api.anthropic.com https://challenges.cloudflare.com https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';
+content-type: text/css; charset=utf-8
+date: Thu, 29 Oct 2026 07:40:32 GMT
+etag: "_next/static/immutable/chunks/3rmjgjb1b5mmh.css"
+last-modified: Thu, 29 Oct 2026 07:38:05 GMT
+permissions-policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+referrer-policy: strict-origin-when-cross-origin
+server: envoy
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-matched-path: /_next/static/immutable/chunks/3rmjgjb1b5mmh.css
+x-vercel-cache: HIT
+x-vercel-id: sfo1::j5z96-1793259632624-2d6418b62d35
+x-xss-protection: 1; mode=block
+content-length: 48876
+x-envoy-upstream-service-time: 75
+
