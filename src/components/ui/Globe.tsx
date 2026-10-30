@@ -174,7 +174,8 @@ export const Globe: React.FC<GlobeProps> = ({ className = "" }) => {
       const dpr = window.devicePixelRatio || 1;
       const rect = containerRef.current.getBoundingClientRect();
       width = rect.width;
-      height = Math.max(rect.height, 460);
+      const isMobile = width < 640;
+      height = Math.max(rect.height, isMobile ? 320 : 460);
 
       canvas.width = width * dpr;
       canvas.height = height * dpr;
@@ -182,7 +183,7 @@ export const Globe: React.FC<GlobeProps> = ({ className = "" }) => {
       canvas.style.height = `${height}px`;
 
       ctx.scale(dpr, dpr);
-      radius = Math.min(width, height) * 0.43;
+      radius = Math.min(width, height) * (isMobile ? 0.38 : 0.43);
     };
 
     resize();
@@ -399,7 +400,7 @@ export const Globe: React.FC<GlobeProps> = ({ className = "" }) => {
           const pulse = (time * 1.4 + (city.isHQ ? 0 : 0.4)) % 1;
           ctx.beginPath();
           ctx.arc(sx, sy, 3.5 + pulse * 10, 0, Math.PI * 2);
-          ctx.strokeStyle = `rgba(214, 150, 210, ${(1 - pulse) * 0.85})`;
+          ctx.strokeStyle = `rgba(56, 189, 248, ${(1 - pulse) * 0.85})`;
           ctx.lineWidth = 1;
           ctx.stroke();
         }
@@ -425,7 +426,7 @@ export const Globe: React.FC<GlobeProps> = ({ className = "" }) => {
   return (
     <div
       ref={containerRef}
-      className={`relative w-full h-[460px] sm:h-[540px] flex items-center justify-center select-none overflow-hidden bg-transparent ${className}`}
+      className={`relative w-full h-[320px] sm:h-[460px] lg:h-[520px] flex items-center justify-center select-none overflow-hidden bg-transparent ${className}`}
     >
       <canvas ref={canvasRef} className="cursor-grab active:cursor-grabbing" />
 

@@ -117,7 +117,7 @@ export const CinematicReelGrid: React.FC = () => {
           return (
             <div
               key={reel.id}
-              className="group relative rounded-3xl overflow-hidden bg-slate-950 border border-white/10 hover:border-white/30 transition-all duration-500 shadow-2xl flex flex-col justify-between aspect-[9/14] sm:aspect-[9/13]"
+              className="group relative rounded-3xl overflow-hidden bg-slate-950 border border-white/10 hover:border-white/30 transition-all duration-500 shadow-2xl flex flex-col justify-between aspect-[16/11] sm:aspect-[9/13] md:aspect-[9/13]"
               onMouseEnter={() => setActiveReel(reel.id)}
               onMouseLeave={() => setActiveReel(null)}
             >

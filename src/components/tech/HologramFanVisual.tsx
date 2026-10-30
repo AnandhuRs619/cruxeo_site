@@ -18,11 +18,11 @@ export const HologramFanVisual: React.FC = () => {
   }, [rpm]);
 
   return (
-    <div className="relative w-full rounded-2xl bg-slate-950/90 border border-white/10 p-5 overflow-hidden backdrop-blur-xl group">
+    <div className="relative w-full rounded-2xl bg-slate-950/90 border border-white/10 p-4 sm:p-5 overflow-hidden backdrop-blur-xl group">
       {/* Top Header */}
-      <div className="flex items-center justify-between mb-4 border-b border-white/10 pb-3">
+      <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-3 mb-4 border-b border-white/10 pb-3">
         <div className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center">
+          <div className="w-8 h-8 rounded-lg bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center shrink-0">
             <Sparkles className="w-4 h-4 text-[#38bdf8]" />
           </div>
           <div>
@@ -41,12 +41,12 @@ export const HologramFanVisual: React.FC = () => {
         </div>
 
         {/* Object Selector */}
-        <div className="flex items-center gap-1.5 bg-white/[0.04] p-1 rounded-lg border border-white/10">
+        <div className="flex items-center gap-1 bg-white/[0.04] p-1 rounded-lg border border-white/10 overflow-x-auto max-w-full">
           {(["crux", "cube", "falcon"] as const).map((obj) => (
             <button
               key={obj}
               onClick={() => setHologramObject(obj)}
-              className={`px-2.5 py-1 rounded text-[10px] font-mono uppercase tracking-wider transition-all ${
+              className={`px-2 sm:px-2.5 py-1 rounded text-[10px] font-mono uppercase tracking-wider transition-all whitespace-nowrap ${
                 hologramObject === obj
                   ? "bg-cyan-600 text-white font-bold shadow-md shadow-cyan-500/30"
                   : "text-slate-400 hover:text-white"

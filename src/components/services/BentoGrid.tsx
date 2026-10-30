@@ -187,7 +187,7 @@ export const BentoGrid: React.FC = () => {
                 />
 
                 {/* 2-Column Responsive Card Content */}
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center p-6 sm:p-8 lg:p-10 relative z-10">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center p-4 sm:p-8 lg:p-10 relative z-10">
                   {/* Left Column: Details & Capabilities */}
                   <div className="lg:col-span-7 flex flex-col justify-between space-y-5">
                     <div>

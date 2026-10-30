@@ -24,11 +24,11 @@ export const RoboticArmVisual: React.FC = () => {
   }, [mode]);
 
   return (
-    <div className="relative w-full rounded-2xl bg-slate-950/90 border border-white/10 p-5 overflow-hidden backdrop-blur-xl group">
+    <div className="relative w-full rounded-2xl bg-slate-950/90 border border-white/10 p-4 sm:p-5 overflow-hidden backdrop-blur-xl group">
       {/* Top Telemetry Header */}
-      <div className="flex items-center justify-between mb-4 border-b border-white/10 pb-3">
+      <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-3 mb-4 border-b border-white/10 pb-3">
         <div className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-blue-500/10 border border-blue-500/30 flex items-center justify-center">
+          <div className="w-8 h-8 rounded-lg bg-blue-500/10 border border-blue-500/30 flex items-center justify-center shrink-0">
             <Bot className="w-4 h-4 text-[#38bdf8]" />
           </div>
           <div>
@@ -47,12 +47,12 @@ export const RoboticArmVisual: React.FC = () => {
         </div>
 
         {/* Mode Selector */}
-        <div className="flex items-center gap-1.5 bg-white/[0.04] p-1 rounded-lg border border-white/10">
+        <div className="flex items-center gap-1 bg-white/[0.04] p-1 rounded-lg border border-white/10 overflow-x-auto max-w-full">
           {(["highspeed", "cinematic", "motion_rig"] as const).map((m) => (
             <button
               key={m}
               onClick={() => setMode(m)}
-              className={`px-2.5 py-1 rounded text-[10px] font-mono uppercase tracking-wider transition-all ${
+              className={`px-2 sm:px-2.5 py-1 rounded text-[10px] font-mono uppercase tracking-wider transition-all whitespace-nowrap ${
                 mode === m
                   ? "bg-blue-600 text-white font-bold shadow-md shadow-blue-500/30"
                   : "text-slate-400 hover:text-white"

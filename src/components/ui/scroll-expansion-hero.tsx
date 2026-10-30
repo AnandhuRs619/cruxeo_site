@@ -215,7 +215,14 @@ export const ScrollExpandMedia = ({
           <div className="container mx-auto flex flex-col items-center justify-start relative z-10">
             <div className="flex flex-col items-center justify-center w-full h-[100dvh] relative">
               <div
-                className="absolute z-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-none rounded-2xl overflow-hidden"
+                onClick={() => {
+                  if (scrollProgress < 1) {
+                    setScrollProgress(1);
+                    progressRef.current = 1;
+                    setShowContent(true);
+                  }
+                }}
+                className="absolute z-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-none rounded-2xl overflow-hidden cursor-pointer"
                 style={{
                   width: `${mediaWidth}px`,
                   height: `${mediaHeight}px`,

@@ -76,9 +76,9 @@ export const ProjectGallery: React.FC = () => {
 
   return (
     <div className="space-y-16">
-      {/* Interactive Division Navigation Bar */}
+      {/* Interactive Division Navigation Bar with Scrollable Paging on Mobile */}
       <div className="relative">
-        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 p-2 rounded-3xl bg-slate-950/70 backdrop-blur-2xl border border-white/10 max-w-4xl mx-auto shadow-2xl">
+        <div className="flex overflow-x-auto sm:flex-wrap items-center justify-start sm:justify-center gap-2 p-1.5 sm:p-2 rounded-2xl sm:rounded-3xl bg-slate-950/70 backdrop-blur-2xl border border-white/10 max-w-4xl mx-auto shadow-2xl no-scrollbar">
           {FILTER_TABS.map((tab) => {
             const isActive = activeTabId === tab.id;
             const count =
@@ -96,7 +96,7 @@ export const ProjectGallery: React.FC = () => {
                     if (match) setSpotlightProject(match);
                   }
                 }}
-                className={`relative px-4 py-2.5 rounded-2xl text-left transition-all duration-300 flex items-center gap-2.5 group overflow-hidden ${
+                className={`relative px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-xl sm:rounded-2xl text-left transition-all duration-300 flex items-center gap-2 sm:gap-2.5 group overflow-hidden shrink-0 ${
                   isActive
                     ? "bg-slate-900/90 text-white shadow-lg"
                     : "text-slate-400 hover:text-white hover:bg-white/[0.04]"
@@ -139,7 +139,7 @@ export const ProjectGallery: React.FC = () => {
       </div>
 
       {/* Featured Spotlight Cinema Showcase Card */}
-      <div className="relative rounded-[32px] overflow-hidden bg-slate-950/80 border border-white/15 backdrop-blur-3xl shadow-2xl">
+      <div className="relative rounded-[24px] sm:rounded-[32px] overflow-hidden bg-slate-950/80 border border-white/15 backdrop-blur-3xl shadow-2xl">
         {/* Top Gradient Division Line */}
         <div
           className="absolute top-0 left-0 right-0 h-1 z-20 transition-all duration-700"
@@ -151,7 +151,7 @@ export const ProjectGallery: React.FC = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">
           {/* Left Column: 16:9 Video Cinema Player */}
-          <div className="lg:col-span-7 relative min-h-[340px] sm:min-h-[440px] lg:min-h-[500px] bg-black overflow-hidden group">
+          <div className="lg:col-span-7 relative min-h-[260px] sm:min-h-[440px] lg:min-h-[500px] bg-black overflow-hidden group">
             {spotlightProject.video ? (
               <video
                 key={spotlightProject.video}

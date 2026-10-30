@@ -18,7 +18,7 @@ const VISUAL_ASSETS: VisualAsset[] = [
     alt: "Dubai Laser Skyline Production",
     category: "SKYLINE SPECTACLE",
     caption: "High-power laser matrix over Dubai skyline",
-    span: "col-span-1 md:col-span-2 row-span-2",
+    span: "col-span-1 md:col-span-2 md:row-span-2",
   },
   {
     src: "/assets/images/cruxeo/service-11.jpg",
@@ -52,9 +52,9 @@ const VISUAL_ASSETS: VisualAsset[] = [
 
 export const VisualShowcaseGrid: React.FC = () => {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10" id="visual-staging">
+    <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10" id="visual-staging">
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-6">
+      <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4 sm:gap-6">
         <div>
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono uppercase tracking-widest text-[#38bdf8] bg-blue-500/10 border border-blue-500/25 mb-3">
             <Camera className="w-3.5 h-3.5 text-[#38bdf8]" />
@@ -70,7 +70,7 @@ export const VisualShowcaseGrid: React.FC = () => {
       </div>
 
       {/* Bento Image Matrix */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[220px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 auto-rows-[200px] sm:auto-rows-[220px]">
         {VISUAL_ASSETS.map((item, idx) => (
           <div
             key={idx}

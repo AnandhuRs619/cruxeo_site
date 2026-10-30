@@ -40,11 +40,11 @@ export const RadarLidarVisual: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative w-full rounded-2xl bg-slate-950/90 border border-white/10 p-5 overflow-hidden backdrop-blur-xl group">
+    <div className="relative w-full rounded-2xl bg-slate-950/90 border border-white/10 p-4 sm:p-5 overflow-hidden backdrop-blur-xl group">
       {/* Top Header */}
-      <div className="flex items-center justify-between mb-4 border-b border-white/10 pb-3">
+      <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-3 mb-4 border-b border-white/10 pb-3">
         <div className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center">
+          <div className="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center shrink-0">
             <Radio className="w-4 h-4 text-emerald-400" />
           </div>
           <div>

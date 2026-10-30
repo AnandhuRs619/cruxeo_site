@@ -88,9 +88,9 @@ export default function HomePage() {
       </section>
 
       {/* 8. WebGL Liquid Refraction Gallery Display */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-background relative overflow-hidden border-t border-white/5">
+      <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 bg-background relative overflow-hidden border-t border-white/5">
         <div className="max-w-7xl mx-auto relative z-10">
-          <div className="relative w-full h-[520px] sm:h-[600px] rounded-3xl bg-slate-950/80 border border-white/10 backdrop-blur-xl p-2 sm:p-4 shadow-2xl overflow-hidden">
+          <div className="relative w-full h-[380px] sm:h-[500px] lg:h-[600px] rounded-3xl bg-slate-950/80 border border-white/10 backdrop-blur-xl p-2 sm:p-4 shadow-2xl overflow-hidden">
             <FlexCarousel
               preset="liquid"
               intro="rise"

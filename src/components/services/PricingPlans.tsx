@@ -20,13 +20,13 @@ export const PricingPlans: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 items-stretch">
           {pricingPlansData.map((plan) => (
             <div
               key={plan.id}
-              className={`rounded-[28px] p-8 flex flex-col justify-between relative backdrop-blur-xl transition-all duration-300 ${
+              className={`rounded-[24px] sm:rounded-[28px] p-5 sm:p-8 flex flex-col justify-between relative backdrop-blur-xl transition-all duration-300 ${
                 plan.isPopular
-                  ? "bg-slate-900/90 border-2 border-blue-500 shadow-glow-lg -translate-y-2"
+                  ? "bg-slate-900/90 border-2 border-blue-500 shadow-glow-lg lg:-translate-y-2"
                   : "bg-slate-950/80 border border-white/10 hover:border-white/20"
               }`}
             >

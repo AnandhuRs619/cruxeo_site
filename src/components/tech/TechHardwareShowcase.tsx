@@ -133,7 +133,7 @@ export const TechHardwareShowcase: React.FC = () => {
       </div>
 
       {/* Main Interactive Stage Display */}
-      <div className="relative rounded-3xl bg-slate-950/80 border border-white/10 backdrop-blur-xl p-3 sm:p-6 shadow-2xl overflow-hidden min-h-[460px]">
+      <div className="relative rounded-3xl bg-slate-950/80 border border-white/10 backdrop-blur-xl p-2 sm:p-6 shadow-2xl overflow-hidden min-h-[380px] sm:min-h-[440px]">
         {activeTab === "drones" && (
           <div className="w-full">
             <DroneSwarmVisual />
@@ -160,36 +160,36 @@ export const TechHardwareShowcase: React.FC = () => {
       </div>
 
       {/* Quick Verified Hardware Capabilities Strip */}
-      <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4">
-        <div className="flex items-center gap-3 p-3.5 rounded-2xl bg-slate-900/50 border border-white/10">
-          <Shield className="w-5 h-5 text-blue-400 shrink-0" />
-          <div className="text-xs">
-            <span className="font-bold text-white block">GCAA & DCAA</span>
-            <span className="text-slate-400">Airspace Clearances</span>
+      <div className="mt-6 sm:mt-8 grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-4">
+        <div className="flex items-center gap-2.5 sm:gap-3 p-3 sm:p-3.5 rounded-2xl bg-slate-900/50 border border-white/10">
+          <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400 shrink-0" />
+          <div className="text-[11px] sm:text-xs">
+            <span className="font-bold text-white block truncate">GCAA & DCAA</span>
+            <span className="text-slate-400 truncate block">Airspace Clear</span>
           </div>
         </div>
 
-        <div className="flex items-center gap-3 p-3.5 rounded-2xl bg-slate-900/50 border border-white/10">
-          <Layers className="w-5 h-5 text-cyan-400 shrink-0" />
-          <div className="text-xs">
-            <span className="font-bold text-white block">Dual Novastar</span>
-            <span className="text-slate-400">Redundant Processors</span>
+        <div className="flex items-center gap-2.5 sm:gap-3 p-3 sm:p-3.5 rounded-2xl bg-slate-900/50 border border-white/10">
+          <Layers className="w-4 h-4 sm:w-5 sm:h-5 text-cyan-400 shrink-0" />
+          <div className="text-[11px] sm:text-xs">
+            <span className="font-bold text-white block truncate">Dual Novastar</span>
+            <span className="text-slate-400 truncate block">Redundant Proc</span>
           </div>
         </div>
 
-        <div className="flex items-center gap-3 p-3.5 rounded-2xl bg-slate-900/50 border border-white/10">
-          <Bot className="w-5 h-5 text-blue-400 shrink-0" />
-          <div className="text-xs">
-            <span className="font-bold text-white block">1000 FPS Rig</span>
-            <span className="text-slate-400">High-Speed Motion</span>
+        <div className="flex items-center gap-2.5 sm:gap-3 p-3 sm:p-3.5 rounded-2xl bg-slate-900/50 border border-white/10">
+          <Bot className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400 shrink-0" />
+          <div className="text-[11px] sm:text-xs">
+            <span className="font-bold text-white block truncate">1000 FPS Rig</span>
+            <span className="text-slate-400 truncate block">High-Speed Kin</span>
           </div>
         </div>
 
-        <div className="flex items-center gap-3 p-3.5 rounded-2xl bg-slate-900/50 border border-white/10">
-          <Radio className="w-5 h-5 text-violet-400 shrink-0" />
-          <div className="text-xs">
-            <span className="font-bold text-white block">&lt; 15ms Latency</span>
-            <span className="text-slate-400">Real-Time Interaction</span>
+        <div className="flex items-center gap-2.5 sm:gap-3 p-3.5 rounded-2xl bg-slate-900/50 border border-white/10">
+          <Radio className="w-4 h-4 sm:w-5 sm:h-5 text-violet-400 shrink-0" />
+          <div className="text-[11px] sm:text-xs">
+            <span className="font-bold text-white block truncate">&lt; 15ms Latency</span>
+            <span className="text-slate-400 truncate block">Real-Time Touch</span>
           </div>
         </div>
       </div>

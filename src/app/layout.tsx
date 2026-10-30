@@ -100,17 +100,17 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className="dark scroll-smooth">
+    <html lang="en" className="dark scroll-smooth overflow-x-hidden">
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="font-sans bg-background text-slate-100 antialiased selection:bg-brand-blue selection:text-white">
+      <body className="font-sans bg-background text-slate-100 antialiased selection:bg-brand-blue selection:text-white overflow-x-hidden w-full">
         <div id="top" />
         <Navbar />
-        <main className="min-h-screen">{children}</main>
+        <main className="min-h-screen overflow-x-hidden w-full">{children}</main>
         <Footer />
       </body>
     </html>
