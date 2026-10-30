@@ -233,12 +233,26 @@ export const DroneSwarmVisual: React.FC = () => {
     setMousePos((prev) => ({ ...prev, active: false }));
   };
 
+  const handleTouchMove = (e: React.TouchEvent<HTMLDivElement>) => {
+    if (!e.touches[0]) return;
+    const rect = e.currentTarget.getBoundingClientRect();
+    setMousePos({
+      x: e.touches[0].clientX - rect.left,
+      y: e.touches[0].clientY - rect.top,
+      active: true,
+    });
+  };
+
+  const handleTouchEnd = () => {
+    setMousePos((prev) => ({ ...prev, active: false }));
+  };
+
   return (
-    <div className="relative w-full rounded-2xl bg-slate-950/90 border border-white/10 p-5 overflow-hidden backdrop-blur-xl group">
+    <div className="relative w-full rounded-2xl bg-slate-950/90 border border-white/10 p-4 sm:p-5 overflow-hidden backdrop-blur-xl group">
       {/* Top Telemetry Header */}
-      <div className="flex items-center justify-between mb-4 border-b border-white/10 pb-3">
+      <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-3 mb-4 border-b border-white/10 pb-3">
         <div className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-blue-500/10 border border-blue-500/30 flex items-center justify-center">
+          <div className="w-8 h-8 rounded-lg bg-blue-500/10 border border-blue-500/30 flex items-center justify-center shrink-0">
             <Plane className="w-4 h-4 text-[#38bdf8]" />
           </div>
           <div>
@@ -247,7 +261,7 @@ export const DroneSwarmVisual: React.FC = () => {
                 AUTONOMOUS SWARM · CRX-UAV
               </span>
               <span className="px-1.5 py-0.5 rounded text-[10px] font-mono bg-emerald-500/10 border border-emerald-500/30 text-emerald-400">
-                1,200 UAVs SYNCED
+                1,200 UAVs
               </span>
             </div>
             <span className="text-[11px] font-mono text-slate-400">
@@ -257,12 +271,12 @@ export const DroneSwarmVisual: React.FC = () => {
         </div>
 
         {/* Formation Selector */}
-        <div className="flex items-center gap-1.5 bg-white/[0.04] p-1 rounded-lg border border-white/10">
+        <div className="flex items-center gap-1 bg-white/[0.04] p-1 rounded-lg border border-white/10 overflow-x-auto max-w-full">
           {(["falcon", "helix", "crux", "vortex"] as const).map((m) => (
             <button
               key={m}
               onClick={() => setFormation(m)}
-              className={`px-2.5 py-1 rounded text-[10px] font-mono uppercase tracking-wider transition-all ${
+              className={`px-2 sm:px-2.5 py-1 rounded text-[10px] font-mono uppercase tracking-wider transition-all whitespace-nowrap ${
                 formation === m
                   ? "bg-blue-600 text-white font-bold shadow-md shadow-blue-500/30"
                   : "text-slate-400 hover:text-white"
@@ -279,22 +293,24 @@ export const DroneSwarmVisual: React.FC = () => {
         ref={containerRef}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
-        className="relative w-full h-64 sm:h-72 bg-gradient-to-b from-slate-950 via-slate-900/60 to-slate-950 rounded-xl border border-white/5 overflow-hidden flex items-center justify-center cursor-crosshair"
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+        className="relative w-full h-60 sm:h-72 bg-gradient-to-b from-slate-950 via-slate-900/60 to-slate-950 rounded-xl border border-white/5 overflow-hidden flex items-center justify-center cursor-crosshair touch-none"
       >
         <canvas ref={canvasRef} className="w-full h-full block" />
 
         {/* HUD Overlay Badges */}
-        <div className="absolute top-3 left-3 pointer-events-none">
-          <div className="flex items-center gap-1.5 px-2 py-0.5 rounded bg-black/60 border border-white/10 text-[10px] font-mono text-cyan-300 backdrop-blur-sm">
-            <Crosshair className="w-3 h-3 text-[#38bdf8]" />
-            <span>RTK FIX: ±1.2cm · ALTITUDE: 180M · GCAA AIRSPACE CLEAR</span>
+        <div className="absolute top-2.5 left-2.5 pointer-events-none max-w-[85%]">
+          <div className="flex items-center gap-1.5 px-2 py-0.5 rounded bg-black/60 border border-white/10 text-[9px] sm:text-[10px] font-mono text-cyan-300 backdrop-blur-sm truncate">
+            <Crosshair className="w-3 h-3 text-[#38bdf8] shrink-0" />
+            <span className="truncate">RTK FIX: ±1.2cm · ALT: 180M · GCAA CLEAR</span>
           </div>
         </div>
 
-        <div className="absolute bottom-3 right-3 pointer-events-none">
-          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-blue-500/20 border border-blue-500/40 text-[10px] font-mono text-blue-200 backdrop-blur-md">
+        <div className="absolute bottom-2.5 right-2.5 pointer-events-none">
+          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-blue-500/20 border border-blue-500/40 text-[9px] sm:text-[10px] font-mono text-blue-200 backdrop-blur-md">
             <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-ping" />
-            <span>INTERACTIVE SWARM · MOVE MOUSE</span>
+            <span>DRAG / TOUCH SWARM</span>
           </div>
         </div>
       </div>
