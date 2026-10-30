@@ -3,36 +3,56 @@
 @tailwind utilities;
 
 :root {
-  --background: #030712;
+  /* 3 Common Tone Foundations */
+  --obsidian-base: #030712;
+  --surface-glass: rgba(11, 15, 25, 0.75);
   --foreground: #f8fafc;
-  --brand: #0b5cff;
-  --brand-hover: #0047e0;
-  --brand-text: #5b92ff;
-  --nexplay-accent: #a855f7;
-  --lumen-accent: #00f5d4;
-  --ignispectra-accent: #ffb12b;
-  --synapse-accent: #38b58b;
-  --gradient-nexplay: linear-gradient(90deg, #8b5cf6 0%, #d946ef 100%);
-  --gradient-lumen: linear-gradient(90deg, #00c2ff 0%, #00f5d4 100%);
-  --gradient-ignispectra: linear-gradient(90deg, #e96a16 0%, #ffb12b 100%);
-  --gradient-synapse: linear-gradient(90deg, #009b83 0%, #38b58b 100%);
+  --foreground-muted: #94a3b8;
+
+  /* Primary Brand Accent: Cruxeo Logo Blue */
+  --brand-blue: #0b5cff;
+  --brand-blue-hover: #0047e0;
+  --brand-blue-light: #38bdf8;
+  --brand-blue-glow: rgba(11, 92, 255, 0.4);
+
+  /* Secondary Depth Tone: Cruxeo Logo Violet */
+  --brand-violet: #7c3aed;
+  --brand-violet-glow: rgba(124, 58, 237, 0.3);
+
+  /* Semantic Division Color Accents (Used ONLY for technical badges/tags) */
+  --div-ignispectra: #ffb12b;
+  --div-lumen: #38bdf8;
+  --div-nexplay: #a855f7;
+  --div-synapse: #38b58b;
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  background: var(--obsidian-base);
+  font-family: var(--font-inter, "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
   overflow-x: hidden;
-  selection-background-color: #2563eb;
+  selection-background-color: var(--brand-blue);
   selection-color: #ffffff;
 }
 
-/* Glassmorphism Pill & Surface Utilities */
+/* Standardized Glassmorphism Surfaces */
+.glass-surface {
+  background: rgba(11, 15, 25, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-surface-hover:hover {
+  border-color: rgba(59, 130, 246, 0.35);
+  box-shadow: 0 0 35px -10px rgba(11, 92, 255, 0.25);
+}
+
 .glass-pill {
   background: rgba(11, 15, 25, 0.7);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .glass-card {
@@ -44,17 +64,17 @@ body {
 
 /* Custom Scrollbar for Sleek Tech Aesthetic */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 7px;
 }
 ::-webkit-scrollbar-track {
   background: #030712;
 }
 ::-webkit-scrollbar-thumb {
   background: #1e293b;
-  border-radius: 4px;
+  border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #3b82f6;
+  background: #2563eb;
 }
 
 /* Scroll Reel Testimonials Character Rise & Exit */
@@ -87,4 +107,3 @@ body {
 .scroll-reel-exit {
   animation: scroll-reel-exit 0.24s cubic-bezier(0.65, 0, 0.35, 1) forwards;
 }
-

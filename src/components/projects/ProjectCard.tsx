@@ -11,19 +11,19 @@ interface ProjectCardProps {
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
-  const accent = project.divisionAccent || "#00f5d4";
+  const accent = project.divisionAccent || "#38bdf8";
 
   // Quad-division color gradients
   const divisionGradients: Record<string, string> = {
-    IGNISPECTRA: "linear-gradient(90deg, #e96a16 0%, #ffb12b 100%)",
-    "LUMEN LAB": "linear-gradient(90deg, #00c2ff 0%, #00f5d4 100%)",
-    NEXPLAY: "linear-gradient(90deg, #8b5cf6 0%, #d946ef 100%)",
-    SYNAPSE: "linear-gradient(90deg, #009b83 0%, #38b58b 100%)",
+    IGNISPECTRA: "linear-gradient(90deg, #0b5cff 0%, #38bdf8 100%)",
+    "LUMEN LAB": "linear-gradient(90deg, #0b5cff 0%, #60a5fa 100%)",
+    NEXPLAY: "linear-gradient(90deg, #7c3aed 0%, #38bdf8 100%)",
+    SYNAPSE: "linear-gradient(90deg, #2563eb 0%, #7c3aed 100%)",
   };
 
   const gradient =
     divisionGradients[project.division || ""] ||
-    "linear-gradient(90deg, #00f5d4, #a855f7)";
+    "linear-gradient(90deg, #0b5cff, #7c3aed)";
 
   return (
     <div

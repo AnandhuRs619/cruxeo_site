@@ -147,17 +147,17 @@ export const Footer: React.FC = () => {
             </h4>
             <div className="space-y-3 text-xs leading-relaxed">
               <div className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 text-brand-cyan shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 text-blue-400 shrink-0 mt-0.5" />
                 <span>Dubai Silicon Oasis & Business Bay, Dubai, UAE</span>
               </div>
               <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-brand-cyan shrink-0" />
+                <Phone className="w-4 h-4 text-blue-400 shrink-0" />
                 <a href={`tel:${companyConfig.phone}`} className="hover:text-white">
                   {companyConfig.phone}
                 </a>
               </div>
               <div className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-brand-cyan shrink-0" />
+                <Mail className="w-4 h-4 text-blue-400 shrink-0" />
                 <a href={`mailto:${companyConfig.email}`} className="hover:text-white">
                   {companyConfig.email}
                 </a>

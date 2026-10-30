@@ -45,13 +45,13 @@ export const CruxeoXMark: React.FC<{ className?: string; size?: number }> = ({
   >
     <defs>
       <linearGradient id="crux_flow_grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stopColor="#00f5d4" />
+        <stop offset="0%" stopColor="#38bdf8" />
         <stop offset="45%" stopColor="#a855f7" />
         <stop offset="100%" stopColor="#ffb12b" />
       </linearGradient>
       <linearGradient id="crux_flow_grad2" x1="100%" y1="0%" x2="0%" y2="100%">
         <stop offset="0%" stopColor="#38b58b" />
-        <stop offset="50%" stopColor="#00f5d4" />
+        <stop offset="50%" stopColor="#38bdf8" />
         <stop offset="100%" stopColor="#a855f7" />
       </linearGradient>
       <filter id="crux_flow_glow" x="-30%" y="-30%" width="160%" height="160%">
@@ -79,7 +79,7 @@ export const CruxeoXMark: React.FC<{ className?: string; size?: number }> = ({
         fill="#ffffff"
         opacity="0.95"
       />
-      <circle cx="32" cy="32" r="3" fill="#00f5d4" />
+      <circle cx="32" cy="32" r="3" fill="#38bdf8" />
     </g>
   </svg>
 );
@@ -212,7 +212,7 @@ export const CenterFlow: React.FC<CenterFlowProps> = ({
               className="absolute inset-[-100%] center-flow-conic-border opacity-70"
               style={{
                 background:
-                  "conic-gradient(from 0deg, #a855f7, #00f5d4, #ffb12b, #38b58b, #a855f7)",
+                  "conic-gradient(from 0deg, #a855f7, #38bdf8, #ffb12b, #38b58b, #a855f7)",
               }}
             />
 
@@ -359,7 +359,7 @@ export const CenterFlow: React.FC<CenterFlowProps> = ({
             className="absolute inset-[-100%] center-flow-conic-border opacity-70"
             style={{
               background:
-                "conic-gradient(from 0deg, #a855f7, #00f5d4, #ffb12b, #38b58b, #a855f7)",
+                "conic-gradient(from 0deg, #a855f7, #38bdf8, #ffb12b, #38b58b, #a855f7)",
             }}
           />
           <div className="relative w-28 h-28 rounded-full bg-slate-950/95 border border-white/20 backdrop-blur-2xl flex flex-col items-center justify-center p-2 text-center">

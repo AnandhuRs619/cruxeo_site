@@ -21,12 +21,12 @@ export interface GlobeProps {
   className?: string;
 }
 
-// Lavender-Pink Arc color tokens matching the reference visual
-const ARC_COLOR = "rgba(206, 142, 196, 0.88)"; // #ce8ec4 soft lavender-pink
-const ARC_GLOW_COLOR = "rgba(214, 150, 210, 0.45)";
+// Unified Cruxeo Logo Blue & Violet Arc color tokens
+const ARC_COLOR = "rgba(56, 189, 248, 0.88)"; // #38bdf8 light logo blue
+const ARC_GLOW_COLOR = "rgba(11, 92, 255, 0.45)"; // #0b5cff logo core blue
 const ARC_PULSE_COLOR = "#ffffff";
-const PIN_COLOR = "#ce8ec4";
-const PIN_PULSE_RING = "rgba(214, 150, 210, 0.85)";
+const PIN_COLOR = "#38bdf8";
+const PIN_PULSE_RING = "rgba(11, 92, 255, 0.85)";
 
 const DUBAI_HQ: CityMarker = {
   name: "Dubai",
@@ -431,13 +431,13 @@ export const Globe: React.FC<GlobeProps> = ({ className = "" }) => {
 
       {/* Minimalist Interactive Pill */}
       <div className="absolute top-4 left-4 flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-950/80 backdrop-blur-md border border-white/10 text-[11px] text-slate-300 pointer-events-none">
-        <span className="w-2 h-2 rounded-full bg-[#ce8ec4] animate-pulse" />
+        <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
         <span className="font-mono font-medium">Global Network · Drag to Rotate</span>
       </div>
 
       {/* Bottom Global Hub Labels */}
       <div className="absolute bottom-4 left-4 right-4 flex flex-wrap items-center justify-center gap-1.5 pointer-events-none">
-        <span className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-[#ce8ec4]/20 text-[#e9bfe2] border border-[#ce8ec4]/50 font-bold">
+        <span className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-blue-500/20 text-blue-400 border border-blue-500/50 font-bold">
           Dubai (HQ)
         </span>
         <span className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-white/5 text-slate-300 border border-white/10">

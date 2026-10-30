@@ -7,13 +7,13 @@ export default function NotFound() {
   return (
     <div className="min-h-[85vh] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 text-center bg-background relative overflow-hidden">
       {/* Background ambient lighting */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-brand-blue/15 blur-[140px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-blue-600/15 blur-[140px] pointer-events-none" />
 
       <div className="relative z-10 max-w-xl mx-auto">
-        <span className="text-xs font-semibold uppercase tracking-widest text-brand-cyan mb-4 block">
+        <span className="text-xs font-mono uppercase tracking-widest text-blue-400 mb-4 block">
           404 — Coordinate Void
         </span>
-        <h1 className="text-6xl sm:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-500 mb-6">
+        <h1 className="text-6xl sm:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400 mb-6">
           404
         </h1>
         <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">

@@ -25,7 +25,7 @@ export default function GlobalError({
           </div>
           <button
             onClick={() => reset()}
-            className="px-6 py-2.5 rounded-xl bg-[#00f5d4] text-[#030712] font-bold text-sm"
+            className="px-6 py-2.5 rounded-xl bg-[#38bdf8] text-[#030712] font-bold text-sm"
           >
             Recover Session
           </button>

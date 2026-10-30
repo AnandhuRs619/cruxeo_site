@@ -31,6 +31,8 @@ export interface SpecularButtonProps {
   className?: string;
   type?: "button" | "submit" | "reset";
   href?: string;
+  target?: string;
+  rel?: string;
   style?: React.CSSProperties;
   starColor?: string;
   trailColor?: string;
@@ -78,11 +80,11 @@ export const SpecularButton: React.FC<SpecularButtonProps> = ({
 
   // Variant color definitions
   const isPrimary = variant === "primary";
-  const finalTint = tint ?? (isPrimary ? "#2563eb" : "#0f172a");
-  const finalTintOpacity = tintOpacity ?? (isPrimary ? 0.9 : 0.65);
+  const finalTint = tint ?? (isPrimary ? "#0b5cff" : "#0f172a");
+  const finalTintOpacity = tintOpacity ?? (isPrimary ? 0.95 : 0.65);
   const finalTextColor = textColor ?? "#ffffff";
-  const finalLineColor = lineColor ?? (isPrimary ? "#93c5fd" : "#ffffff");
-  const finalBaseColor = baseColor ?? (isPrimary ? "rgba(37,99,235,0.4)" : "rgba(255,255,255,0.12)");
+  const finalLineColor = lineColor ?? (isPrimary ? "#ffffff" : "#38bdf8");
+  const finalBaseColor = baseColor ?? (isPrimary ? "rgba(11, 92, 255, 0.45)" : "rgba(255, 255, 255, 0.12)");
 
   // Handle global proximity pointer move for realistic magnetic rim lighting
   const handlePointerMove = useCallback(
@@ -153,16 +155,16 @@ export const SpecularButton: React.FC<SpecularButtonProps> = ({
     "--text-color": finalTextColor,
     "--line-glow-color": finalLineColor,
     "--line-base-color": finalBaseColor,
-    "--spot-color": isPrimary ? "rgba(96, 165, 250, 0.35)" : "rgba(255, 255, 255, 0.22)",
+    "--spot-color": isPrimary ? "rgba(56, 189, 248, 0.4)" : "rgba(255, 255, 255, 0.22)",
     "--border-thickness": `${thickness}px`,
     backgroundColor: finalTint,
     background: isPrimary
-      ? `linear-gradient(180deg, rgba(37,99,235,${finalTintOpacity}) 0%, rgba(29,78,216,${finalTintOpacity + 0.05}) 100%)`
+      ? `linear-gradient(180deg, rgba(11,92,255,${finalTintOpacity}) 0%, rgba(0,71,224,${finalTintOpacity}) 100%)`
       : `linear-gradient(180deg, rgba(255,255,255,${finalTintOpacity * 0.15}) 0%, rgba(15,23,42,${finalTintOpacity}) 100%)`,
     backdropFilter: `blur(${blur}px)`,
     WebkitBackdropFilter: `blur(${blur}px)`,
     boxShadow: isPrimary
-      ? `0 0 ${24 * glow}px rgba(37,99,235,0.65), 0 8px 24px -4px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.4)`
+      ? `0 0 ${25 * glow}px rgba(11,92,255,0.55), 0 8px 24px -4px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.4)`
       : `0 8px 32px -8px rgba(0,0,0,0.6), inset 0 1px 1px rgba(255,255,255,0.25)`,
     ...style,
   } as React.CSSProperties;
@@ -175,8 +177,8 @@ export const SpecularButton: React.FC<SpecularButtonProps> = ({
     </>
   );
 
-  const finalStarColor = starColor ?? (isPrimary ? "#ffffff" : "#ce8ec4");
-  const finalTrailColor = trailColor ?? (isPrimary ? "#60a5fa" : "#ce8ec4");
+  const finalStarColor = starColor ?? (isPrimary ? "#ffffff" : "#38bdf8");
+  const finalTrailColor = trailColor ?? (isPrimary ? "#38bdf8" : "#7c3aed");
 
   if (!starBorder) {
     const Component = href ? Link : "button";

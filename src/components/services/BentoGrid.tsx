@@ -10,7 +10,7 @@ import CenterFlow, { CenterFlowNode } from "@/components/ui/CenterFlow";
 
 export const BentoGrid: React.FC = () => {
   const getIcon = (iconName: string, accentColor?: string) => {
-    const style = { color: accentColor || "#00f5d4" };
+    const style = { color: accentColor || "#38bdf8" };
     switch (iconName) {
       case "Sparkles":
         return <Sparkles className="w-5 h-5" style={style} />;
@@ -36,47 +36,52 @@ export const BentoGrid: React.FC = () => {
       badgeBorder: string;
       badgeText: string;
       hoverShadow: string;
+      hardwareTag: string;
     }
   > = {
     nexplay: {
-      glowBg: "rgba(168, 85, 247, 0.2)",
-      glowBorder: "border-[#a855f7]/40",
-      accent: "#a855f7",
-      gradient: "linear-gradient(90deg, #8b5cf6 0%, #d946ef 100%)",
-      badgeBg: "rgba(168, 85, 247, 0.15)",
-      badgeBorder: "rgba(168, 85, 247, 0.35)",
-      badgeText: "#e9d5ff",
-      hoverShadow: "shadow-[0_0_40px_rgba(168,85,247,0.25)]",
+      glowBg: "rgba(124, 58, 237, 0.2)",
+      glowBorder: "border-[#7c3aed]/40",
+      accent: "#a78bfa",
+      gradient: "linear-gradient(90deg, #7c3aed 0%, #38bdf8 100%)",
+      badgeBg: "rgba(124, 58, 237, 0.15)",
+      badgeBorder: "rgba(124, 58, 237, 0.35)",
+      badgeText: "#ddd6fe",
+      hoverShadow: "shadow-[0_0_40px_rgba(124,58,237,0.25)]",
+      hardwareTag: "6-Axis Robot & Touch Radar",
     },
     "lumen-lab": {
-      glowBg: "rgba(0, 245, 212, 0.2)",
-      glowBorder: "border-[#00f5d4]/40",
-      accent: "#00f5d4",
-      gradient: "linear-gradient(90deg, #00c2ff 0%, #00f5d4 100%)",
-      badgeBg: "rgba(0, 245, 212, 0.15)",
-      badgeBorder: "rgba(0, 245, 212, 0.35)",
-      badgeText: "#99f6e4",
-      hoverShadow: "shadow-[0_0_40px_rgba(0,245,212,0.25)]",
+      glowBg: "rgba(56, 189, 248, 0.2)",
+      glowBorder: "border-[#38bdf8]/40",
+      accent: "#38bdf8",
+      gradient: "linear-gradient(90deg, #0b5cff 0%, #38bdf8 100%)",
+      badgeBg: "rgba(56, 189, 248, 0.15)",
+      badgeBorder: "rgba(56, 189, 248, 0.35)",
+      badgeText: "#bae6fd",
+      hoverShadow: "shadow-[0_0_40px_rgba(56,189,248,0.25)]",
+      hardwareTag: "7680Hz LED & 3D Holo Fans",
     },
     ignispectra: {
-      glowBg: "rgba(255, 177, 43, 0.2)",
-      glowBorder: "border-[#ffb12b]/40",
-      accent: "#ffb12b",
-      gradient: "linear-gradient(90deg, #e96a16 0%, #ffb12b 100%)",
-      badgeBg: "rgba(255, 177, 43, 0.15)",
-      badgeBorder: "rgba(255, 177, 43, 0.35)",
-      badgeText: "#fef08a",
-      hoverShadow: "shadow-[0_0_40px_rgba(255,177,43,0.25)]",
+      glowBg: "rgba(11, 92, 255, 0.2)",
+      glowBorder: "border-[#0b5cff]/40",
+      accent: "#60a5fa",
+      gradient: "linear-gradient(90deg, #0b5cff 0%, #38bdf8 100%)",
+      badgeBg: "rgba(11, 92, 255, 0.15)",
+      badgeBorder: "rgba(11, 92, 255, 0.35)",
+      badgeText: "#dbeafe",
+      hoverShadow: "shadow-[0_0_40px_rgba(11,92,255,0.25)]",
+      hardwareTag: "1,200 UAVs & RTK Formation",
     },
     synapse: {
-      glowBg: "rgba(56, 181, 139, 0.2)",
-      glowBorder: "border-[#38b58b]/40",
-      accent: "#38b58b",
-      gradient: "linear-gradient(90deg, #009b83 0%, #38b58b 100%)",
-      badgeBg: "rgba(56, 181, 139, 0.15)",
-      badgeBorder: "rgba(56, 181, 139, 0.35)",
-      badgeText: "#a7f3d0",
-      hoverShadow: "shadow-[0_0_40px_rgba(56,181,139,0.25)]",
+      glowBg: "rgba(37, 99, 235, 0.2)",
+      glowBorder: "border-[#2563eb]/40",
+      accent: "#38bdf8",
+      gradient: "linear-gradient(90deg, #2563eb 0%, #7c3aed 100%)",
+      badgeBg: "rgba(37, 99, 235, 0.15)",
+      badgeBorder: "rgba(37, 99, 235, 0.35)",
+      badgeText: "#bfdbfe",
+      hoverShadow: "shadow-[0_0_40px_rgba(37,99,235,0.25)]",
+      hardwareTag: "Edge AI & Private On-Prem",
     },
   };
 
@@ -110,7 +115,7 @@ export const BentoGrid: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-10 gap-6">
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-300 bg-white/5 border border-white/10 mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#00f5d4] animate-pulse" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#38bdf8] animate-pulse" />
               Specialist Divisions · One Brief
             </div>
             <h2 className="text-3xl sm:text-5xl font-bold text-white tracking-tight">
@@ -123,10 +128,10 @@ export const BentoGrid: React.FC = () => {
           <div className="flex flex-col sm:flex-row sm:items-center gap-3">
             <span className="text-xs font-mono text-slate-400">Coordinated Delivery:</span>
             <div className="flex flex-wrap items-center gap-2 text-xs font-semibold">
-              <span className="text-[#a855f7] bg-[#a855f7]/10 px-2.5 py-0.5 rounded-md border border-[#a855f7]/30">NEXPLAY</span>
-              <span className="text-[#00f5d4] bg-[#00f5d4]/10 px-2.5 py-0.5 rounded-md border border-[#00f5d4]/30">LUMEN LAB</span>
-              <span className="text-[#ffb12b] bg-[#ffb12b]/10 px-2.5 py-0.5 rounded-md border border-[#ffb12b]/30">IGNISPECTRA</span>
-              <span className="text-[#38b58b] bg-[#38b58b]/10 px-2.5 py-0.5 rounded-md border border-[#38b58b]/30">SYNAPSE</span>
+              <span className="text-[#a78bfa] bg-[#7c3aed]/10 px-2.5 py-0.5 rounded-md border border-[#7c3aed]/30">NEXPLAY</span>
+              <span className="text-[#38bdf8] bg-[#38bdf8]/10 px-2.5 py-0.5 rounded-md border border-[#38bdf8]/30">LUMEN LAB</span>
+              <span className="text-[#60a5fa] bg-[#0b5cff]/10 px-2.5 py-0.5 rounded-md border border-[#0b5cff]/30">IGNISPECTRA</span>
+              <span className="text-[#38bdf8] bg-[#2563eb]/10 px-2.5 py-0.5 rounded-md border border-[#2563eb]/30">SYNAPSE</span>
             </div>
           </div>
         </div>

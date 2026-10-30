@@ -53,17 +53,17 @@ export const ProjectsCarouselShowcase: React.FC = () => {
   return (
     <div className="relative rounded-[32px] bg-slate-950/80 border border-white/10 backdrop-blur-2xl p-4 sm:p-8 shadow-2xl overflow-hidden">
       {/* Ambient background glows */}
-      <div className="absolute -top-32 -left-32 w-80 h-80 rounded-full bg-brand-blue/15 blur-[120px] pointer-events-none" />
-      <div className="absolute -bottom-32 -right-32 w-80 h-80 rounded-full bg-brand-cyan/15 blur-[120px] pointer-events-none" />
+      <div className="absolute -top-32 -left-32 w-80 h-80 rounded-full bg-blue-600/15 blur-[120px] pointer-events-none" />
+      <div className="absolute -bottom-32 -right-32 w-80 h-80 rounded-full bg-violet-600/15 blur-[120px] pointer-events-none" />
 
       {/* Header bar */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 mb-6 border-b border-white/10 relative z-10">
         <div>
-          <div className="flex items-center gap-2 text-xs font-mono text-brand-cyan uppercase tracking-widest mb-1.5">
+          <div className="flex items-center gap-2 text-xs font-mono text-blue-400 uppercase tracking-widest mb-1.5">
             <Sparkles className="w-3.5 h-3.5" />
             <span>WebGL Liquid Refraction Canvas</span>
           </div>
-          <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
+          <h3 className="text-xl sm:text-2xl font-extrabold text-white tracking-tight">
             Interactive Activation Repertoire
           </h3>
           <p className="text-xs sm:text-sm text-slate-400 mt-0.5">
@@ -73,10 +73,10 @@ export const ProjectsCarouselShowcase: React.FC = () => {
 
         <div className="flex items-center gap-3 shrink-0">
           <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/10 text-xs font-mono text-slate-300">
-            <Compass className="w-3.5 h-3.5 text-brand-cyan animate-spin-slow" />
+            <Compass className="w-3.5 h-3.5 text-blue-400 animate-spin-slow" />
             <span>Drag / Scroll Lens</span>
           </div>
-          <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-brand-cyan/10 border border-brand-cyan/30 text-xs font-mono text-brand-cyan">
+          <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/30 text-xs font-mono text-blue-400">
             <Eye className="w-3.5 h-3.5" />
             <span>Focus on Click</span>
           </div>

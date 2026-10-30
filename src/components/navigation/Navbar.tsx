@@ -51,8 +51,8 @@ export const Navbar: React.FC = () => {
           <StarBorder
             as="nav"
             radius={9999}
-            color="#ce8ec4"
-            trailColor="#ce8ec4"
+            color="#38bdf8"
+            trailColor="#2563eb"
             duration={12}
             stars={2}
             sparkle={true}
@@ -79,7 +79,7 @@ export const Navbar: React.FC = () => {
                   key={link.name}
                   href={link.href}
                   className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200 ${isActive
-                    ? "text-white bg-white/10 shadow-sm"
+                    ? "text-blue-400 bg-blue-500/15 border border-blue-400/30 shadow-sm font-semibold"
                     : "text-slate-300 hover:text-white hover:bg-white/5"
                     }`}
                 >

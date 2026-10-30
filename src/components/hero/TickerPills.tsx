@@ -86,8 +86,8 @@ export const TickerPills: React.FC = () => {
           radius={9999}
           stars={1}
           duration={7}
-          color="#ce8ec4"
-          trailColor="#ce8ec4"
+          color="#38bdf8"
+          trailColor="#2563eb"
           glow={0.5}
           sparkle={true}
           onClick={() => setIsPaused(!isPaused)}

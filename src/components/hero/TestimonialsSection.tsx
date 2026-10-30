@@ -44,7 +44,7 @@ export const TestimonialsSection: React.FC = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-300 bg-white/5 border border-white/10 mb-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#00f5d4] animate-pulse" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#38bdf8] animate-pulse" />
             Client Voices
           </div>
           <h2 className="text-3xl sm:text-5xl font-bold text-white tracking-tight mb-4">

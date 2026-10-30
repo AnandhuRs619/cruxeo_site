@@ -43,14 +43,34 @@ export const HeroSection: React.FC = () => {
         </div>
 
         {/* Display H1 Heading */}
-        <h1 className="text-4xl sm:text-6xl lg:text-[68px] font-bold tracking-tight text-white leading-[1.12] max-w-4xl mx-auto mb-6 drop-shadow-sm select-none">
+        <h1 className="text-4xl sm:text-6xl lg:text-[68px] font-bold tracking-tight text-white leading-[1.12] max-w-4xl mx-auto mb-5 drop-shadow-sm select-none">
           Transforming Events with Immersive Technology
         </h1>
 
-        {/* Subtitle paragraph (from cruxeo.com) */}
-        <p className="text-sm sm:text-base lg:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed mb-9 drop-shadow select-none">
-          Cruxeo delivers drone light shows, 3D holograms, AI photo booths, robotics, and interactive installations that turn passive audiences into active participants.
+        {/* Punchy Visual Sub-headline */}
+        <p className="text-sm sm:text-base lg:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed mb-6 drop-shadow select-none">
+          Autonomous drone swarms, 6-axis cinematic robotics, volumetric 3D holograms, and spatial interactive installations.
         </p>
+
+        {/* Visual Tech Element Badges */}
+        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-8 pointer-events-auto">
+          <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900/90 border border-blue-500/30 text-[11px] font-mono text-blue-200">
+            <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse" />
+            <span>1,200+ Autonomous UAVs</span>
+          </div>
+          <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900/90 border border-cyan-500/30 text-[11px] font-mono text-cyan-200">
+            <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
+            <span>6-Axis Robotic Motion</span>
+          </div>
+          <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900/90 border border-purple-500/30 text-[11px] font-mono text-purple-200">
+            <span className="w-1.5 h-1.5 rounded-full bg-purple-400 animate-pulse" />
+            <span>Volumetric 3D Holograms</span>
+          </div>
+          <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900/90 border border-emerald-500/30 text-[11px] font-mono text-emerald-200">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+            <span>&lt;15ms Spatial Radar</span>
+          </div>
+        </div>
 
         {/* Dual Action Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10 w-full sm:w-auto pointer-events-auto">

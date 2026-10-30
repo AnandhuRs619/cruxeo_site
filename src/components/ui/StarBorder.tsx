@@ -220,11 +220,13 @@ export const StarBorder: React.FC<StarBorderProps> = ({
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const wakeRef = useRef<(() => void) | null>(null);
   const palette = THEMES[theme] ?? THEMES.dark;
-  const light = color ?? palette.light;
+  const defaultStarColor = theme === "dark" ? "#38bdf8" : palette.light;
+  const defaultTrailColor = theme === "dark" ? "#2563eb" : palette.light;
+  const light = color ?? defaultStarColor;
   const settings = {
     light: theme === "light",
     color: light,
-    trailColor: trailColor ?? light,
+    trailColor: trailColor ?? defaultTrailColor,
     duration: Math.max(0.3, duration),
     thickness: Math.max(0.5, thickness),
     radius: Math.max(0, radius),

@@ -31,35 +31,35 @@ const FILTER_TABS: FilterTab[] = [
     id: "ALL",
     label: "All Repertoire",
     sublabel: "4 Deployments",
-    accent: "#60a5fa",
+    accent: "#38bdf8",
   },
   {
     id: "IGNISPECTRA",
     label: "IGNISPECTRA",
     sublabel: "Drone Shows & Lasers",
     division: "IGNISPECTRA",
-    accent: "#ffb12b",
+    accent: "#38bdf8",
   },
   {
     id: "LUMEN LAB",
     label: "LUMEN LAB",
     sublabel: "Holograms & LED Domes",
     division: "LUMEN LAB",
-    accent: "#00f5d4",
+    accent: "#0b5cff",
   },
   {
     id: "NEXPLAY",
     label: "NEXPLAY",
     sublabel: "Robotics & Games",
     division: "NEXPLAY",
-    accent: "#a855f7",
+    accent: "#7c3aed",
   },
   {
     id: "SYNAPSE",
     label: "SYNAPSE",
     sublabel: "AI & Custom Software",
     division: "SYNAPSE",
-    accent: "#38b58b",
+    accent: "#60a5fa",
   },
 ];
 
@@ -145,7 +145,7 @@ export const ProjectGallery: React.FC = () => {
           className="absolute top-0 left-0 right-0 h-1 z-20 transition-all duration-700"
           style={{
             background:
-              spotlightProject.divisionAccent || "linear-gradient(90deg, #00f5d4, #a855f7)",
+              spotlightProject.divisionAccent || "linear-gradient(90deg, #0b5cff, #7c3aed)",
           }}
         />
 
@@ -291,8 +291,8 @@ export const ProjectGallery: React.FC = () => {
                 href={`/contact?project=${spotlightProject.id}`}
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-xs sm:text-sm text-slate-950 transition-all duration-300 hover:scale-105 shadow-lg"
                 style={{
-                  backgroundColor: spotlightProject.divisionAccent || "#00f5d4",
-                  boxShadow: `0 0 20px -3px ${spotlightProject.divisionAccent || "#00f5d4"}80`,
+                  backgroundColor: spotlightProject.divisionAccent || "#38bdf8",
+                  boxShadow: `0 0 20px -3px ${spotlightProject.divisionAccent || "#38bdf8"}80`,
                 }}
               >
                 <span>Request Technical Blueprint</span>
@@ -307,7 +307,7 @@ export const ProjectGallery: React.FC = () => {
       <div className="space-y-6">
         <div className="flex items-center justify-between border-b border-white/10 pb-4">
           <div className="flex items-center gap-2.5">
-            <Layers className="w-4 h-4 text-brand-cyan" />
+            <Layers className="w-4 h-4 text-blue-400" />
             <h2 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
               {activeTabId === "ALL" ? "All Field Activations" : `${activeTab.label} Portfolio`}
             </h2>

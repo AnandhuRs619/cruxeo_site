@@ -51,25 +51,25 @@ export default function BlogPostPage({ params }: Props) {
         {/* Back Link */}
         <Link
           href="/blog"
-          className="inline-flex items-center gap-2 text-xs font-semibold text-slate-400 hover:text-brand-cyan transition-colors mb-8"
+          className="inline-flex items-center gap-2 text-xs font-semibold text-slate-400 hover:text-blue-400 transition-colors mb-8"
         >
           <ArrowLeft className="w-4 h-4" />
           <span>Back to all articles</span>
         </Link>
 
         {/* Article Meta */}
-        <div className="flex flex-wrap items-center gap-3 text-xs text-slate-400 mb-6">
-          <span className="px-3 py-1 rounded-full bg-brand-blue/20 text-cyan-400 border border-brand-blue/30 font-medium">
+        <div className="flex flex-wrap items-center gap-3 text-xs text-slate-400 mb-6 font-mono text-[11px]">
+          <span className="px-3 py-1 rounded-full bg-blue-500/15 text-blue-400 border border-blue-500/30 font-medium">
             {post.category}
           </span>
           <span>•</span>
           <div className="flex items-center gap-1.5">
-            <Clock className="w-3.5 h-3.5" />
+            <Clock className="w-3.5 h-3.5 text-blue-400" />
             <span>{post.readTime}</span>
           </div>
           <span>•</span>
           <div className="flex items-center gap-1.5">
-            <Calendar className="w-3.5 h-3.5" />
+            <Calendar className="w-3.5 h-3.5 text-blue-400" />
             <span>{post.publishDate}</span>
           </div>
         </div>

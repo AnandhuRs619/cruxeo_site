@@ -367,8 +367,8 @@ export const DroneFlightShowcase: React.FC = () => {
             radius={9999}
             stars={1}
             duration={8}
-            color={formation === "falcon" ? "#ffffff" : "#ce8ec4"}
-            trailColor={formation === "falcon" ? "#60a5fa" : "#ce8ec4"}
+            color={formation === "falcon" ? "#ffffff" : "#38bdf8"}
+            trailColor={formation === "falcon" ? "#38bdf8" : "#2563eb"}
             glow={0.5}
             sparkle={true}
             onClick={() => setFormation("falcon")}
@@ -394,8 +394,8 @@ export const DroneFlightShowcase: React.FC = () => {
             radius={9999}
             stars={1}
             duration={8}
-            color={formation === "helix" ? "#ffffff" : "#ce8ec4"}
-            trailColor={formation === "helix" ? "#60a5fa" : "#ce8ec4"}
+            color={formation === "helix" ? "#ffffff" : "#38bdf8"}
+            trailColor={formation === "helix" ? "#38bdf8" : "#2563eb"}
             glow={0.5}
             sparkle={true}
             onClick={() => setFormation("helix")}
@@ -421,8 +421,8 @@ export const DroneFlightShowcase: React.FC = () => {
             radius={9999}
             stars={1}
             duration={8}
-            color={formation === "emblem" ? "#ffffff" : "#ce8ec4"}
-            trailColor={formation === "emblem" ? "#60a5fa" : "#ce8ec4"}
+            color={formation === "emblem" ? "#ffffff" : "#38bdf8"}
+            trailColor={formation === "emblem" ? "#38bdf8" : "#2563eb"}
             glow={0.5}
             sparkle={true}
             onClick={() => setFormation("emblem")}
@@ -448,8 +448,8 @@ export const DroneFlightShowcase: React.FC = () => {
             radius={9999}
             stars={1}
             duration={8}
-            color={formation === "interactive" ? "#ffffff" : "#ce8ec4"}
-            trailColor={formation === "interactive" ? "#60a5fa" : "#ce8ec4"}
+            color={formation === "interactive" ? "#ffffff" : "#38bdf8"}
+            trailColor={formation === "interactive" ? "#38bdf8" : "#2563eb"}
             glow={0.5}
             sparkle={true}
             onClick={() => setFormation("interactive")}

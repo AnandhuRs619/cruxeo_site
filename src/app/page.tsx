@@ -5,6 +5,7 @@ import { HeroSection } from "@/components/hero/HeroSection";
 import { ScrollExpandMedia } from "@/components/ui/scroll-expansion-hero";
 import { ConnectionShowcase } from "@/components/hero/ConnectionShowcase";
 import { BentoGrid } from "@/components/services/BentoGrid";
+import { TechHardwareShowcase } from "@/components/tech/TechHardwareShowcase";
 import { PricingPlans } from "@/components/services/PricingPlans";
 import { TestimonialsSection } from "@/components/hero/TestimonialsSection";
 import { CtaBanner } from "@/components/ui/CtaBanner";
@@ -25,7 +26,7 @@ export default function HomePage() {
       {/* 2. Interactive Scroll-Expanding Video Reel */}
       <ScrollExpandMedia
         mediaType="video"
-        mediaSrc="/assets/videos/hero-1080.webm"
+        mediaSrc="/assets/video/IMG_7784.mp4"
         posterSrc="/assets/images/hero-poster.webp"
         bgImageSrc="/assets/images/contact-dubai-nightscape.jpg"
         title="Experiential Spectacle"
@@ -34,7 +35,7 @@ export default function HomePage() {
         textBlend
       >
         <div className="max-w-4xl mx-auto text-center">
-          <span className="text-xs font-mono uppercase tracking-widest text-[#00f5d4] mb-3 block">
+          <span className="text-xs font-mono uppercase tracking-widest text-[#38bdf8] mb-3 block">
             Proprietary Live Productions
           </span>
           <h3 className="text-3xl sm:text-5xl font-bold text-white tracking-tight mb-4">
@@ -46,8 +47,10 @@ export default function HomePage() {
         </div>
       </ScrollExpandMedia>
 
+      {/* 3. Interactive Tech & Robotics Command Deck (Drones, Robotic Arms, Holograms, Radar) */}
+      <TechHardwareShowcase />
 
-      {/* 3. Core Capabilities Bento Grid (Ignispectra, Nexplay, Synapse, Lumen Lab) */}
+      {/* 4. Core Capabilities Bento Grid (Ignispectra, Nexplay, Synapse, Lumen Lab) */}
       <BentoGrid />
 
       {/* 4. Interactive Live Activation Gallery & Featured Projects */}
@@ -55,7 +58,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
             <div>
-              <span className="text-xs font-semibold uppercase tracking-widest text-[#00f5d4] mb-3 block">
+              <span className="text-xs font-semibold uppercase tracking-widest text-[#38bdf8] mb-3 block">
                 Selected Work & Live Gallery
               </span>
               <h2 className="text-3xl sm:text-5xl font-bold text-white tracking-tight">
@@ -67,7 +70,7 @@ export default function HomePage() {
             </div>
             <Link
               href="/projects"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-[#00f5d4] hover:text-white transition-colors shrink-0"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-[#38bdf8] hover:text-white transition-colors shrink-0"
             >
               <span>View all projects</span>
               <ArrowRight className="w-4 h-4" />

@@ -54,8 +54,8 @@ export const servicesData: ServiceItem[] = [
     badge: "Interactive & Event Tech",
     image: "/assets/images/nexplay.jpg",
     video: "/assets/videos/nexplay.mp4",
-    accentColor: "#a855f7",
-    gradient: "linear-gradient(90deg, #8b5cf6 0%, #d946ef 100%)",
+    accentColor: "#7c3aed",
+    gradient: "linear-gradient(90deg, #7c3aed 0%, #38bdf8 100%)",
   },
   {
     id: "lumen-lab",
@@ -76,8 +76,8 @@ export const servicesData: ServiceItem[] = [
     badge: "Audiovisual & Production",
     image: "/assets/images/lumen-lab.jpg",
     video: "/assets/videos/lumen-lab.mp4",
-    accentColor: "#00f5d4",
-    gradient: "linear-gradient(90deg, #00c2ff 0%, #00f5d4 100%)",
+    accentColor: "#38bdf8",
+    gradient: "linear-gradient(90deg, #0b5cff 0%, #38bdf8 100%)",
   },
   {
     id: "ignispectra",
@@ -98,8 +98,8 @@ export const servicesData: ServiceItem[] = [
     badge: "Drones & Live Shows",
     image: "/assets/images/ignispectra.jpg",
     video: "/assets/videos/ignispectra.mp4",
-    accentColor: "#ffb12b",
-    gradient: "linear-gradient(90deg, #e96a16 0%, #ffb12b 100%)",
+    accentColor: "#38bdf8",
+    gradient: "linear-gradient(90deg, #0b5cff 0%, #60a5fa 100%)",
   },
   {
     id: "synapse",
@@ -120,8 +120,8 @@ export const servicesData: ServiceItem[] = [
     badge: "AI & Software",
     image: "/assets/images/synapse.jpg",
     video: "/assets/videos/synapse.mp4",
-    accentColor: "#38b58b",
-    gradient: "linear-gradient(90deg, #009b83 0%, #38b58b 100%)",
+    accentColor: "#60a5fa",
+    gradient: "linear-gradient(90deg, #2563eb 0%, #7c3aed 100%)",
   },
 ];
 
@@ -145,7 +145,7 @@ export const projectsData: ProjectItem[] = [
     video: "/assets/videos/work-aerial-symphony.mp4",
     technologies: ["Ignispectra Swarm Core", "RTK-GPS Precision", "Timecode Sound Sync"],
     division: "IGNISPECTRA",
-    divisionAccent: "#ffb12b",
+    divisionAccent: "#38bdf8",
   },
   {
     id: "immersive-hologram-pavilion",
@@ -166,7 +166,7 @@ export const projectsData: ProjectItem[] = [
     video: "/assets/videos/work-immersion-led.mp4",
     technologies: ["Lumen Lab Volumetric Fans", "Spatial Audio Array", "LiDAR Audience Triggering"],
     division: "LUMEN LAB",
-    divisionAccent: "#00f5d4",
+    divisionAccent: "#0b5cff",
   },
   {
     id: "interactive-radar-touch-arena",
@@ -187,7 +187,7 @@ export const projectsData: ProjectItem[] = [
     video: "/assets/videos/work-radar-arena.mp4",
     technologies: ["Nexplay AI Engine", "Localized Diffusion Models", "Instant WhatsApp Pipeline"],
     division: "NEXPLAY",
-    divisionAccent: "#a855f7",
+    divisionAccent: "#7c3aed",
   },
   {
     id: "enterprise-ai-knowledge-assistant",
@@ -208,7 +208,7 @@ export const projectsData: ProjectItem[] = [
     video: "/assets/videos/work-enterprise-ai.mp4",
     technologies: ["Synapse Core AI", "Enterprise Vector Store", "Automated CRM Dispatch"],
     division: "SYNAPSE",
-    divisionAccent: "#38b58b",
+    divisionAccent: "#60a5fa",
   },
 ];
 

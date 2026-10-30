@@ -13,14 +13,16 @@ const config: Config = {
         surface: {
           DEFAULT: "#0b0f19",
           elevated: "#111827",
-          subtle: "rgba(255, 255, 255, 0.05)",
+          subtle: "rgba(255, 255, 255, 0.04)",
         },
         brand: {
           blue: "#0b5cff",
           "blue-glow": "#3b82f6",
-          cyan: "#00f5d4",
-          "cyan-light": "#38bdf8",
-          purple: "#a855f7",
+          "blue-light": "#38bdf8",
+          cyan: "#38bdf8",
+          violet: "#7c3aed",
+          "violet-glow": "#8b5cf6",
+          obsidian: "#030712",
         },
         division: {
           nexplay: "#a855f7",
@@ -50,9 +52,14 @@ const config: Config = {
           "BlinkMacSystemFont",
           '"Segoe UI"',
           "Roboto",
-          "Oxygen",
-          "Ubuntu",
-          "Cantarell",
+          "sans-serif",
+        ],
+        display: [
+          "Inter",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          '"Segoe UI"',
+          "Roboto",
           "sans-serif",
         ],
         mono: [
@@ -66,9 +73,10 @@ const config: Config = {
         ],
       },
       boxShadow: {
-        glow: "0 0 25px rgba(37, 99, 235, 0.5)",
-        "glow-lg": "0 0 40px rgba(37, 99, 235, 0.75)",
-        "cyan-glow": "0 0 25px rgba(56, 189, 248, 0.5)",
+        glow: "0 0 25px rgba(11, 92, 255, 0.45)",
+        "glow-lg": "0 0 45px rgba(11, 92, 255, 0.6)",
+        "glow-violet": "0 0 35px rgba(124, 58, 237, 0.35)",
+        "blue-glow": "0 0 25px rgba(56, 189, 248, 0.4)",
       },
       animation: {
         marquee: "marquee 25s linear infinite",
@@ -81,8 +89,8 @@ const config: Config = {
           "100%": { transform: "translateX(-50%)" },
         },
         pulseGlow: {
-          "0%, 100%": { opacity: "0.4" },
-          "50%": { opacity: "0.8" },
+          "0%, 100%": { opacity: "0.3" },
+          "50%": { opacity: "0.7" },
         },
       },
     },

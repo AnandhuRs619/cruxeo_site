@@ -24,29 +24,29 @@ const TELEMETRY_STATISTICS = [
     value: "85,000+",
     label: "Live Spectators",
     division: "IGNISPECTRA",
-    accent: "#ffb12b",
-    description: "Peak crowd capacity achieved during Dubai Marina waterfront spectacles",
+    accent: "#38bdf8",
+    description: "Dubai Marina waterfront peak crowd capacity",
   },
   {
     value: "1,200+",
     label: "Swarm Fleet",
     division: "IGNISPECTRA",
-    accent: "#ffb12b",
-    description: "Centimeter-accurate RTK-GPS drones deployable in single 3D constellation",
+    accent: "#60a5fa",
+    description: "Centimeter-accurate RTK-GPS drones in 3D sync",
   },
   {
     value: "<15ms",
     label: "Sensor Latency",
     division: "NEXPLAY",
-    accent: "#a855f7",
-    description: "Zero-lag optical radar & multi-touch floor response under peak queue volume",
+    accent: "#7c3aed",
+    description: "Zero-lag optical radar & multi-touch floor response",
   },
   {
     value: "100%",
     label: "GCAA & Civil Defense",
     division: "ALL UNITS",
-    accent: "#00f5d4",
-    description: "Full regulatory clearance across Dubai, Abu Dhabi & GCC sovereign airspace",
+    accent: "#38bdf8",
+    description: "Airspace clearance across Dubai & GCC sovereign skies",
   },
 ];
 
@@ -80,11 +80,11 @@ const AUTHORITY_STANDARDS = [
 export default function ProjectsPage() {
   return (
     <div className="pt-32 pb-24 bg-background text-slate-100 relative overflow-hidden">
-      {/* Ambient Quad-Division Radial Halo Glows */}
-      <div className="absolute top-10 left-1/4 w-[500px] h-[500px] bg-[#ffb12b]/10 blur-[150px] rounded-full pointer-events-none -z-10" />
-      <div className="absolute top-48 right-10 w-[550px] h-[550px] bg-[#00f5d4]/10 blur-[160px] rounded-full pointer-events-none -z-10" />
-      <div className="absolute top-[800px] left-10 w-[600px] h-[600px] bg-[#a855f7]/10 blur-[170px] rounded-full pointer-events-none -z-10" />
-      <div className="absolute top-[1400px] right-1/4 w-[500px] h-[500px] bg-[#38b58b]/10 blur-[150px] rounded-full pointer-events-none -z-10" />
+      {/* Ambient Unified Cruxeo Blue & Violet Halo Glows */}
+      <div className="absolute top-10 left-1/4 w-[500px] h-[500px] bg-blue-600/15 blur-[150px] rounded-full pointer-events-none -z-10" />
+      <div className="absolute top-48 right-10 w-[550px] h-[550px] bg-violet-600/12 blur-[160px] rounded-full pointer-events-none -z-10" />
+      <div className="absolute top-[800px] left-10 w-[600px] h-[600px] bg-blue-600/10 blur-[170px] rounded-full pointer-events-none -z-10" />
+      <div className="absolute top-[1400px] right-1/4 w-[500px] h-[500px] bg-violet-600/10 blur-[150px] rounded-full pointer-events-none -z-10" />
 
       {/* Atmospheric Background Subtle Grid */}
       <div
@@ -99,15 +99,15 @@ export default function ProjectsPage() {
       <section className="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto text-center mb-20 relative z-10">
         {/* Live Status Pill */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900/90 border border-white/10 backdrop-blur-xl mb-6 shadow-xl">
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-          <span className="text-[11px] font-mono tracking-widest text-slate-300 uppercase">
+          <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+          <span className="text-[11px] font-mono tracking-widest text-blue-400 uppercase">
             Field Repertoire // Dubai & GCC Deployments
           </span>
         </div>
 
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6 leading-[1.1]">
           Engineering Wonder for <br className="hidden sm:inline" />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-cyan via-white to-brand-purple">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
             Global Brands & Sovereign Entities
           </span>
         </h1>
@@ -171,11 +171,11 @@ export default function ProjectsPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-28 relative z-10">
         <div className="p-8 sm:p-12 rounded-[32px] bg-slate-950/80 border border-white/10 backdrop-blur-2xl shadow-2xl">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <div className="inline-flex items-center gap-2 text-xs font-mono text-emerald-400 uppercase tracking-widest mb-3">
+            <div className="inline-flex items-center gap-2 text-xs font-mono text-blue-400 uppercase tracking-widest mb-3">
               <ShieldCheck className="w-4 h-4" />
               <span>GCC Deployment Assurance</span>
             </div>
-            <h2 className="text-2xl sm:text-4xl font-bold text-white tracking-tight">
+            <h2 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
               Tested for Zero-Failure Production Rigor
             </h2>
             <p className="text-sm sm:text-base text-slate-400 mt-3">
@@ -191,7 +191,7 @@ export default function ProjectsPage() {
                   key={idx}
                   className="p-6 rounded-2xl bg-white/[0.03] border border-white/5 hover:border-white/15 transition-all space-y-3 group"
                 >
-                  <div className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-brand-cyan group-hover:scale-110 transition-transform">
+                  <div className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-blue-400 group-hover:scale-110 transition-transform">
                     <Icon className="w-5 h-5" />
                   </div>
                   <h3 className="text-base font-bold text-white tracking-tight">
@@ -207,19 +207,19 @@ export default function ProjectsPage() {
 
           <div className="mt-10 pt-8 border-t border-white/10 flex flex-wrap items-center justify-center gap-6 sm:gap-12 text-xs font-mono text-slate-400">
             <span className="flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-brand-cyan" />
+              <CheckCircle2 className="w-4 h-4 text-blue-400" />
               Civil Aviation Authority (GCAA / DCAA)
             </span>
             <span className="flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-brand-cyan" />
+              <CheckCircle2 className="w-4 h-4 text-blue-400" />
               Dubai Civil Defense (DCD) Fire Safety
             </span>
             <span className="flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-brand-cyan" />
+              <CheckCircle2 className="w-4 h-4 text-blue-400" />
               TRA / TDRA Spectrum Compliance
             </span>
             <span className="flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-brand-cyan" />
+              <CheckCircle2 className="w-4 h-4 text-blue-400" />
               ISO-Aligned Production Protocols
             </span>
           </div>
