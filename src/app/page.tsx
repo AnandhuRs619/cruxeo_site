@@ -27,7 +27,7 @@ export default function HomePage() {
       {/* 2. Interactive Scroll-Expanding 1080p Video Reel */}
       <ScrollExpandMedia
         mediaType="video"
-        mediaSrc="/assets/videos/hero-1080.webm"
+        mediaSrc="/assets/video/IMG_7784.mp4"
         posterSrc="/assets/images/hero-poster.webp"
         bgImageSrc="/assets/images/contact-dubai-nightscape.jpg"
         title="Live Production Reel"

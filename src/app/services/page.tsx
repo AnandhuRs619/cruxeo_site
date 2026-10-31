@@ -84,9 +84,9 @@ export default function ServicesPage() {
     {
       id: "lumen-lab",
       suite: "LUMEN LAB",
-      color: "#38bdf8",
+      color: "#00f5d4",
       category: "Audiovisual & Production",
-      icon: <Box className="w-5 h-5 text-[#38bdf8]" />,
+      icon: <Box className="w-5 h-5 text-[#00f5d4]" />,
       coreTech: "7680Hz Curved LED Walls, Holographic Fan Arrays, 4K Laser Facade Mapping",
       permits: "Structural Rigging Sign-offs, Dubai Municipality Wind & Load Compliance",
       redundancy: "Dual Novastar processors, isolated optical fiber loop failovers",

@@ -54,8 +54,8 @@ export const servicesData: ServiceItem[] = [
     badge: "Interactive & Event Tech",
     image: "/assets/images/nexplay.jpg",
     video: "/assets/videos/nexplay.mp4",
-    accentColor: "#7c3aed",
-    gradient: "linear-gradient(90deg, #7c3aed 0%, #38bdf8 100%)",
+    accentColor: "#a855f7",
+    gradient: "linear-gradient(90deg, #8b5cf6 0%, #d946ef 100%)",
   },
   {
     id: "lumen-lab",
@@ -76,8 +76,8 @@ export const servicesData: ServiceItem[] = [
     badge: "Audiovisual & Production",
     image: "/assets/images/lumen-lab.jpg",
     video: "/assets/videos/lumen-lab.mp4",
-    accentColor: "#38bdf8",
-    gradient: "linear-gradient(90deg, #0b5cff 0%, #38bdf8 100%)",
+    accentColor: "#00f5d4",
+    gradient: "linear-gradient(90deg, #00c2ff 0%, #00f5d4 100%)",
   },
   {
     id: "ignispectra",
@@ -98,8 +98,8 @@ export const servicesData: ServiceItem[] = [
     badge: "Drones & Live Shows",
     image: "/assets/images/ignispectra.jpg",
     video: "/assets/videos/ignispectra.mp4",
-    accentColor: "#38bdf8",
-    gradient: "linear-gradient(90deg, #0b5cff 0%, #60a5fa 100%)",
+    accentColor: "#ffb12b",
+    gradient: "linear-gradient(90deg, #e96a16 0%, #ffb12b 100%)",
   },
   {
     id: "synapse",
@@ -120,8 +120,8 @@ export const servicesData: ServiceItem[] = [
     badge: "AI & Software",
     image: "/assets/images/synapse.jpg",
     video: "/assets/videos/synapse.mp4",
-    accentColor: "#60a5fa",
-    gradient: "linear-gradient(90deg, #2563eb 0%, #7c3aed 100%)",
+    accentColor: "#38b58b",
+    gradient: "linear-gradient(90deg, #009b83 0%, #38b58b 100%)",
   },
 ];
 

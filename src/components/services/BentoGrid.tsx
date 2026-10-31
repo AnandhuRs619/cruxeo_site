@@ -3,14 +3,14 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Sparkles, Bot, Touchpad, Box } from "lucide-react";
+import { ArrowRight, Sparkles, Bot, Touchpad, Box, ArrowUpRight } from "lucide-react";
 import { servicesData } from "@/data/siteData";
 import ScrollStack, { ScrollStackItem } from "@/components/ui/ScrollStack";
 import CenterFlow, { CenterFlowNode } from "@/components/ui/CenterFlow";
 
 export const BentoGrid: React.FC = () => {
   const getIcon = (iconName: string, accentColor?: string) => {
-    const style = { color: accentColor || "#38bdf8" };
+    const style = { color: accentColor || "#a855f7" };
     switch (iconName) {
       case "Sparkles":
         return <Sparkles className="w-5 h-5" style={style} />;
@@ -25,9 +25,11 @@ export const BentoGrid: React.FC = () => {
     }
   };
 
+  // Authentic Cruxeo Division Color Codes (PRESERVED - DO NOT ALTER)
   const divisionConfigs: Record<
     string,
     {
+      num: string;
       glowBg: string;
       glowBorder: string;
       accent: string;
@@ -37,51 +39,60 @@ export const BentoGrid: React.FC = () => {
       badgeText: string;
       hoverShadow: string;
       hardwareTag: string;
+      benchmark: string;
     }
   > = {
     nexplay: {
-      glowBg: "rgba(124, 58, 237, 0.2)",
-      glowBorder: "border-[#7c3aed]/40",
-      accent: "#a78bfa",
-      gradient: "linear-gradient(90deg, #7c3aed 0%, #38bdf8 100%)",
-      badgeBg: "rgba(124, 58, 237, 0.15)",
-      badgeBorder: "rgba(124, 58, 237, 0.35)",
-      badgeText: "#ddd6fe",
-      hoverShadow: "shadow-[0_0_40px_rgba(124,58,237,0.25)]",
+      num: "(01)",
+      glowBg: "rgba(168, 85, 247, 0.22)",
+      glowBorder: "border-[#a855f7]/40",
+      accent: "#a855f7",
+      gradient: "linear-gradient(90deg, #8b5cf6 0%, #d946ef 100%)",
+      badgeBg: "rgba(168, 85, 247, 0.15)",
+      badgeBorder: "rgba(168, 85, 247, 0.35)",
+      badgeText: "#e9d5ff",
+      hoverShadow: "shadow-[0_0_40px_rgba(168,85,247,0.25)]",
       hardwareTag: "6-Axis Robot & Touch Radar",
+      benchmark: "<15ms Interaction Latency",
     },
     "lumen-lab": {
-      glowBg: "rgba(56, 189, 248, 0.2)",
-      glowBorder: "border-[#38bdf8]/40",
-      accent: "#38bdf8",
-      gradient: "linear-gradient(90deg, #0b5cff 0%, #38bdf8 100%)",
-      badgeBg: "rgba(56, 189, 248, 0.15)",
-      badgeBorder: "rgba(56, 189, 248, 0.35)",
-      badgeText: "#bae6fd",
-      hoverShadow: "shadow-[0_0_40px_rgba(56,189,248,0.25)]",
+      num: "(02)",
+      glowBg: "rgba(0, 245, 212, 0.22)",
+      glowBorder: "border-[#00f5d4]/40",
+      accent: "#00f5d4",
+      gradient: "linear-gradient(90deg, #00c2ff 0%, #00f5d4 100%)",
+      badgeBg: "rgba(0, 245, 212, 0.15)",
+      badgeBorder: "rgba(0, 245, 212, 0.35)",
+      badgeText: "#99f6e4",
+      hoverShadow: "shadow-[0_0_40px_rgba(0,245,212,0.25)]",
       hardwareTag: "7680Hz LED & 3D Holo Fans",
+      benchmark: "7680Hz Broadcast Refresh",
     },
     ignispectra: {
-      glowBg: "rgba(11, 92, 255, 0.2)",
-      glowBorder: "border-[#0b5cff]/40",
-      accent: "#60a5fa",
-      gradient: "linear-gradient(90deg, #0b5cff 0%, #38bdf8 100%)",
-      badgeBg: "rgba(11, 92, 255, 0.15)",
-      badgeBorder: "rgba(11, 92, 255, 0.35)",
-      badgeText: "#dbeafe",
-      hoverShadow: "shadow-[0_0_40px_rgba(11,92,255,0.25)]",
+      num: "(03)",
+      glowBg: "rgba(255, 177, 43, 0.22)",
+      glowBorder: "border-[#ffb12b]/40",
+      accent: "#ffb12b",
+      gradient: "linear-gradient(90deg, #e96a16 0%, #ffb12b 100%)",
+      badgeBg: "rgba(255, 177, 43, 0.15)",
+      badgeBorder: "rgba(255, 177, 43, 0.35)",
+      badgeText: "#fef08a",
+      hoverShadow: "shadow-[0_0_40px_rgba(255,177,43,0.25)]",
       hardwareTag: "1,200 UAVs & RTK Formation",
+      benchmark: "500+ Drones in Formation",
     },
     synapse: {
-      glowBg: "rgba(37, 99, 235, 0.2)",
-      glowBorder: "border-[#2563eb]/40",
-      accent: "#38bdf8",
-      gradient: "linear-gradient(90deg, #2563eb 0%, #7c3aed 100%)",
-      badgeBg: "rgba(37, 99, 235, 0.15)",
-      badgeBorder: "rgba(37, 99, 235, 0.35)",
-      badgeText: "#bfdbfe",
-      hoverShadow: "shadow-[0_0_40px_rgba(37,99,235,0.25)]",
+      num: "(04)",
+      glowBg: "rgba(56, 181, 139, 0.22)",
+      glowBorder: "border-[#38b58b]/40",
+      accent: "#38b58b",
+      gradient: "linear-gradient(90deg, #009b83 0%, #38b58b 100%)",
+      badgeBg: "rgba(56, 181, 139, 0.15)",
+      badgeBorder: "rgba(56, 181, 139, 0.35)",
+      badgeText: "#a7f3d0",
+      hoverShadow: "shadow-[0_0_40px_rgba(56,181,139,0.25)]",
       hardwareTag: "Edge AI & Private On-Prem",
+      benchmark: "100% Approved Accuracy",
     },
   };
 
@@ -109,30 +120,31 @@ export const BentoGrid: React.FC = () => {
   });
 
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-background relative" id="services">
+    <section className="py-20 sm:py-24 px-4 sm:px-6 lg:px-8 bg-background relative" id="services">
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-10 gap-6">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-12 gap-6">
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-300 bg-white/5 border border-white/10 mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#38bdf8] animate-pulse" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0b5cff] animate-pulse" />
               Specialist Divisions · One Brief
             </div>
             <h2 className="text-3xl sm:text-5xl font-bold text-white tracking-tight">
-              Four Specialist Divisions
+              Specialist Divisions, <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#38bdf8] to-[#a855f7]">
+                One Brief
+              </span>
             </h2>
-            <p className="text-slate-400 text-sm sm:text-base mt-2 max-w-xl">
-              Turnkey experiential production under one single Dubai directorship. Explore our integrated capabilities flowing from the central core.
+            <p className="text-slate-400 text-sm sm:text-base mt-2 max-w-xl font-normal leading-relaxed">
+              Through NEXPLAY, LUMEN LAB, IGNISPECTRA, and SYNAPSE, we shape interactive experiences, create visual content, produce live spectacles, and engineer custom intelligent software.
             </p>
           </div>
-          <div className="flex flex-col sm:flex-row sm:items-center gap-3">
-            <span className="text-xs font-mono text-slate-400">Coordinated Delivery:</span>
-            <div className="flex flex-wrap items-center gap-2 text-xs font-semibold">
-              <span className="text-[#a78bfa] bg-[#7c3aed]/10 px-2.5 py-0.5 rounded-md border border-[#7c3aed]/30">NEXPLAY</span>
-              <span className="text-[#38bdf8] bg-[#38bdf8]/10 px-2.5 py-0.5 rounded-md border border-[#38bdf8]/30">LUMEN LAB</span>
-              <span className="text-[#60a5fa] bg-[#0b5cff]/10 px-2.5 py-0.5 rounded-md border border-[#0b5cff]/30">IGNISPECTRA</span>
-              <span className="text-[#38bdf8] bg-[#2563eb]/10 px-2.5 py-0.5 rounded-md border border-[#2563eb]/30">SYNAPSE</span>
-            </div>
+
+          <div className="flex flex-wrap items-center gap-2 text-xs font-semibold">
+            <span className="text-[#a855f7] bg-[#a855f7]/10 px-2.5 py-1 rounded-md border border-[#a855f7]/30 font-mono">(01) NEXPLAY</span>
+            <span className="text-[#00f5d4] bg-[#00f5d4]/10 px-2.5 py-1 rounded-md border border-[#00f5d4]/30 font-mono">(02) LUMEN LAB</span>
+            <span className="text-[#ffb12b] bg-[#ffb12b]/10 px-2.5 py-1 rounded-md border border-[#ffb12b]/30 font-mono">(03) IGNISPECTRA</span>
+            <span className="text-[#38b58b] bg-[#38b58b]/10 px-2.5 py-1 rounded-md border border-[#38b58b]/30 font-mono">(04) SYNAPSE</span>
           </div>
         </div>
 
@@ -141,33 +153,36 @@ export const BentoGrid: React.FC = () => {
           centerTitle="CRUXEO CORE"
           centerSubtitle="Central Directorship · Unified GCC Execution"
           nodes={centerFlowNodes}
-          className="mb-14"
+          className="mb-14 sm:mb-16"
         />
 
-        {/* ScrollStack Component for Specialist Divisions */}
+        {/* ------------------------------------------------------------------ */}
+        {/* ScrollStack Component: Smooth 3D Card-Stacking Slide Effect        */}
+        {/* ------------------------------------------------------------------ */}
         <ScrollStack
           useWindowScroll={true}
-          stackPosition="12%"
-          itemDistance={90}
-          itemStackDistance={28}
+          stackPosition="96px"
+          itemDistance={340}
+          itemStackDistance={32}
           itemScale={0.035}
           baseScale={0.88}
-          dimAmount={0.18}
-          holdDistance={180}
+          dimAmount={0.22}
+          holdDistance={260}
           smoothScroll={false}
           className="relative"
         >
           {servicesData.map((service) => {
             const config =
               divisionConfigs[service.id] || divisionConfigs["nexplay"];
+
             return (
               <ScrollStackItem
                 key={service.id}
                 id={service.id}
-                itemClassName="bg-[#090a10]/95 border border-white/10 rounded-[28px] overflow-hidden backdrop-blur-2xl transition-all duration-300"
+                itemClassName="bg-[#0b0f19]/95 border rounded-[28px] sm:rounded-[32px] overflow-hidden backdrop-blur-2xl transition-all duration-300"
                 style={{
                   borderColor: `${config.accent}45`,
-                  boxShadow: `0 0 45px -10px ${config.accent}25, 0 20px 40px -15px rgba(0,0,0,0.8)`,
+                  boxShadow: `0 0 50px -10px ${config.accent}25, 0 25px 50px -20px rgba(0,0,0,0.85)`,
                 }}
               >
                 {/* Top Division Color Accent Line */}
@@ -176,7 +191,7 @@ export const BentoGrid: React.FC = () => {
                   style={{ background: config.gradient }}
                 />
 
-                {/* Ambient Division Glow */}
+                {/* Ambient Division Dynamic Glow */}
                 <div
                   className="absolute -top-32 -right-32 w-[28rem] h-[28rem] rounded-full blur-[110px] pointer-events-none opacity-30"
                   style={{ background: config.glowBg }}
@@ -187,11 +202,11 @@ export const BentoGrid: React.FC = () => {
                 />
 
                 {/* 2-Column Responsive Card Content */}
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center p-4 sm:p-8 lg:p-10 relative z-10">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center p-6 sm:p-8 lg:p-10 relative z-10">
                   {/* Left Column: Details & Capabilities */}
                   <div className="lg:col-span-7 flex flex-col justify-between space-y-5">
                     <div>
-                      {/* Top Bar: Icon, Suite, Title & Metric */}
+                      {/* Top Bar: Icon, Division Number, Suite & Benchmark */}
                       <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
                         <div className="flex items-center gap-3">
                           <div
@@ -204,12 +219,20 @@ export const BentoGrid: React.FC = () => {
                             {getIcon(service.iconName, config.accent)}
                           </div>
                           <div>
-                            <span
-                              className="text-[11px] font-mono font-bold uppercase tracking-widest block"
-                              style={{ color: config.accent }}
-                            >
-                              {service.suite}
-                            </span>
+                            <div className="flex items-center gap-2">
+                              <span
+                                className="text-xs font-mono font-bold"
+                                style={{ color: config.accent }}
+                              >
+                                {config.num}
+                              </span>
+                              <span
+                                className="text-[11px] font-mono font-bold uppercase tracking-widest block"
+                                style={{ color: config.accent }}
+                              >
+                                {service.suite}
+                              </span>
+                            </div>
                             <h3 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
                               {service.title}
                             </h3>
@@ -224,7 +247,7 @@ export const BentoGrid: React.FC = () => {
                             color: config.badgeText,
                           }}
                         >
-                          {service.metrics}
+                          {config.benchmark}
                         </span>
                       </div>
 
@@ -248,7 +271,7 @@ export const BentoGrid: React.FC = () => {
                         {service.features.map((feature, fIdx) => (
                           <div
                             key={fIdx}
-                            className="text-xs sm:text-[13px] font-medium px-3 py-2 rounded-xl bg-white/[0.04] text-slate-200 border border-white/5 flex items-center gap-2.5"
+                            className="text-xs px-3 py-2 rounded-xl bg-white/[0.04] text-slate-200 border border-white/5 flex items-center gap-2.5"
                           >
                             <span
                               className="w-1.5 h-1.5 rounded-full shrink-0"
@@ -263,31 +286,47 @@ export const BentoGrid: React.FC = () => {
                     {/* Footer Actions */}
                     <div className="flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-white/10">
                       <div className="flex items-center gap-2 text-xs text-slate-400 font-mono">
-                        <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                        <span>Zero-failure Dubai execution</span>
+                        <span
+                          className="w-2 h-2 rounded-full animate-pulse"
+                          style={{ backgroundColor: config.accent }}
+                        />
+                        <span>{config.hardwareTag}</span>
                       </div>
 
-                      <Link
-                        href={`/services#${service.id}`}
-                        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all hover:scale-105 active:scale-95 group"
-                        style={{
-                          backgroundColor: config.badgeBg,
-                          borderColor: config.badgeBorder,
-                          borderWidth: "1px",
-                          color: config.accent,
-                        }}
-                      >
-                        <span>Explore Division Scope</span>
-                        <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                      </Link>
+                      <div className="flex items-center gap-3">
+                        <Link
+                          href={`/services#${service.id}`}
+                          className="inline-flex items-center gap-1.5 text-xs font-semibold hover:underline"
+                          style={{ color: config.accent }}
+                        >
+                          <span>Explore Scope</span>
+                          <ArrowUpRight className="w-3.5 h-3.5" />
+                        </Link>
+
+                        <a
+                          href={`https://wa.me/971545454891?text=${encodeURIComponent(
+                            `Hi CRUXEO, I would like to discuss ${service.suite}.`
+                          )}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold text-white transition-all hover:scale-105 active:scale-95 group shadow-lg"
+                          style={{
+                            background: config.gradient,
+                            boxShadow: `0 0 20px -5px ${config.accent}50`,
+                          }}
+                        >
+                          <span>Enquire on WhatsApp</span>
+                          <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                        </a>
+                      </div>
                     </div>
                   </div>
 
                   {/* Right Column: Visual Video / Media Reel */}
                   <div className="lg:col-span-5">
                     <div
-                      className="relative w-full aspect-[16/10] sm:aspect-[16/9] lg:aspect-[4/3] rounded-2xl overflow-hidden border border-white/10 bg-slate-900 group shadow-2xl"
-                      style={{ borderColor: `${config.accent}30` }}
+                      className="relative w-full aspect-[16/10] sm:aspect-[16/9] lg:aspect-[4/3] rounded-2xl overflow-hidden border bg-slate-900 group shadow-2xl"
+                      style={{ borderColor: `${config.accent}40` }}
                     >
                       {service.video ? (
                         <video
@@ -308,17 +347,17 @@ export const BentoGrid: React.FC = () => {
                         />
                       )}
 
-                      {/* Contrast gradient vignette */}
+                      {/* Vignette Overlay */}
                       <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
 
-                      {/* Top Right: Live Reel Pulse Indicator */}
-                      <div className="absolute top-3.5 right-3.5 flex items-center gap-1.5 px-3 py-1 rounded-full bg-black/70 backdrop-blur-md border border-white/15 text-[11px] text-white">
+                      {/* Top Right: Live 4K Deployment Reel Indicator */}
+                      <div className="absolute top-3.5 right-3.5 flex items-center gap-1.5 px-3 py-1 rounded-full bg-black/75 backdrop-blur-md border border-white/15 text-[11px] text-white">
                         <span
                           className="w-2 h-2 rounded-full animate-pulse"
                           style={{ backgroundColor: config.accent }}
                         />
                         <span className="font-mono text-[10px] uppercase tracking-wider">
-                          Live Reel
+                          Live 4K Reel
                         </span>
                       </div>
 

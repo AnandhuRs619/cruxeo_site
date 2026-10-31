@@ -19,6 +19,7 @@
 }
 
 .scroll-stack__slot {
+  position: -webkit-sticky;
   position: sticky;
 }
 

@@ -47,7 +47,11 @@ const config: Config = {
       },
       fontFamily: {
         sans: [
-          "Inter",
+          "var(--font-grotesque)",
+          '"Hanken Grotesk"',
+          '"Space Grotesk"',
+          '"Cabinet Grotesk"',
+          '"Bricolage Grotesque"',
           "-apple-system",
           "BlinkMacSystemFont",
           '"Segoe UI"',
@@ -55,7 +59,11 @@ const config: Config = {
           "sans-serif",
         ],
         display: [
-          "Inter",
+          "var(--font-grotesque)",
+          '"Hanken Grotesk"',
+          '"Space Grotesk"',
+          '"Cabinet Grotesk"',
+          '"Bricolage Grotesque"',
           "-apple-system",
           "BlinkMacSystemFont",
           '"Segoe UI"',
@@ -63,7 +71,10 @@ const config: Config = {
           "sans-serif",
         ],
         mono: [
-          "JetBrains Mono",
+          "var(--font-mono)",
+          '"Geist Mono"',
+          '"DM Mono"',
+          '"JetBrains Mono"',
           "ui-monospace",
           "SFMono-Regular",
           "Menlo",
