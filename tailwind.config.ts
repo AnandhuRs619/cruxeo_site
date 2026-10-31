@@ -58,7 +58,22 @@ const config: Config = {
           "Roboto",
           "sans-serif",
         ],
+        metana: [
+          '"Neue Metana Next"',
+          '"Neue Metana"',
+          '"Dirtyline 36Daysoftype 2022"',
+          '"DX Rigraf Expanded"',
+          "sans-serif",
+        ],
+        dirtyline: [
+          '"Dirtyline 36Daysoftype 2022"',
+          '"DX Rigraf Expanded"',
+          '"DX Rigraf"',
+          "sans-serif",
+        ],
         display: [
+          '"DX Rigraf Expanded"',
+          '"DX Rigraf"',
           "var(--font-grotesque)",
           '"Hanken Grotesk"',
           '"Space Grotesk"',
@@ -68,6 +83,12 @@ const config: Config = {
           "BlinkMacSystemFont",
           '"Segoe UI"',
           "Roboto",
+          "sans-serif",
+        ],
+        rigraf: [
+          '"DX Rigraf Expanded"',
+          '"DX Rigraf"',
+          "var(--font-grotesque)",
           "sans-serif",
         ],
         mono: [

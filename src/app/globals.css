@@ -3,6 +3,123 @@
 @tailwind utilities;
 
 /* -------------------------------------------------------------
+   Typography: Neue Metana Next Display Font Family
+   Weights: Regular (400-600), Bold (700-900)
+   ------------------------------------------------------------- */
+@font-face {
+  font-family: 'Neue Metana Next';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('/assets/fonts/neue-metana-next.woff2') format('woff2'),
+       url('/assets/fonts/neue-metana-next.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Neue Metana Next';
+  font-style: normal;
+  font-weight: 700 900;
+  font-display: swap;
+  src: url('/assets/fonts/neue-metana-bold.woff2') format('woff2'),
+       url('/assets/fonts/neue-metana-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Neue Metana';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('/assets/fonts/neue-metana-next.woff2') format('woff2'),
+       url('/assets/fonts/neue-metana-next.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Neue Metana';
+  font-style: normal;
+  font-weight: 700 900;
+  font-display: swap;
+  src: url('/assets/fonts/neue-metana-bold.woff2') format('woff2'),
+       url('/assets/fonts/neue-metana-bold.ttf') format('truetype');
+}
+
+.font-metana {
+  font-family: 'Neue Metana Next', 'Neue Metana', 'Dirtyline 36Daysoftype 2022', 'DX Rigraf Expanded', sans-serif;
+  letter-spacing: -0.015em;
+}
+
+/* -------------------------------------------------------------
+   Typography: Dirtyline 36Daysoftype 2022 Display Font
+   ------------------------------------------------------------- */
+@font-face {
+  font-family: 'Dirtyline 36Daysoftype 2022';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url('/assets/fonts/dirtyline-36daysoftype-2022.woff2') format('woff2'),
+       url('/assets/fonts/dirtyline-36daysoftype-2022.ttf') format('truetype');
+}
+
+.font-dirtyline {
+  font-family: 'Dirtyline 36Daysoftype 2022', 'DX Rigraf', sans-serif;
+  letter-spacing: 0.01em;
+}
+
+/* -------------------------------------------------------------
+   Typography: Self-Hosted DX Rigraf Display & Heading Font Stack
+   Font Family: 'DX Rigraf'
+   Weights: SemiBold (500-700), SemiBold Expanded (800-900)
+   ------------------------------------------------------------- */
+@font-face {
+  font-family: 'DX Rigraf';
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: url('/assets/fonts/dx-rigraf-semibold.woff2') format('woff2'),
+       url('/assets/fonts/dx-rigraf-semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DX Rigraf';
+  font-style: normal;
+  font-weight: 800 900;
+  font-display: swap;
+  src: url('/assets/fonts/dx-rigraf-expanded.woff2') format('woff2'),
+       url('/assets/fonts/dx-rigraf-expanded.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DX Rigraf Expanded';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url('/assets/fonts/dx-rigraf-expanded.woff2') format('woff2'),
+       url('/assets/fonts/dx-rigraf-expanded.ttf') format('truetype');
+}
+
+.font-rigraf-display {
+  font-family: 'DX Rigraf Expanded', 'DX Rigraf', var(--font-display), sans-serif;
+  font-feature-settings: "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1, "salt" 1, "case" 1;
+  -webkit-font-feature-settings: "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1, "salt" 1, "case" 1;
+}
+
+/* Expressive Liquid Psychedelic Wave Typography Filter */
+.font-liquify {
+  filter: url(#liquify-wave);
+  -webkit-filter: url(#liquify-wave);
+  display: inline-block;
+  will-change: filter, transform;
+  transform: translateZ(0);
+}
+
+.font-liquify-alt {
+  filter: url(#liquify-wave-intense);
+  -webkit-filter: url(#liquify-wave-intense);
+  display: inline-block;
+  will-change: filter, transform;
+  transform: translateZ(0);
+}
+
+/* -------------------------------------------------------------
    Typography: Self-Hosted Grotesque System Font Stack
    Primary Grotesque: Hanken Grotesk (Variable font, 100-900)
    Technical Monospace: Geist Mono / DM Mono
@@ -87,9 +204,9 @@ body {
   selection-color: #ffffff;
 }
 
-/* Grotesque Headings Standard */
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-grotesque);
+/* DX Rigraf Titles & Headings Standard */
+h1, h2, h3, h4, h5, h6, .font-display, .heading-font {
+  font-family: 'DX Rigraf', var(--font-display), var(--font-grotesque), 'Hanken Grotesk', -apple-system, sans-serif;
   letter-spacing: -0.025em;
 }
 
