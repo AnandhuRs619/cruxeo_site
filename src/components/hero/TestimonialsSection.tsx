@@ -36,7 +36,7 @@ const TESTIMONIALS: ScrollReelTestimonial[] = [
 
 export const TestimonialsSection: React.FC = () => {
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-background relative overflow-hidden border-t border-white/5">
+    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-transparent relative overflow-hidden border-t border-white/5">
       {/* Ambient background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-brand-blue/10 blur-[160px] pointer-events-none" />
 

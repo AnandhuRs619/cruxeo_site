@@ -9,7 +9,7 @@ import { TickerPills } from "./TickerPills";
 
 export const HeroSection: React.FC = () => {
   return (
-    <section className="relative min-h-[92vh] sm:min-h-[96vh] flex flex-col justify-between pt-28 sm:pt-36 lg:pt-40 pb-8 px-4 sm:px-6 lg:px-8 overflow-hidden bg-background">
+    <section className="relative min-h-[92vh] sm:min-h-[96vh] flex flex-col justify-between pt-28 sm:pt-36 lg:pt-40 pb-8 px-4 sm:px-6 lg:px-8 overflow-hidden bg-transparent">
       {/* Background Animated ShapeGrid Matrix */}
       <div className="absolute inset-0 w-full h-full z-0 overflow-hidden pointer-events-auto">
         <ShapeGrid

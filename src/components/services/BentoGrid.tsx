@@ -120,7 +120,7 @@ export const BentoGrid: React.FC = () => {
   });
 
   return (
-    <section className="py-20 sm:py-24 px-4 sm:px-6 lg:px-8 bg-background relative" id="services">
+    <section className="py-20 sm:py-24 px-4 sm:px-6 lg:px-8 bg-transparent relative" id="services">
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-12 gap-6">

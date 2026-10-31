@@ -6,7 +6,7 @@ import { pricingPlansData } from "@/data/siteData";
 
 export const PricingPlans: React.FC = () => {
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-background relative overflow-hidden border-t border-white/5">
+    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-transparent relative overflow-hidden border-t border-white/5">
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-4 backdrop-blur-xl shadow-lg">

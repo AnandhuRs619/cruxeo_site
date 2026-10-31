@@ -6,7 +6,7 @@ import { companyConfig } from "@/data/siteData";
 
 export const CtaBanner: React.FC = () => {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-background relative overflow-hidden">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-transparent relative overflow-hidden">
       <div className="max-w-6xl mx-auto rounded-[32px] bg-gradient-to-b from-slate-950/90 via-slate-900/70 to-slate-950/90 border border-white/10 hover:border-blue-500/40 p-8 sm:p-14 text-center relative overflow-hidden shadow-2xl backdrop-blur-2xl transition-all duration-500">
         {/* Unified Ambient Glow Orbs */}
         <div className="absolute top-1/2 left-1/3 -translate-x-1/2 -translate-y-1/2 w-[450px] h-[220px] bg-blue-600/15 blur-[130px] pointer-events-none" />
