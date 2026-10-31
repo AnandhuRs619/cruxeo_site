@@ -43,14 +43,17 @@ export const TestimonialsSection: React.FC = () => {
       <div className="max-w-7xl mx-auto relative z-10 flex flex-col items-center">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-300 bg-white/5 border border-white/10 mb-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#38bdf8] animate-pulse" />
-            Client Voices
+          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-4 backdrop-blur-xl shadow-lg">
+            <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+            <span className="font-mono text-blue-400">Verified Client Validation</span>
           </div>
-          <h2 className="text-3xl sm:text-5xl font-bold text-white tracking-tight mb-4">
-            Trusted by the UAE&apos;s Boldest Event Creators
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-4 leading-[1.15]">
+            Trusted by the UAE&apos;s Boldest. <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+              Event Directors & Creators.
+            </span>
           </h2>
-          <p className="text-slate-400 text-base sm:text-lg">
+          <p className="text-slate-300 text-base sm:text-lg font-normal leading-relaxed">
             Hear from government entities, global agencies, and brand leaders who scaled their activations with Cruxeo.
           </p>
         </div>

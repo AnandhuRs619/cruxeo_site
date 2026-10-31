@@ -33,18 +33,19 @@ export const HeroSection: React.FC = () => {
       {/* Main Hero Center Stage with Passthrough Mouse Events */}
       <div className="relative z-10 max-w-4xl mx-auto text-center my-auto flex flex-col items-center pointer-events-none w-full">
         {/* Top Announcement Pill Badge */}
-        <div className="mb-6 sm:mb-8 inline-flex flex-wrap sm:flex-nowrap items-center justify-center gap-2 sm:gap-3 px-3 sm:px-4 py-1.5 rounded-full bg-slate-900/80 border border-white/10 backdrop-blur-md shadow-lg transition-colors hover:border-white/20 cursor-default pointer-events-auto max-w-full">
-          <span className="px-2.5 py-0.5 text-[10px] sm:text-[11px] font-bold text-white bg-brand-blue rounded-full shadow-sm shrink-0">
-            Dubai • UAE
-          </span>
-          <span className="text-[11px] sm:text-xs md:text-sm font-medium text-slate-200 tracking-wide truncate">
-            Experiential Marketing & Creative Technology
+        <div className="mb-6 sm:mb-8 inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-xl shadow-lg cursor-default pointer-events-auto">
+          <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+          <span className="font-mono text-blue-400 text-xs sm:text-sm font-semibold uppercase tracking-widest">
+            Dubai · UAE · Experiential Technology
           </span>
         </div>
 
         {/* Display H1 Heading */}
-        <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-[68px] font-bold tracking-tight text-white leading-[1.14] sm:leading-[1.12] max-w-4xl mx-auto mb-4 sm:mb-5 drop-shadow-sm select-none">
-          Transforming Events with Immersive Technology
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6 leading-[1.1] select-none">
+          Transforming Events. <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+            With Immersive Technology.
+          </span>
         </h1>
 
         {/* Punchy Visual Sub-headline */}

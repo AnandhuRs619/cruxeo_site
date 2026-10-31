@@ -18,13 +18,17 @@ export default function BlogIndexPage() {
       <div className="absolute top-60 right-1/4 w-[500px] h-[500px] rounded-full bg-violet-600/10 blur-[160px] pointer-events-none" />
 
       <section className="px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto text-center mb-16 relative z-10">
-        <span className="text-xs font-mono uppercase tracking-widest text-blue-400 mb-3 block">
-          Thoughts & Research // Lab Dispatches
-        </span>
-        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6">
-          Insights on the Future of Experiential Tech
+        <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-6 backdrop-blur-xl shadow-lg">
+          <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+          <span className="font-mono text-blue-400">Thoughts & Research // Lab Dispatches</span>
+        </div>
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6 leading-[1.1]">
+          Insights on the Future. <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+            Of Experiential Technology.
+          </span>
         </h1>
-        <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed font-light">
+        <p className="text-base sm:text-lg lg:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed font-normal">
           Deep dives into autonomous drone swarm choreographies, real-time diffusion models, and phygital retail architectures.
         </p>
       </section>

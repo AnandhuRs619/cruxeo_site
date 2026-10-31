@@ -252,11 +252,15 @@ export default function ServicesPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-28 sm:mb-32 relative z-10">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 sm:mb-12 gap-4">
           <div>
-            <span className="text-xs font-mono uppercase tracking-widest text-brand-blue-light block mb-2">
-              Proprietary Divisions Stack
-            </span>
-            <h2 className="text-3xl sm:text-5xl font-bold text-white tracking-tight">
-              Specialist Hardware & Execution
+            <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-4 backdrop-blur-xl shadow-lg">
+              <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+              <span className="font-mono text-blue-400">Proprietary Divisions Stack</span>
+            </div>
+            <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-2 leading-[1.15]">
+              Specialist Hardware. <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+                & Flawless Live Execution.
+              </span>
             </h2>
           </div>
           <div className="flex flex-wrap items-center gap-2 text-xs font-semibold">
@@ -487,14 +491,17 @@ export default function ServicesPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950/70 border-y border-white/10 relative overflow-hidden mb-28">
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest text-[#38bdf8] bg-[#38bdf8]/10 border border-[#38bdf8]/30 mb-3">
-              <Cpu className="w-3.5 h-3.5" />
-              Technical Governance & Delivery Standards
+            <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-6 backdrop-blur-xl shadow-lg">
+              <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+              <span className="font-mono text-blue-400">Governance & Standards</span>
             </div>
-            <h2 className="text-3xl sm:text-5xl font-bold text-white tracking-tight mb-4">
-              Capability & Redundancy Matrix
+            <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-4 leading-[1.15]">
+              Capability & Redundancy. <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+                Zero-Failure Engineering Matrix.
+              </span>
             </h2>
-            <p className="text-slate-400 text-sm sm:text-base leading-relaxed">
+            <p className="text-slate-300 text-sm sm:text-base font-normal leading-relaxed max-w-xl mx-auto">
               Every system is engineered to strict aviation, civil, and broadcast standards across Dubai, Abu Dhabi, and Saudi Arabia.
             </p>
           </div>
@@ -582,14 +589,17 @@ export default function ServicesPage() {
       {/* 5. How Projects Are Delivered - Visual Process Timeline */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto mb-28 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest text-[#38bdf8] bg-white/5 border border-white/10 mb-3">
-            <Layers className="w-3.5 h-3.5 text-[#38bdf8]" />
-            Delivery Process
+          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-6 backdrop-blur-xl shadow-lg">
+            <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+            <span className="font-mono text-blue-400">Execution Lifecycle</span>
           </div>
-          <h2 className="text-3xl sm:text-5xl font-bold text-white tracking-tight mb-4">
-            How Landmark Experiences Are Delivered
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-4 leading-[1.15]">
+            How Landmark Experiences. <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+              Are Delivered Across the GCC.
+            </span>
           </h2>
-          <p className="text-slate-400 text-sm sm:text-base leading-relaxed">
+          <p className="text-slate-300 text-sm sm:text-base font-normal leading-relaxed max-w-xl mx-auto">
             One team, tested hardware, transparent scope, and zero surprises on site.
           </p>
         </div>

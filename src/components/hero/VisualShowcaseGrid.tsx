@@ -56,12 +56,15 @@ export const VisualShowcaseGrid: React.FC = () => {
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4 sm:gap-6">
         <div>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono uppercase tracking-widest text-[#38bdf8] bg-blue-500/10 border border-blue-500/25 mb-3">
-            <Camera className="w-3.5 h-3.5 text-[#38bdf8]" />
-            On-Site Hardware Staging
+          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-4 backdrop-blur-xl shadow-lg">
+            <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+            <span className="font-mono text-blue-400">On-Site Hardware Staging</span>
           </div>
-          <h2 className="text-3xl sm:text-5xl font-bold text-white tracking-tight">
-            Behind the Spectacle
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-2 leading-[1.15]">
+            Behind the Spectacle. <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+              Live Field Captures Across Dubai.
+            </span>
           </h2>
         </div>
         <span className="text-xs font-mono text-slate-400">

@@ -62,12 +62,15 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
             <div>
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono uppercase tracking-widest text-[#38bdf8] bg-blue-500/10 border border-blue-500/25 mb-3">
-                <Film className="w-3.5 h-3.5 text-[#38bdf8]" />
-                Field Repertoire
+              <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-4 backdrop-blur-xl shadow-lg">
+                <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+                <span className="font-mono text-blue-400">GCC Production Repertoire</span>
               </div>
-              <h2 className="text-3xl sm:text-5xl font-bold text-white tracking-tight">
-                Featured Deployments
+              <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-3 leading-[1.15]">
+                Landmark Activations. <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+                  Engineered with Precision.
+                </span>
               </h2>
             </div>
             <Link
@@ -119,11 +122,15 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
             <div>
-              <span className="text-xs font-semibold uppercase tracking-widest text-[#38bdf8] mb-3 block font-mono">
-                Knowledge & Trends
-              </span>
-              <h2 className="text-3xl sm:text-5xl font-bold text-white tracking-tight">
-                Latest Field Insights
+              <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-4 backdrop-blur-xl shadow-lg">
+                <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+                <span className="font-mono text-blue-400">Engineering Knowledge & Trends</span>
+              </div>
+              <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-3 leading-[1.15]">
+                Field Insights. <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+                  Frontiers of Experience Tech.
+                </span>
               </h2>
             </div>
             <Link

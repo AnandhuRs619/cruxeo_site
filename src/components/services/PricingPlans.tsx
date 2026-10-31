@@ -9,13 +9,17 @@ export const PricingPlans: React.FC = () => {
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-background relative overflow-hidden border-t border-white/5">
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs font-mono uppercase tracking-widest text-blue-400 mb-3 block">
-            Tailored Engagement Models // GCC Packages
-          </span>
-          <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
-            Activation Packages for Every Scale
+          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-4 backdrop-blur-xl shadow-lg">
+            <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+            <span className="font-mono text-blue-400">Tailored GCC Engagement Models</span>
+          </div>
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-4 leading-[1.15]">
+            Activation Packages. <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+              For Every Stage & Scale.
+            </span>
           </h2>
-          <p className="text-slate-400 text-base sm:text-lg font-light">
+          <p className="text-slate-300 text-base sm:text-lg font-normal leading-relaxed">
             From single-booth trade show installations to city-wide synchronized drone light shows.
           </p>
         </div>

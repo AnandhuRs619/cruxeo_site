@@ -125,17 +125,17 @@ export const BentoGrid: React.FC = () => {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-12 gap-6">
           <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-300 bg-white/5 border border-white/10 mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#0b5cff] animate-pulse" />
-              Specialist Divisions · One Brief
+            <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-4 backdrop-blur-xl shadow-lg">
+              <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+              <span className="font-mono text-blue-400">Turnkey Directorship · Four Specialist Disciplines</span>
             </div>
-            <h2 className="text-3xl sm:text-5xl font-bold text-white tracking-tight">
-              Specialist Divisions, <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#38bdf8] to-[#a855f7]">
-                One Brief
+            <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-3 leading-[1.15]">
+              Specialist Divisions. <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+                One Unified Brief.
               </span>
             </h2>
-            <p className="text-slate-400 text-sm sm:text-base mt-2 max-w-xl font-normal leading-relaxed">
+            <p className="text-slate-300 text-sm sm:text-base mt-2 max-w-xl font-normal leading-relaxed">
               Through NEXPLAY, LUMEN LAB, IGNISPECTRA, and SYNAPSE, we shape interactive experiences, create visual content, produce live spectacles, and engineer custom intelligent software.
             </p>
           </div>

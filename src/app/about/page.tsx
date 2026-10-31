@@ -43,13 +43,17 @@ export default function AboutPage() {
 
       {/* Page Hero */}
       <section className="px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto text-center mb-24 relative z-10">
-        <span className="text-xs font-mono uppercase tracking-widest text-blue-400 mb-3 block">
-          About Cruxeo // Dubai Innovation
-        </span>
-        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6">
-          Architects of Wonder at the Intersection of Art & Robotics
+        <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-6 backdrop-blur-xl shadow-lg">
+          <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+          <span className="font-mono text-blue-400">About Cruxeo // Dubai Innovation</span>
+        </div>
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6 leading-[1.1]">
+          Architects of Wonder. <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+            At the Intersection of Art & Robotics.
+          </span>
         </h1>
-        <p className="text-base sm:text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed font-light">
+        <p className="text-base sm:text-lg lg:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed font-normal">
           Headquartered in Dubai, Cruxeo is an experiential marketing and creative technology agency. We transform ordinary corporate gatherings and brand milestones into electrifying, multi-sensory memories.
         </p>
       </section>
@@ -69,12 +73,19 @@ export default function AboutPage() {
       {/* Core Pillars / Values */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-24 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs font-mono uppercase tracking-widest text-blue-400 mb-3 block">
-            Our DNA
-          </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-4">
-            Built on Rigor, Driven by Magic
+          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-6 backdrop-blur-xl shadow-lg">
+            <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+            <span className="font-mono text-blue-400">Our DNA</span>
+          </div>
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-4 leading-[1.15]">
+            Built on Rigor. <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+              Driven by Creative Magic.
+            </span>
           </h2>
+          <p className="text-slate-300 text-sm sm:text-base font-normal leading-relaxed max-w-xl mx-auto">
+            Four foundational pillars powering every robotic spectacle and neural installation we engineer.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -123,12 +134,19 @@ export default function AboutPage() {
       {/* Chronological Journey / Timeline */}
       <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-24 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs font-mono uppercase tracking-widest text-blue-400 mb-3 block">
-            Milestones
-          </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-4">
-            Our Evolution in the Emirates
+          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-6 backdrop-blur-xl shadow-lg">
+            <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+            <span className="font-mono text-blue-400">Milestones</span>
+          </div>
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-4 leading-[1.15]">
+            Our Evolution. <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+              Across the Emirates.
+            </span>
           </h2>
+          <p className="text-slate-300 text-sm sm:text-base font-normal leading-relaxed max-w-xl mx-auto">
+            From our foundation in Dubai Silicon Oasis to GCC-wide aerial and neural diffusion deployments.
+          </p>
         </div>
 
         <div className="space-y-8 relative before:absolute before:inset-0 before:left-4 md:before:left-1/2 before:w-0.5 before:bg-white/10">
@@ -165,13 +183,17 @@ export default function AboutPage() {
       {/* Leadership Team */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-24 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs font-mono uppercase tracking-widest text-blue-400 mb-3 block">
-            Leadership
-          </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-4">
-            The Visionaries Behind Cruxeo
+          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-6 backdrop-blur-xl shadow-lg">
+            <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+            <span className="font-mono text-blue-400">Leadership</span>
+          </div>
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-4 leading-[1.15]">
+            The Visionaries. <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+              Behind Cruxeo Experience.
+            </span>
           </h2>
-          <p className="text-slate-400 text-sm sm:text-base">
+          <p className="text-slate-300 text-sm sm:text-base font-normal leading-relaxed max-w-xl mx-auto">
             Engineers, creative technologists, and roboticists with deep roots in Dubai&apos;s innovation ecosystem.
           </p>
         </div>

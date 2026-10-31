@@ -14,8 +14,8 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-white/10">
           {/* Brand Info & Mission (Cols 1 & 2) */}
           <div className="lg:col-span-2 space-y-4">
-            <Link href="/" className="inline-block">
-              <div className="relative w-44 h-12">
+            <Link href="/" className="inline-block group focus:outline-none">
+              <div className="relative w-72 sm:w-80 md:w-96 h-20 sm:h-24 transition-transform duration-300 group-hover:scale-105">
                 <Image
                   src="/assets/brand/logo-light.png"
                   alt="Cruxeo Experience"
@@ -170,7 +170,17 @@ export const Footer: React.FC = () => {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs gap-4">
           <p>© {new Date().getFullYear()} {companyConfig.legalName}. All rights reserved. Dubai, United Arab Emirates.</p>
           <div className="flex items-center gap-6">
-            <span className="text-slate-500">Designed with Fyntic Precision</span>
+            <span className="text-slate-500">
+              Designed by{" "}
+              <a
+                href="https://anandhurs.kodecompany.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-400 hover:text-white transition-colors underline underline-offset-2"
+              >
+                Anandhu R S
+              </a>
+            </span>
             <a
               href="#top"
               className="flex items-center gap-1 text-slate-400 hover:text-white transition-colors"
@@ -185,4 +195,3 @@ export const Footer: React.FC = () => {
     </footer>
   );
 };
-

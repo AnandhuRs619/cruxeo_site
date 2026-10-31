@@ -13,13 +13,17 @@ export const CtaBanner: React.FC = () => {
         <div className="absolute top-1/2 right-1/3 translate-x-1/2 -translate-y-1/2 w-[450px] h-[220px] bg-violet-600/15 blur-[130px] pointer-events-none" />
 
         <div className="relative z-10 max-w-3xl mx-auto">
-          <span className="text-xs font-mono uppercase tracking-widest text-blue-400 mb-3 block">
-            Start Your Journey // GCC Deployments
-          </span>
-          <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
-            Ready to Electrify Your Next Brand Activation?
+          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-6 backdrop-blur-xl shadow-lg">
+            <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+            <span className="font-mono text-blue-400">Direct GCC Engagements & Deployments</span>
+          </div>
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-6 leading-[1.15]">
+            Ready to Electrify. <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+              Your Next Brand Activation?
+            </span>
           </h2>
-          <p className="text-slate-300 text-base sm:text-lg mb-8 leading-relaxed font-light">
+          <p className="text-slate-300 text-base sm:text-lg mb-8 leading-relaxed font-normal">
             Whether you need a 1,000-drone aerial light show or a high-impact AI booth for GITEX, our Dubai creative engineering team is ready to deliver.
           </p>
 

@@ -35,15 +35,19 @@ export default function ContactPage() {
       <div className="absolute top-52 right-1/4 w-[500px] h-[500px] rounded-full bg-violet-600/10 blur-[150px] pointer-events-none -z-10" />
 
       {/* Page Header */}
-      <section className="px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto text-center mb-12 relative z-10">
-        <span className="text-xs font-semibold uppercase tracking-widest text-[#38bdf8] mb-3 block font-mono">
-          Get in Touch
-        </span>
-        <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-white mb-6">
-          Let&apos;s Engineer an Unforgettable Experience
+      <section className="px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto text-center mb-16 relative z-10">
+        <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-6 backdrop-blur-xl shadow-lg">
+          <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+          <span className="font-mono text-blue-400">Direct Inquiries // UAE & GCC</span>
+        </div>
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6 leading-[1.1]">
+          Let&apos;s Engineer Wonder. <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+            For Your Next Landmark Experience.
+          </span>
         </h1>
-        <p className="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
-          Tell us about your upcoming event, brand launch, or festival in the UAE or GCC. Our technical directors will engineer the ideal solution.
+        <p className="text-base sm:text-lg lg:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed font-normal">
+          Tell us about your upcoming event, brand launch, or festival in the UAE or GCC. Our technical directors will engineer the ideal solution with rapid turnaround feasibility.
         </p>
       </section>
 
@@ -224,13 +228,20 @@ export default function ContactPage() {
 
       {/* Frequently Asked Questions */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-12">
-          <span className="text-xs font-semibold uppercase tracking-widest text-[#38bdf8] mb-2 block font-mono">
-            Got Questions?
-          </span>
-          <h2 className="text-2xl sm:text-4xl font-bold text-white tracking-tight">
-            Frequently Asked Questions
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-6 backdrop-blur-xl shadow-lg">
+            <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+            <span className="font-mono text-blue-400">Operational FAQs</span>
+          </div>
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-4 leading-[1.15]">
+            Frequently Asked. <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+              Questions & Scope Standards.
+            </span>
           </h2>
+          <p className="text-slate-300 text-sm sm:text-base font-normal leading-relaxed max-w-xl mx-auto">
+            Everything you need to know about lead times, GCAA airspace permits, and GCC deployment capabilities.
+          </p>
         </div>
         <FAQAccordion />
       </section>

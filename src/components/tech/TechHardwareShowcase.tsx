@@ -60,14 +60,17 @@ export const TechHardwareShowcase: React.FC = () => {
       {/* Visual Header with Micro-Text */}
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
         <div>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono uppercase tracking-widest text-white bg-blue-500/10 border border-blue-500/30 mb-3">
-            <Cpu className="w-3.5 h-3.5 text-[#38bdf8]" />
-            Hardware & Robotics Command Deck
+          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-200 bg-white/5 border border-white/10 mb-4 backdrop-blur-xl shadow-lg">
+            <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+            <span className="font-mono text-blue-400">Hardware & Robotics Command Deck</span>
           </div>
-          <h2 className="text-3xl sm:text-5xl font-bold text-white tracking-tight">
-            Engineered for Live Impact
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-3 leading-[1.15]">
+            Engineered for Live Impact. <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-400 to-violet-400">
+              Interactive Hardware Telemetry.
+            </span>
           </h2>
-          <p className="text-slate-400 text-sm sm:text-base mt-2 max-w-xl">
+          <p className="text-slate-300 text-sm sm:text-base mt-2 max-w-xl font-normal leading-relaxed">
             Interactive hardware modules built and deployed across Dubai & the GCC. Select a system to inspect real-time telemetry.
           </p>
         </div>
