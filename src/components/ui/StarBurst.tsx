@@ -99,7 +99,7 @@ const fragmentShader = `
     }
 
     float d = sqrt(min_d);
-    return (uStarSize * 0.12) / max(d, 0.001) * intensity;
+    return (uStarSize * 0.09) / max(d, 0.0015) * intensity;
   }
 
   float flower(vec2 uv) {
@@ -123,7 +123,7 @@ const fragmentShader = `
 
     float brightness = s + l + f;
 
-    float gradient = smoothstep(uFadeHeight, 0.0, length(pos) * 0.45);
+    float gradient = smoothstep(uFadeHeight, 0.0, length(pos) * 0.35);
     brightness *= gradient;
     brightness *= uBrightness;
 
@@ -138,8 +138,8 @@ export const StarBurst: React.FC<StarBurstProps> = ({
   starCount = 100,
   color = "#38bdf8",
   centerX = 0.5,
-  centerY = 0.5,
-  starSize = 0.3,
+  centerY = 0.0,
+  starSize = 0.26,
   brightness = 1,
   opacity = 1,
   flowerIntensity = 0.5,

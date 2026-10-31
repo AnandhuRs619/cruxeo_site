@@ -13,7 +13,6 @@ import { CtaBanner } from "@/components/ui/CtaBanner";
 import { ProjectCard } from "@/components/projects/ProjectCard";
 import { BlogCard } from "@/components/blog/BlogCard";
 import { FlexCarousel } from "@/components/ui/FlexCarousel";
-import { StarBurst } from "@/components/ui/StarBurst";
 import { projectsData, blogPostsData } from "@/data/siteData";
 
 export default function HomePage() {
@@ -22,25 +21,6 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col w-full relative">
-      {/* Dynamic Cosmic StarBurst Background across Entire Home Page */}
-      <div className="fixed inset-0 pointer-events-none z-[1] overflow-hidden">
-        <StarBurst
-          speed={0.4}
-          density={0.7}
-          starCount={150}
-          color="#38bdf8"
-          starSize={0.4}
-          brightness={1.3}
-          opacity={0.8}
-          centerX={0.5}
-          centerY={0.4}
-          flowerIntensity={0.35}
-          twinkleSpeed={0.3}
-          wobbleAmount={0.8}
-          fadeHeight={4.0}
-        />
-      </div>
-
       {/* 1. High-Impact Hero with ShapeGrid Matrix & Specular Actions */}
       <HeroSection />
 
@@ -111,7 +91,7 @@ export default function HomePage() {
       </section>
 
       {/* 8. WebGL Liquid Refraction Gallery Display */}
-      <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 bg-background relative overflow-hidden border-t border-white/5">
+      <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 bg-transparent relative overflow-hidden border-t border-white/5">
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="relative w-full h-[380px] sm:h-[500px] lg:h-[600px] rounded-3xl bg-slate-950/80 border border-white/10 backdrop-blur-xl p-2 sm:p-4 shadow-2xl overflow-hidden">
             <FlexCarousel
@@ -138,7 +118,7 @@ export default function HomePage() {
       <TestimonialsSection />
 
       {/* 11. Industry Insights */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-background relative overflow-hidden border-t border-white/5">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-transparent relative overflow-hidden border-t border-white/5">
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
             <div>

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function BlogIndexPage() {
   return (
-    <div className="pt-32 pb-20 bg-background text-slate-100 relative overflow-hidden">
+    <div className="pt-32 pb-20 bg-transparent text-slate-100 relative overflow-hidden">
       {/* Background Ambient Unified Cruxeo Blue & Violet Glows */}
       <div className="absolute top-20 left-1/4 w-[500px] h-[500px] rounded-full bg-blue-600/12 blur-[150px] pointer-events-none" />
       <div className="absolute top-60 right-1/4 w-[500px] h-[500px] rounded-full bg-violet-600/10 blur-[160px] pointer-events-none" />

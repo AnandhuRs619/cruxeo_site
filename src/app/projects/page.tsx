@@ -79,7 +79,7 @@ const AUTHORITY_STANDARDS = [
 
 export default function ProjectsPage() {
   return (
-    <div className="pt-32 pb-24 bg-background text-slate-100 relative overflow-hidden">
+    <div className="pt-32 pb-24 bg-transparent text-slate-100 relative overflow-hidden">
       {/* Ambient Unified Cruxeo Blue & Violet Halo Glows */}
       <div className="absolute top-10 left-1/4 w-[500px] h-[500px] bg-blue-600/15 blur-[150px] rounded-full pointer-events-none -z-10" />
       <div className="absolute top-48 right-10 w-[550px] h-[550px] bg-violet-600/12 blur-[160px] rounded-full pointer-events-none -z-10" />

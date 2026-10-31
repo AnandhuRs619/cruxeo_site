@@ -29,7 +29,7 @@ export default function ContactPage() {
   )}`;
 
   return (
-    <div className="pt-32 pb-24 bg-background text-slate-100 relative overflow-hidden">
+    <div className="pt-32 pb-24 bg-transparent text-slate-100 relative overflow-hidden">
       {/* Background Ambient Unified Cruxeo Blue & Violet Halo Glows */}
       <div className="absolute top-16 left-1/4 w-[500px] h-[500px] rounded-full bg-blue-600/12 blur-[150px] pointer-events-none -z-10" />
       <div className="absolute top-52 right-1/4 w-[500px] h-[500px] rounded-full bg-violet-600/10 blur-[150px] pointer-events-none -z-10" />

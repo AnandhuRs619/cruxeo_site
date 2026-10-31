@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Loading() {
   return (
-    <div className="min-h-[70vh] w-full flex flex-col items-center justify-center relative overflow-hidden bg-background">
+    <div className="min-h-[70vh] w-full flex flex-col items-center justify-center relative overflow-hidden bg-transparent">
       {/* Ambient background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full bg-blue-600/15 blur-[120px] pointer-events-none" />
 

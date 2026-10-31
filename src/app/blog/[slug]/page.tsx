@@ -46,7 +46,7 @@ export default function BlogPostPage({ params }: Props) {
   const relatedPosts = blogPostsData.filter((p) => p.slug !== params.slug).slice(0, 2);
 
   return (
-    <article className="pt-32 pb-20 bg-background text-slate-100">
+    <article className="pt-32 pb-20 bg-transparent text-slate-100">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
         {/* Back Link */}
         <Link

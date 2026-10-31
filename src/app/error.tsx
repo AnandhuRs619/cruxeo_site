@@ -17,7 +17,7 @@ export default function ErrorBoundary({
   }, [error]);
 
   return (
-    <div className="min-h-[75vh] w-full flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 text-center relative overflow-hidden bg-background">
+    <div className="min-h-[75vh] w-full flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 text-center relative overflow-hidden bg-transparent">
       {/* Ambient background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-red-500/10 blur-[130px] pointer-events-none" />
 

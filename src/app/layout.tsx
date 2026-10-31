@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Navbar } from "@/components/navigation/Navbar";
 import { Footer } from "@/components/navigation/Footer";
+import { StarBurst } from "@/components/ui/StarBurst";
 import { companyConfig } from "@/data/siteData";
 
 export const viewport: Viewport = {
@@ -107,10 +108,28 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="font-sans bg-background text-slate-100 antialiased selection:bg-brand-blue selection:text-white w-full">
+      <body className="font-sans bg-background text-slate-100 antialiased selection:bg-brand-blue selection:text-white w-full relative">
         <div id="top" />
+        {/* Global Cosmic StarBurst Background Across All Pages */}
+        <div className="fixed inset-0 pointer-events-none z-[1] overflow-hidden">
+          <StarBurst
+            speed={0.4}
+            density={0.7}
+            starCount={160}
+            color="#38bdf8"
+            starSize={0.26}
+            brightness={1.3}
+            opacity={0.85}
+            centerX={0.5}
+            centerY={0.0}
+            flowerIntensity={0.35}
+            twinkleSpeed={0.3}
+            wobbleAmount={0.8}
+            fadeHeight={5.0}
+          />
+        </div>
         <Navbar />
-        <main className="min-h-screen w-full">{children}</main>
+        <main className="min-h-screen w-full relative z-10">{children}</main>
         <Footer />
       </body>
     </html>

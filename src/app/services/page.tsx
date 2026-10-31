@@ -185,7 +185,7 @@ export default function ServicesPage() {
   ];
 
   return (
-    <div className="pt-28 pb-24 bg-background text-slate-100 relative">
+    <div className="pt-28 pb-24 bg-transparent text-slate-100 relative">
       {/* Background Ambient Unified Cruxeo Blue & Violet Glows */}
       <div className="absolute top-20 left-1/4 w-[500px] h-[500px] rounded-full bg-blue-600/12 blur-[150px] pointer-events-none" />
       <div className="absolute top-40 right-1/4 w-[500px] h-[500px] rounded-full bg-violet-600/10 blur-[160px] pointer-events-none" />
